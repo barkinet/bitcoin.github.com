@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - </title>
+    <title>Bitcoin - Bitcoin version 0.3.22</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -99,9 +99,43 @@
           </ul>
         </div>
         <div class="span11">
-          <h1> <small></small></h1>
+          <h1>Bitcoin version 0.3.22 <small> 5 June 2011</small></h1>
           
-          
+          <p>This is largely a bugfix and TX fee schedule release. We also hope to make 0.3.23 a quick release, to fix problems that the network has seen due to explosive growth in the past week.</p>
+
+<p>Notable changes:</p>
+
+<ul>
+<li>Client will accept and relay TX&#8217;s with 0.0005 BTC fee schedule (users still pay 0.01 BTC per kb, until next version)</li>
+
+<li>Non-standard transactions accepted on testnet</li>
+
+<li>Source code tree reorganized (prep for autotools build)</li>
+
+<li>Remove &#8220;Generate Coins&#8221; option from GUI, and remove 4way SSE miner. Internal reference CPU miner remains available, but users are directed to external miners for best hash production.</li>
+
+<li>IRC is overflowing. Client now bootstraps to channels #bitcoin00 - #bitcoin99</li>
+
+<li>DNS names now may be used with -addnode, -connect (requires -dns to enable)</li>
+</ul>
+
+<p>RPC changes:</p>
+
+<ul>
+<li>&#8216;listtransactions&#8217; adds &#8216;from&#8217; param, for range queries</li>
+
+<li>&#8216;move&#8217; may take account balances negative</li>
+
+<li>&#8216;settxfee&#8217; added, to manually set TX fee</li>
+</ul>
+
+<p>Recommendations: If you have trouble connecting to the network, try one or more of these techniques:</p>
+
+<ul>
+<li>-dnsseed</li>
+
+<li>-upnp, or forward port 8333 on your router</li>
+</ul>
         </div>
       </div>
     </div>

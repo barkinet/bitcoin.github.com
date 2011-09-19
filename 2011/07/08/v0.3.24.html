@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - </title>
+    <title>Bitcoin - Bitcoin version 0.3.24 released</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -99,9 +99,35 @@
           </ul>
         </div>
         <div class="span11">
-          <h1> <small></small></h1>
+          <h1>Bitcoin version 0.3.24 released <small> 8 July 2011</small></h1>
           
+          <p>
+            <a href="http://sourceforge.net/mailarchive/message.php?msg_id=27771039">Full announcement (including signatures)</a>
+          </p>
           
+          <p>Bitcoin v0.3.24 is now available for download at <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.24/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.24/</a></p>
+
+<p>This is another bug fix release. We had hoped to have wallet encryption ready for release, but more urgent fixes for existing clients were needed &#8211; most notably block download problems were getting severe. Wallet encryption is ready for testing at <a href='https://github.com/bitcoin/bitcoin/pull/352'>https://github.com/bitcoin/bitcoin/pull/352</a> for the git-savvy, and hopefully will follow shortly in the next release, v0.4.</p>
+
+<p>Notable fixes in v0.3.24, and the main reasons for this release:</p>
+
+<ul>
+<li>Block downloads were failing or taking unreasonable amounts of time to complete, because the increased size of the block chain was bumping up against some earlier buffer-size DoS limits.</li>
+
+<li>Fix crash caused by loss/lack of network connection.</li>
+</ul>
+
+<p>Notable changes in v0.3.24:</p>
+
+<ul>
+<li>DNS seeding enabled by default.</li>
+
+<li>UPNP enabled by default in the GUI client. The percentage of bitcoin clients that accept incoming connections is quite small, and that is a problem. This should help. bitcoind, and unofficial builds, are unchanged (though we encourage use of &#8220;-upnp&#8221; to help the network!).</li>
+
+<li>Initial unit testing framework. Bitcoin sorely needs automated tests, and this is a beginning. Contributions welcome.</li>
+
+<li>Internal wallet code cleanup. While invisible to an end user, this change provides the basis for v0.4&#8217;s wallet encryption.</li>
+</ul>
         </div>
       </div>
     </div>

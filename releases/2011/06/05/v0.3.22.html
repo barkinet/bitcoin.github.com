@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - Bitcoin version 0.3.23 released</title>
+    <title>Bitcoin - Bitcoin version 0.3.22</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -77,48 +77,70 @@
           <ul class="unstyled">
           
             <li>
-              <a href="/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
+              <a href="/releases/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
               2011-09-23
             </li>
           
             <li>
-              <a href="/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
+              <a href="/releases/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
               2011-07-08
             </li>
           
             <li>
-              <a href="/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
+              <a href="/releases/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
               2011-06-14
             </li>
           
             <li>
-              <a href="/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
+              <a href="/releases/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
               2011-06-05
             </li>
           
             <li>
-              <a href="/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
+              <a href="/releases/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
               2011-04-27
             </li>
           
           </ul>
         </div>
         <div class="span11">
-          <h1>Bitcoin version 0.3.23 released <small>14 June 2011</small></h1>
+          <h1>Bitcoin version 0.3.22 <small> 5 June 2011</small></h1>
           
-          <p>Win32, Linux, MacOSX and source releases for bitcoin v0.3.23 have been uploaded to <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/</a></p>
+          <p>This is largely a bugfix and TX fee schedule release. We also hope to make 0.3.23 a quick release, to fix problems that the network has seen due to explosive growth in the past week.</p>
 
-<p>This is another quick bugfix release, trying to deal with the influx of new bitcoin users.</p>
+<p>Notable changes:</p>
 
-<p>Priority for next version: wallet encryption</p>
+<ul>
+<li>Client will accept and relay TX&#8217;s with 0.0005 BTC fee schedule (users still pay 0.01 BTC per kb, until next version)</li>
 
-<p>Main items of note:</p>
+<li>Non-standard transactions accepted on testnet</li>
 
-<p>P2P connect-to-node logic changed to reduce timeout a bit. The network saw a huge influx of new users, who do not permit incoming connections. This change is a short-term hack, to more quickly hunt for useful P2P connections. Better &#8220;leaf node&#8221; logic is in the works, but this should let us limp along until then. One may use -upnp to properly forward ports, and help the network. Transaction fee reduced to 0.0005 for new transactions (see note below) Client will relay transactions with fees as low as 0.0001 BTC (see note below)</p>
+<li>Source code tree reorganized (prep for autotools build)</li>
 
-<p><strong>NOTE:</strong> There has been some fee confusion recently. Free transactions are supported and relayed as they always have been, according to special anti-spam rules. See <a href='https://en.bitcoin.it/wiki/Transaction_fees'>https://en.bitcoin.it/wiki/Transaction_fees</a> for details.</p>
+<li>Remove &#8220;Generate Coins&#8221; option from GUI, and remove 4way SSE miner. Internal reference CPU miner remains available, but users are directed to external miners for best hash production.</li>
 
-<p>There were no changes between -rc1 and -final.</p>
+<li>IRC is overflowing. Client now bootstraps to channels #bitcoin00 - #bitcoin99</li>
+
+<li>DNS names now may be used with -addnode, -connect (requires -dns to enable)</li>
+</ul>
+
+<p>RPC changes:</p>
+
+<ul>
+<li>&#8216;listtransactions&#8217; adds &#8216;from&#8217; param, for range queries</li>
+
+<li>&#8216;move&#8217; may take account balances negative</li>
+
+<li>&#8216;settxfee&#8217; added, to manually set TX fee</li>
+</ul>
+
+<p>Recommendations: If you have trouble connecting to the network, try one or more of these techniques:</p>
+
+<ul>
+<li>-dnsseed</li>
+
+<li>-upnp, or forward port 8333 on your router</li>
+</ul>
         </div>
       </div>
     </div>

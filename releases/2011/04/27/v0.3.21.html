@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - Bitcoin version 0.3.22</title>
+    <title>Bitcoin - Bitcoin version 0.3.21</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -77,69 +77,59 @@
           <ul class="unstyled">
           
             <li>
-              <a href="/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
+              <a href="/releases/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
               2011-09-23
             </li>
           
             <li>
-              <a href="/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
+              <a href="/releases/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
               2011-07-08
             </li>
           
             <li>
-              <a href="/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
+              <a href="/releases/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
               2011-06-14
             </li>
           
             <li>
-              <a href="/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
+              <a href="/releases/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
               2011-06-05
             </li>
           
             <li>
-              <a href="/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
+              <a href="/releases/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
               2011-04-27
             </li>
           
           </ul>
         </div>
         <div class="span11">
-          <h1>Bitcoin version 0.3.22 <small> 5 June 2011</small></h1>
+          <h1>Bitcoin version 0.3.21 <small>27 April 2011</small></h1>
           
-          <p>This is largely a bugfix and TX fee schedule release. We also hope to make 0.3.23 a quick release, to fix problems that the network has seen due to explosive growth in the past week.</p>
+          <p>Binaries for Bitcoin version 0.3.21 are available at: <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/</a></p>
 
-<p>Notable changes:</p>
+<p>Changes and new features from the 0.3.20 release include:</p>
 
 <ul>
-<li>Client will accept and relay TX&#8217;s with 0.0005 BTC fee schedule (users still pay 0.01 BTC per kb, until next version)</li>
+<li>Universal Plug and Play support. Enable automatic opening of a port for incoming connections by running bitcoin or bitcoind with the</li>
 
-<li>Non-standard transactions accepted on testnet</li>
+<li>-upnp=1 command line switch or using the Options dialog box.</li>
 
-<li>Source code tree reorganized (prep for autotools build)</li>
+<li>Support for full-precision bitcoin amounts. You can now send, and bitcoin will display, bitcoin amounts smaller than 0.01. However, sending fewer than 0.01 bitcoins still requires a 0.01 bitcoin fee (so you can send 1.0001 bitcoins without a fee, but you will be asked to pay a fee if you try to send 0.0001).</li>
 
-<li>Remove &#8220;Generate Coins&#8221; option from GUI, and remove 4way SSE miner. Internal reference CPU miner remains available, but users are directed to external miners for best hash production.</li>
-
-<li>IRC is overflowing. Client now bootstraps to channels #bitcoin00 - #bitcoin99</li>
-
-<li>DNS names now may be used with -addnode, -connect (requires -dns to enable)</li>
+<li>A new method of finding bitcoin nodes to connect with, via DNS A records. Use the -dnsseed option to enable.</li>
 </ul>
 
-<p>RPC changes:</p>
+<p>For developers, changes to bitcoin&#8217;s remote-procedure-call API:</p>
 
 <ul>
-<li>&#8216;listtransactions&#8217; adds &#8216;from&#8217; param, for range queries</li>
+<li>New rpc command &#8220;sendmany&#8221; to send bitcoins to more than one address in a single transaction.</li>
 
-<li>&#8216;move&#8217; may take account balances negative</li>
+<li>Several bug fixes, including a serious intermittent bug that would sometimes cause bitcoind to stop accepting rpc requests.</li>
 
-<li>&#8216;settxfee&#8217; added, to manually set TX fee</li>
-</ul>
+<li>-logtimestamps option, to add a timestamp to each line in debug.log.</li>
 
-<p>Recommendations: If you have trouble connecting to the network, try one or more of these techniques:</p>
-
-<ul>
-<li>-dnsseed</li>
-
-<li>-upnp, or forward port 8333 on your router</li>
+<li>Immature blocks (newly generated, under 120 confirmations) are now shown in listtransactions.</li>
 </ul>
         </div>
       </div>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitcoin - Bitcoin version 0.3.21</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- scripting -->
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/lib/app.js"></script>
+    -->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/f1b866750ff2bcf99a6cfaa01e17dbf6.css" />
+
+    <!-- fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!--
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+  </head>
+
+  <body>
+
+        <div id="masthead">
+      <div class="inner">
+        <div class="container primarybox">
+          <h1><img width=38 height=40 src="/img/logo_small.png" class="thelogo" /> Bitcoin <small>P2P Digital Currency</small></h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar" id="menu">
+  <div class="fill">
+    <div class="container">
+      <ul>
+        
+        
+        
+        <li>
+          <a href="/">Home</a>
+        </li>
+        
+        
+        
+          
+        
+        <li class="active">
+          <a href="/news.html">News</a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/about.html">About</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+        <div class="container">
+      <div class="row">
+        <div class="span5">
+          <h5>News archive</h5>
+          <ul class="unstyled">
+          
+            <li>
+              <a href="/releases/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
+              2011-09-23
+            </li>
+          
+            <li>
+              <a href="/releases/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
+              2011-07-08
+            </li>
+          
+            <li>
+              <a href="/releases/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
+              2011-06-14
+            </li>
+          
+            <li>
+              <a href="/releases/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
+              2011-06-05
+            </li>
+          
+            <li>
+              <a href="/releases/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
+              2011-04-27
+            </li>
+          
+          </ul>
+        </div>
+        <div class="span11">
+          <h1>Bitcoin version 0.3.21 <small>27 April 2011</small></h1>
+          
+          <p>Binaries for Bitcoin version 0.3.21 are available at: <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/</a></p>
+
+<p>Changes and new features from the 0.3.20 release include:</p>
+
+<ul>
+<li>Universal Plug and Play support. Enable automatic opening of a port for incoming connections by running bitcoin or bitcoind with the</li>
+
+<li>-upnp=1 command line switch or using the Options dialog box.</li>
+
+<li>Support for full-precision bitcoin amounts. You can now send, and bitcoin will display, bitcoin amounts smaller than 0.01. However, sending fewer than 0.01 bitcoins still requires a 0.01 bitcoin fee (so you can send 1.0001 bitcoins without a fee, but you will be asked to pay a fee if you try to send 0.0001).</li>
+
+<li>A new method of finding bitcoin nodes to connect with, via DNS A records. Use the -dnsseed option to enable.</li>
+</ul>
+
+<p>For developers, changes to bitcoin&#8217;s remote-procedure-call API:</p>
+
+<ul>
+<li>New rpc command &#8220;sendmany&#8221; to send bitcoins to more than one address in a single transaction.</li>
+
+<li>Several bug fixes, including a serious intermittent bug that would sometimes cause bitcoind to stop accepting rpc requests.</li>
+
+<li>-logtimestamps option, to add a timestamp to each line in debug.log.</li>
+
+<li>Immature blocks (newly generated, under 120 confirmations) are now shown in listtransactions.</li>
+</ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <footer>
+        <div class="inner">
+            <p>
+              &copy; Bitcoin Project 2009&ndash;2011<br/>
+              Released under the <a href="http://creativecommons.org/licenses/MIT/">MIT license</a>
+            </p>
+          </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

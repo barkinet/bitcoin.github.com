@@ -58,20 +58,20 @@
                   <div>
 
                     <p>
-                       <strong>Latest version:</strong> 0.4.0
+                       <strong>Latest version:</strong> 0.5.0
                     </p>
 
                     <ul class="unstyled">
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/bitcoin-0.4.0-win32.zip/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/bitcoin-0.5.0-win32.zip/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (zip)</a> <small>~8MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/bitcoin-0.4.0-win32-setup.exe/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/bitcoin-0.5.0-win32-setup.exe/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (exe)</a> <small>~4MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/bitcoin-0.4.0-linux.tar.gz/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/bitcoin-0.5.0-linux.tar.gz/download">
                         <img src="img/ico-tux.png" class="icon"/>Linux (tgz, 32/64-bit)</a> <small>~12MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/bitcoin-0.4.0-macosx.dmg/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/bitcoin-0.5.0-macosx.dmg/download">
                         <img src="img/ico-osx-uni.png" class="icon">Mac OS X</a> <small>~6MB</small>
                       </li>
                       <li>or get the <a href="https://github.com/bitcoin/bitcoin">source code</a> (GitHub)</li>
@@ -178,44 +178,104 @@
         <div class="span10">
           <section id="news">
             
-            <h1><a href="/releases/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a></h1>
-            <p><em>23 September 2011</em></p>
+            <h1><a href="/releases/2011/11/21/v0.5.0.html">Bitcoin version 0.5.0 released</a></h1>
+            <p><em>21 November 2011</em></p>
             
-            <p>
-              <a href="http://sourceforge.net/mailarchive/message.php?msg_id=28132490">Full announcement (including signatures)</a>
-            </p>
-            
-            <p>Bitcoin version 0.4.0 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/</a></p>
+            <p>Bitcoin version 0.5.0 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/</a></p>
 
-<p>The main feature in this release is wallet private key encryption; you can set a passphrase that must be entered before sending coins. See below for more information; if you decide to encrypt your wallet, <strong>WRITE DOWN YOUR PASSPHRASE AND PUT IT IN A SECURE LOCATION</strong>. If you forget or lose your wallet passphrase, you lose your bitcoins. Previous versions of bitcoin are unable to read encrypted wallets, and will crash on startup if the wallet is encrypted.</p>
+<p>The major change for this release is a completely new graphical that uses the Qt user interface toolkit.</p>
 
-<p>Also note: bitcoin version 0.4 uses a newer version of Berkeley DB (bdb version 4.8) than previous versions (bdb 4.7). If you upgrade to version 0.4 and then revert back to an earlier version of bitcoin the it may be unable to start because bdb 4.7 cannot read bdb 4.8 &#8220;log&#8221; files.</p>
+<p>This release include German, Spanish, Spanish-Castilian, Norwegian and Dutch translations. More translations are welcome; join the project at Transifex if you can help: <a href='https://www.transifex.net/projects/p/bitcoin/'>https://www.transifex.net/projects/p/bitcoin/</a></p>
 
-<h2 id='notable_bug_fixes_from_version_0324'>Notable bug fixes from version 0.3.24</h2>
+<p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
+
+<h2 id='major_bug_fix_cve20114447'>MAJOR BUG FIX (CVE-2011-4447)</h2>
+
+<p>The wallet encryption feature introduced in Bitcoin version 0.4.0 did not sufficiently secure the private keys. An attacker who managed to get a copy of your encrypted wallet.dat file might be able to recover some or all of the unencrypted keys and steal the associated coins.</p>
+
+<p>If you have a previously encrypted wallet.dat, the first time you run bitcoin-qt or bitcoind the wallet will be rewritten, Bitcoin will shut down, and you will be prompted to restart it to run with the new, properly encrypted file.</p>
+
+<p>If you had a previously encrypted wallet.dat that might have been copied or stolen (for example, you backed it up to a public location) you should send all of your bitcoins to yourself using a new bitcoin address and stop using any previously generated addresses.</p>
+
+<p>Wallets encrypted with this version of Bitcoin are written properly.</p>
+
+<p>Technical note: the encrypted wallet&#8217;s &#8216;keypool&#8217; will be regenerated the first time you request a new bitcoin address; to be certain that the new private keys are properly backed up you should:</p>
+
+<ol>
+<li>
+<p>Run Bitcoin and let it rewrite the <code>wallet.dat</code> file</p>
+</li>
+
+<li>
+<p>Run it again, then ask it for a new bitcoin address.</p>
+
+<p>Bitcoin-Qt: Address Book, then New Address&#8230;</p>
+
+<p>bitcoind: run the &#8216;walletpassphrase&#8217; RPC command to unlock the wallet, then run the &#8216;getnewaddress&#8217; RPC command.</p>
+</li>
+
+<li>
+<p>If your encrypted wallet.dat may have been copied or stolen, send all of your bitcoins to the new bitcoin address.</p>
+</li>
+
+<li>
+<p>Shut down Bitcoin, then backup the wallet.dat file. IMPORTANT: be sure to request a new bitcoin address before backing up, so that the &#8216;keypool&#8217; is regenerated and backed up.</p>
+</li>
+</ol>
+
+<p>&#8220;Security in depth&#8221; is always a good idea, so choosing a secure location for the backup and/or encrypting the backup before uploading it is recommended. And as in previous releases, if your machine is infected by malware there are several ways an attacker might steal your bitcoins.</p>
+
+<p>Thanks to Alan Reiner (aka etotheipi) for finding and reporting this bug.</p>
+
+<h2 id='major_gui_changes'>MAJOR GUI CHANGES</h2>
 
 <ul>
 <li>
-<p>Fix several bitcoin-becomes-unresponsive bugs due to multithreading deadlocks.</p>
+<p>&#8220;Splash&#8221; graphics at startup that show address/wallet/blockchain loading progress.</p>
 </li>
 
 <li>
-<p>Optimize database writes for large (lots of inputs) transactions (fixes a potential denial-of-service attack)</p>
+<p>&#8220;Synchronizing with network&#8221; progress bar to show block-chain download progress.</p>
+</li>
+
+<li>
+<p>Icons at the bottom of the window that show how well connected you are to the network, with tooltips to display details.</p>
+</li>
+
+<li>
+<p>Drag and drop support for bitcoin: URIs on web pages.</p>
+</li>
+
+<li>
+<p>Export transactions as a .csv file.</p>
+</li>
+
+<li>
+<p>Many other GUI improvements, large and small.</p>
 </li>
 </ul>
 
-<h2 id='wallet_encryption'>Wallet Encryption</h2>
+<h2 id='rpc_changes'>RPC CHANGES</h2>
 
-<p>Bitcoin supports native wallet encryption so that people who steal your wallet file don&#8217;t automatically get access to all of your Bitcoins. In order to enable this feature, chose &#8220;Encrypt Wallet&#8221; from the Options menu. You will be prompted to enter a passphrase, which will be used as the key to encrypt your wallet and will be needed every time you wish to send Bitcoins. If you lose this passphrase, you will lose access to spend all of the bitcoins in your wallet, no one, not even the Bitcoin developers can recover your Bitcoins. This means you are responsible for your own security, store your passphrase in a secure location and do not forget it.</p>
+<ul>
+<li>
+<p>getmemorypool : new RPC command, provides everything needed to construct a block with a custom generation transaction and submit a solution</p>
+</li>
 
-<p>Remember that the encryption built into bitcoin only encrypts the actual keys which are required to send your bitcoins, not the full wallet. This means that someone who steals your wallet file will be able to see all the addresses which belong to you, as well as the relevant transactions, you are only protected from someone spending your coins.</p>
+<li>
+<p>listsinceblock : new RPC command, list transactions since given block</p>
+</li>
 
-<p>It is recommended that you backup your wallet file before you encrypt your wallet. To do this, close the Bitcoin client and copy the wallet.dat file from <code>~/.bitcoin/</code> on Linux, <code>/Users/(user
-name)/Library/Application Support/Bitcoin/</code> on Mac OSX, and <code>%APPDATA%/Bitcoin/</code> on Windows (that is <code>/Users/(user name)/AppData/Roaming/Bitcoin</code> on Windows Vista and 7 and <code>/Documents and Settings/(user name)/Application
-Data/Bitcoin</code> on Windows XP). Once you have copied that file to a safe location, reopen the Bitcoin client and Encrypt your wallet. If everything goes fine, delete the backup and enjoy your encrypted wallet. Note that once you encrypt your wallet, you will never be able to go back to a version of the Bitcoin client older than 0.4.</p>
+<li>
+<p>signmessage/verifymessage : new RPC commands to sign a message with one of your private keys or verify that a message signed by the private key associated with a bitcoin address.</p>
+</li>
+</ul>
 
-<p>Keep in mind that you are always responsible for your own security. All it takes is a slightly more advanced wallet-stealing trojan which installs a keylogger to steal your wallet passphrase as you enter it in addition to your wallet file and you have lost all your Bitcoins. Wallet encryption cannot keep you safe if you do not practice good security, such as running up-to-date antivirus software, only entering your wallet passphrase in the Bitcoin client and using the same passphrase only as your wallet passphrase.</p>
+<h2 id='general_changes'>GENERAL CHANGES</h2>
 
-<p>See the <code>doc/README</code> file in the bitcoin source for technical details of wallet encryption.</p>
+<ul>
+<li>Faster initial block download.</li>
+</ul>
             
             <p><a class="btn" href="news.html">News archive</a></p>
           </section>

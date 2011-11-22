@@ -72,5 +72,3 @@ These ruby gems are required to build the website:
 * aquarium
 * less
 
-
-

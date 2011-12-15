@@ -116,29 +116,45 @@
         <div class="span11">
           <h1>Bitcoin version 0.5.1 released <small>15 December 2011</small></h1>
           
-          <p>Bitcoin version 0.5.1 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/</a></p>
+          <p>Bitcoin version 0.5.1 is now available for download at:</p>
+
+<p><a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/</a></p>
 
 <p>This is a bugfix-only release.</p>
 
-<p>This release includes 13 translations, including 5 new translations: Italian, Hungarian, Ukranian, Portuguese (Brazilian) and Simplified Chinese. More translations are welcome; join the project at Transifex if you can help: <a href='https://www.transifex.net/projects/p/bitcoin/'>https://www.transifex.net/projects/p/bitcoin/</a></p>
+<p>This release includes 13 translations, including 5 new translations: Italian, Hungarian, Ukranian, Portuguese (Brazilian) and Simplified Chinese. More translations are welcome; join the project at Transifex if you can help:</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;https://www.transifex.net/projects/p/bitcoin/&gt;</pre>
+<p>Please report bugs using the issue tracker at github:</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;https://github.com/bitcoin/bitcoin/issues&gt;
 
-<p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
+For Ubuntu users, there is a new ppa maintained by Matt Corallo which
+you can add to your system so that it will automatically keep
+bitcoin up-to-date.  Just type
 
-<p>For Ubuntu users, there is a new ppa maintained by Matt Corallo which you can add to your system so that it will automatically keep bitcoin up-to-date. Just type sudo apt-add-repository ppa:bitcoin/bitcoin in your terminal, then install the bitcoin-qt package.</p>
+    sudo apt-add-repository ppa:bitcoin/bitcoin
+ 
+in your terminal, then install the bitcoin-qt package.
 
-<h2 id='bug_fixes'>BUG FIXES</h2>
+BUG FIXES
+---------
 
-<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 release binaries).</p>
+* Re-enable SSL support for the JSON-RPC interface (it was unintentionally
+disabled for the 0.5.0 release binaries).
 
-<p>The code that finds peers via &#8220;dns seeds&#8221; no longer stops bitcoin startup if one of the dns seed machines is down.</p>
+* The code that finds peers via &quot;dns seeds&quot; no longer stops bitcoin startup
+if one of the dns seed machines is down.
 
-<p>Tooltips on the transaction list view were rendering incorrectly (as black boxes or with a transparent background).</p>
+* Tooltips on the transaction list view were rendering incorrectly (as black boxes
+or with a transparent background).
 
-<p>Prevent a denial-of-service attack involving flooding a bitcoin node with orphan blocks.</p>
+* Prevent a denial-of-service attack involving flooding a bitcoin node with
+orphan blocks.
 
-<p>The wallet passphrase dialog now warns you if the caps lock key was pressed.</p>
+* The wallet passphrase dialog now warns you if the caps lock key was pressed.
 
-<p>Improved searching in addresses and labels in bitcoin-qt.</p>
+* Improved searching in addresses and labels in bitcoin-qt.</pre>
         </div>
       </div>
     </div>

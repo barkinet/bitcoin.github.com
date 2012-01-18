@@ -58,23 +58,23 @@
                   <div>
 
                     <p>
-                       <strong>Latest version:</strong> 0.5.1
+                       <strong>Latest version:</strong> 0.5.2
                     </p>
 
                     <ul class="unstyled">
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/bitcoin-0.5.1-win32.zip/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-win32.zip/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (zip)</a> <small>~8MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/bitcoin-0.5.1-win32-setup.exe/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-win32-setup.exe/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (exe)</a> <small>~4MB</small>
                       </li>
                       <li><a href="https://launchpad.net/~bitcoin/+archive/bitcoin">
                         <img src="img/ico-ubuntu.png" class="icon">Ubuntu PPA</a>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/bitcoin-0.5.1-linux.tar.gz/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-linux.tar.gz/download">
                         <img src="img/ico-tux.png" class="icon"/>Linux (tgz, 32/64-bit)</a> <small>~12MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/bitcoin-0.5.1-macosx.dmg/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-macosx.dmg/download">
                         <img src="img/ico-osx-uni.png" class="icon">Mac OS X</a> <small>~6MB</small>
                       </li>
                       <li>or get the <a href="https://github.com/bitcoin/bitcoin">source code</a> (GitHub)</li>
@@ -181,48 +181,48 @@
         <div class="span10">
           <section id="news">
             
-            <h1><a href="/releases/2011/12/15/v0.5.1.html">Bitcoin version 0.5.1 released</a></h1>
-            <p><em>15 December 2011</em></p>
+            <h1><a href="/releases/2012/01/09/v0.5.2.html">Bitcoin version 0.5.2 released</a></h1>
+            <p><em> 9 January 2012</em></p>
             
-            <p>Bitcoin version 0.5.1 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/</a></p>
+            <p>Bitcoin version 0.5.2 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/</a></p>
 
 <p>This is a bugfix-only release.</p>
 
-<p>This release includes 13 translations, including 5 new translations: Italian, Hungarian, Ukranian, Portuguese (Brazilian) and Simplified Chinese. More translations are welcome; join the project at Transifex if you can help: <a href='https://www.transifex.net/projects/p/bitcoin/'>https://www.transifex.net/projects/p/bitcoin/</a></p>
-
 <p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
-
-<p>For Ubuntu users, there is a new ppa maintained by Matt Corallo which you can add to your system so that it will automatically keep bitcoin up-to-date. Just type</p>
-
-<pre><code>sudo apt-add-repository ppa:bitcoin/bitcoin</code></pre>
-
-<p>in your terminal, then install the bitcoin-qt package.</p>
 
 <h2 id='bug_fixes'>BUG FIXES</h2>
 
 <ul>
 <li>
-<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 release binaries).</p>
+<p>Check all transactions in blocks after the last checkpoint (0.5.0 and 0.5.1 skipped checking ECDSA signatures during initial blockchain download; this was not a security vulnerability).</p>
 </li>
 
 <li>
-<p>The code that finds peers via &#8220;dns seeds&#8221; no longer stops bitcoin startup if one of the dns seed machines is down.</p>
+<p>Cease locking memory used by non-sensitive information (this caused a huge performance hit on some platforms, especially noticable during initial blockchain download).</p>
 </li>
 
 <li>
-<p>Tooltips on the transaction list view were rendering incorrectly (as black boxes or with a transparent background).</p>
+<p>Fixed some address-handling deadlocks (client freezes).</p>
 </li>
 
 <li>
-<p>Prevent a denial-of-service attack involving flooding a bitcoin node with orphan blocks.</p>
+<p>No longer accept inbound connections over the internet when Bitcoin is being used with Tor (identity leak).</p>
 </li>
 
 <li>
-<p>The wallet passphrase dialog now warns you if the caps lock key was pressed.</p>
+<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 and 0.5.1 release Linux binaries).</p>
 </li>
 
 <li>
-<p>Improved searching in addresses and labels in bitcoin-qt.</p>
+<p>Use the correct base transaction fee of 0.0005 BTC for accepting transactions into mined blocks (since 0.4.0, it was incorrectly accepting 0.0001 BTC which was only meant to be relayed).</p>
+</li>
+
+<li>
+<p>Don&#8217;t show &#8220;IP&#8221; for transactions which are not necessarily IP transactions.</p>
+</li>
+
+<li>
+<p>Add new DNS seeds (maintained by Pieter Wuille and Luke Dashjr).</p>
 </li>
 </ul>
             

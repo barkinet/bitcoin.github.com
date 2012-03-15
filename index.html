@@ -58,23 +58,23 @@
                   <div>
 
                     <p>
-                       <strong>Latest version:</strong> 0.5.2
+                       <strong>Latest version:</strong> 0.5.3
                     </p>
 
                     <ul class="unstyled">
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-win32.zip/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/bitcoin-0.5.3-win32.zip/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (zip)</a> <small>~8MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-win32-setup.exe/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/bitcoin-0.5.3-win32-setup.exe/download">
                         <img src="img/ico-win.png" class="icon"/>Windows (exe)</a> <small>~8MB</small>
                       </li>
                       <li><a href="https://launchpad.net/~bitcoin/+archive/bitcoin">
                         <img src="img/ico-ubuntu.png" class="icon">Ubuntu PPA</a>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-linux.tar.gz/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/bitcoin-0.5.3-linux.tar.gz/download">
                         <img src="img/ico-tux.png" class="icon"/>Linux (tgz, 32/64-bit)</a> <small>~12MB</small>
                       </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/bitcoin-0.5.2-macosx.dmg/download">
+                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/bitcoin-0.5.3-macosx.dmg/download">
                         <img src="img/ico-osx-uni.png" class="icon">Mac OS X</a> <small>~6MB</small>
                       </li>
                       <li>or get the <a href="https://github.com/bitcoin/bitcoin">source code</a> (GitHub)</li>
@@ -182,48 +182,116 @@
         <div class="span10">
           <section id="news">
             
-            <h1><a href="/releases/2012/01/09/v0.5.2.html">Bitcoin version 0.5.2 released</a></h1>
-            <p><em> 9 January 2012</em></p>
+            <h1><a href="/releases/2012/03/14/v0.5.3.html">Bitcoin version 0.5.3 released</a></h1>
+            <p><em>14 March 2012</em></p>
             
-            <p>Bitcoin version 0.5.2 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/</a></p>
+            <p>Bitcoin version 0.5.3 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/</a></p>
 
-<p>This is a bugfix-only release.</p>
+<p>This is a bugfix-only release based on 0.5.1. It also includes a few protocol updates.</p>
 
 <p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
+
+<h2 id='protocol_updates'>PROTOCOL UPDATES</h2>
+
+<ul>
+<li>
+<p>BIP 30: Introduce a new network rule: &#8220;a block is not valid if it contains a transaction whose hash already exists in the block chain, unless all that transaction&#8217;s outputs were already spent before said block&#8221; beginning on March 15, 2012, 00:00 UTC.</p>
+</li>
+
+<li>
+<p>On testnet, allow mining of min-difficulty blocks if 20 minutes have gone by without mining a regular-difficulty block. This is to make testing Bitcoin easier, and will not affect normal mode.</p>
+</li>
+</ul>
 
 <h2 id='bug_fixes'>BUG FIXES</h2>
 
 <ul>
 <li>
-<p>Check all transactions in blocks after the last checkpoint (0.5.0 and 0.5.1 skipped checking ECDSA signatures during initial blockchain download; this was not a security vulnerability).</p>
+<p>Limit the number of orphan transactions stored in memory, to prevent a potential denial-of-service attack by flooding orphan transactions. Also never store invalid transactions at all.</p>
 </li>
 
 <li>
-<p>Cease locking memory used by non-sensitive information (this caused a huge performance hit on some platforms, especially noticable during initial blockchain download).</p>
+<p>Fix possible buffer overflow on systems with very long application data paths. This is not exploitable.</p>
 </li>
 
 <li>
-<p>Fixed some address-handling deadlocks (client freezes).</p>
+<p>Resolved multiple bugs preventing long-term unlocking of encrypted wallets (issue #922).</p>
 </li>
 
 <li>
-<p>No longer accept inbound connections over the internet when Bitcoin is being used with Tor (identity leak).</p>
+<p>Only send local IP in &#8220;version&#8221; messages if it is globally routable (ie, not private), and try to get such an IP from UPnP if applicable.</p>
 </li>
 
 <li>
-<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 and 0.5.1 release Linux binaries).</p>
+<p>Reannounce UPnP port forwards every 20 minutes, to workaround routers expiring old entries, and allow the -upnp option to override any stored setting.</p>
 </li>
 
 <li>
-<p>Use the correct base transaction fee of 0.0005 BTC for accepting transactions into mined blocks (since 0.4.0, it was incorrectly accepting 0.0001 BTC which was only meant to be relayed).</p>
+<p>Skip splash screen when -min is used, and fix Minimize to Tray function.</p>
 </li>
 
 <li>
-<p>Don&#8217;t show &#8220;IP&#8221; for transactions which are not necessarily IP transactions.</p>
+<p>Do not blank &#8220;label&#8221; in Bitcoin-Qt &#8220;Send&#8221; tab, if the user has already entered something.</p>
 </li>
 
 <li>
-<p>Add new DNS seeds (maintained by Pieter Wuille and Luke Dashjr).</p>
+<p>Correct various labels and messages.</p>
+</li>
+
+<li>
+<p>Various memory leaks and potential null pointer deferences have been fixed.</p>
+</li>
+
+<li>
+<p>Handle invalid Bitcoin URIs using &#8220;bitcoin://&#8221; instead of &#8220;bitcoin:&#8221;.</p>
+</li>
+
+<li>
+<p>Several shutdown issues have been fixed.</p>
+</li>
+
+<li>
+<p>Revert to &#8220;global progress indication&#8221;, as starting from zero every time was considered too confusing for many users.</p>
+</li>
+
+<li>
+<p>Check that keys stored in the wallet are valid at startup, and if not, report corruption.</p>
+</li>
+
+<li>
+<p>Enable accessible widgets on Windows, so that people with screen readers such as NVDA can make sense of it.</p>
+</li>
+
+<li>
+<p>Various build fixes.</p>
+</li>
+
+<li>
+<p>If no password is specified to bitcoind, recommend a secure password.</p>
+</li>
+
+<li>
+<p>Automatically focus and scroll to new &#8220;Send coins&#8221; entries in Bitcoin-Qt.</p>
+</li>
+
+<li>
+<p>Show a message box for &#8211;help on Windows, for Bitcoin-Qt.</p>
+</li>
+
+<li>
+<p>Add missing &#8220;About Qt&#8221; menu option to show built-in Qt About dialog.</p>
+</li>
+
+<li>
+<p>Don&#8217;t show &#8220;-daemon&#8221; as an option for Bitcoin-Qt, since it isn&#8217;t available.</p>
+</li>
+
+<li>
+<p>Update hard-coded fallback seed nodes, choosing recent ones with long uptime and versions at least 0.4.0.</p>
+</li>
+
+<li>
+<p>Add checkpoint at block 168,000.</p>
 </li>
 </ul>
             

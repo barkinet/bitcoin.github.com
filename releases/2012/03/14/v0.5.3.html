@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - Bitcoin version 0.3.23 released</title>
+    <title>Bitcoin - Bitcoin version 0.5.3 released</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -124,21 +124,117 @@
           </ul>
         </div>
         <div class="span11">
-          <h1>Bitcoin version 0.3.23 released <small>14 June 2011</small></h1>
+          <h1>Bitcoin version 0.5.3 released <small>14 March 2012</small></h1>
           
-          <p>Win32, Linux, MacOSX and source releases for bitcoin v0.3.23 have been uploaded to <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/</a></p>
+          <p>Bitcoin version 0.5.3 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/</a></p>
 
-<p>This is another quick bugfix release, trying to deal with the influx of new bitcoin users.</p>
+<p>This is a bugfix-only release based on 0.5.1. It also includes a few protocol updates.</p>
 
-<p>Priority for next version: wallet encryption</p>
+<p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
 
-<p>Main items of note:</p>
+<h2 id='protocol_updates'>PROTOCOL UPDATES</h2>
 
-<p>P2P connect-to-node logic changed to reduce timeout a bit. The network saw a huge influx of new users, who do not permit incoming connections. This change is a short-term hack, to more quickly hunt for useful P2P connections. Better &#8220;leaf node&#8221; logic is in the works, but this should let us limp along until then. One may use -upnp to properly forward ports, and help the network. Transaction fee reduced to 0.0005 for new transactions (see note below) Client will relay transactions with fees as low as 0.0001 BTC (see note below)</p>
+<ul>
+<li>
+<p>BIP 30: Introduce a new network rule: &#8220;a block is not valid if it contains a transaction whose hash already exists in the block chain, unless all that transaction&#8217;s outputs were already spent before said block&#8221; beginning on March 15, 2012, 00:00 UTC.</p>
+</li>
 
-<p><strong>NOTE:</strong> There has been some fee confusion recently. Free transactions are supported and relayed as they always have been, according to special anti-spam rules. See <a href='https://en.bitcoin.it/wiki/Transaction_fees'>https://en.bitcoin.it/wiki/Transaction_fees</a> for details.</p>
+<li>
+<p>On testnet, allow mining of min-difficulty blocks if 20 minutes have gone by without mining a regular-difficulty block. This is to make testing Bitcoin easier, and will not affect normal mode.</p>
+</li>
+</ul>
 
-<p>There were no changes between -rc1 and -final.</p>
+<h2 id='bug_fixes'>BUG FIXES</h2>
+
+<ul>
+<li>
+<p>Limit the number of orphan transactions stored in memory, to prevent a potential denial-of-service attack by flooding orphan transactions. Also never store invalid transactions at all.</p>
+</li>
+
+<li>
+<p>Fix possible buffer overflow on systems with very long application data paths. This is not exploitable.</p>
+</li>
+
+<li>
+<p>Resolved multiple bugs preventing long-term unlocking of encrypted wallets (issue #922).</p>
+</li>
+
+<li>
+<p>Only send local IP in &#8220;version&#8221; messages if it is globally routable (ie, not private), and try to get such an IP from UPnP if applicable.</p>
+</li>
+
+<li>
+<p>Reannounce UPnP port forwards every 20 minutes, to workaround routers expiring old entries, and allow the -upnp option to override any stored setting.</p>
+</li>
+
+<li>
+<p>Skip splash screen when -min is used, and fix Minimize to Tray function.</p>
+</li>
+
+<li>
+<p>Do not blank &#8220;label&#8221; in Bitcoin-Qt &#8220;Send&#8221; tab, if the user has already entered something.</p>
+</li>
+
+<li>
+<p>Correct various labels and messages.</p>
+</li>
+
+<li>
+<p>Various memory leaks and potential null pointer deferences have been fixed.</p>
+</li>
+
+<li>
+<p>Handle invalid Bitcoin URIs using &#8220;bitcoin://&#8221; instead of &#8220;bitcoin:&#8221;.</p>
+</li>
+
+<li>
+<p>Several shutdown issues have been fixed.</p>
+</li>
+
+<li>
+<p>Revert to &#8220;global progress indication&#8221;, as starting from zero every time was considered too confusing for many users.</p>
+</li>
+
+<li>
+<p>Check that keys stored in the wallet are valid at startup, and if not, report corruption.</p>
+</li>
+
+<li>
+<p>Enable accessible widgets on Windows, so that people with screen readers such as NVDA can make sense of it.</p>
+</li>
+
+<li>
+<p>Various build fixes.</p>
+</li>
+
+<li>
+<p>If no password is specified to bitcoind, recommend a secure password.</p>
+</li>
+
+<li>
+<p>Automatically focus and scroll to new &#8220;Send coins&#8221; entries in Bitcoin-Qt.</p>
+</li>
+
+<li>
+<p>Show a message box for &#8211;help on Windows, for Bitcoin-Qt.</p>
+</li>
+
+<li>
+<p>Add missing &#8220;About Qt&#8221; menu option to show built-in Qt About dialog.</p>
+</li>
+
+<li>
+<p>Don&#8217;t show &#8220;-daemon&#8221; as an option for Bitcoin-Qt, since it isn&#8217;t available.</p>
+</li>
+
+<li>
+<p>Update hard-coded fallback seed nodes, choosing recent ones with long uptime and versions at least 0.4.0.</p>
+</li>
+
+<li>
+<p>Add checkpoint at block 168,000.</p>
+</li>
+</ul>
         </div>
       </div>
     </div>

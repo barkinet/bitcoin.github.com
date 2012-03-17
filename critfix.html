@@ -52,15 +52,15 @@
         
         
         
-          
-        
-        <li class="active">
+        <li>
           <a href="/news.html">News</a>
         </li>
         
         
         
-        <li>
+          
+        
+        <li class="active">
           <a href="/about.html">About</a>
         </li>
         
@@ -71,70 +71,31 @@
 
 
         <div class="container">
-      <div class="row">
-        <div class="span5">
-          <h5>News archive</h5>
-          <ul class="unstyled">
-          
-            <li>
-              <a href="/releases/2012/04/16/v0.5.3.1.html">Bitcoin version 0.5.3.1 released</a>
-              2012-04-16
-            </li>
-          
-            <li>
-              <a href="/releases/2012/03/14/v0.5.3.html">Bitcoin version 0.5.3 released</a>
-              2012-03-14
-            </li>
-          
-            <li>
-              <a href="/releases/2012/01/09/v0.5.2.html">Bitcoin version 0.5.2 released</a>
-              2012-01-09
-            </li>
-          
-            <li>
-              <a href="/releases/2011/12/15/v0.5.1.html">Bitcoin version 0.5.1 released</a>
-              2011-12-15
-            </li>
-          
-            <li>
-              <a href="/releases/2011/11/21/v0.5.0.html">Bitcoin version 0.5.0 released</a>
-              2011-11-21
-            </li>
-          
-            <li>
-              <a href="/releases/2011/09/23/v0.4.0.html">Bitcoin version 0.4.0 released</a>
-              2011-09-23
-            </li>
-          
-            <li>
-              <a href="/releases/2011/07/08/v0.3.24.html">Bitcoin version 0.3.24 released</a>
-              2011-07-08
-            </li>
-          
-            <li>
-              <a href="/releases/2011/06/14/v0.3.23.html">Bitcoin version 0.3.23 released</a>
-              2011-06-14
-            </li>
-          
-            <li>
-              <a href="/releases/2011/06/05/v0.3.22.html">Bitcoin version 0.3.22</a>
-              2011-06-05
-            </li>
-          
-            <li>
-              <a href="/releases/2011/04/27/v0.3.21.html">Bitcoin version 0.3.21</a>
-              2011-04-27
-            </li>
-          
-          </ul>
-        </div>
-        <div class="span11">
-          <h1> <small></small></h1>
-          
-          
-        </div>
-      </div>
-    </div>
+      <section id="critfix">
+        <h1>Potentially Critical Security Vulnerability</h1>
+	<p>
+A potential security vulnerability has been discovered in the Windows
+version of Bitcoin-Qt. If you are running Bitcoin-Qt versions 0.5
+through 0.6 on Windows you should shut it down and upgrade to either
+version 0.5.3.1 or 0.6rc4 NOW.
+
+The command-line bitcoin daemon (bitcoind), Mac and Linux versions of
+Bitcoin-Qt, and versions prior to 0.5 are not affected.
+
+Due to the nature of the vulnerability, we believe it would be very
+difficult for an attacker to do anything more than crash the
+Bitcoin-Qt process. However, because there is a possibility of such a
+crash causing remote code execution we consider this a critical issue.
+</p><p>
+If you have any questions, feel free to drop by <a
+href="http://webchat.freenode.net/?channels=bitcoin-dev&uio=d4">
+the #bitcoin-dev channel</a> on Freenode IRC.
+</p>
+<div style="text-align:right">
+<i>This notice last updated: Fri Mar 16 22:58:00 UTC 2012</i>
+</div>
+</section>
+</div>
 
 
 

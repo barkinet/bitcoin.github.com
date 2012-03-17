@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - Bitcoin version 0.5.2 released</title>
+    <title>Bitcoin - Bitcoin version 0.5.3.1 released</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -129,48 +129,18 @@
           </ul>
         </div>
         <div class="span11">
-          <h1>Bitcoin version 0.5.2 released <small> 9 January 2012</small></h1>
+          <h1>Bitcoin version 0.5.3.1 released <small>16 April 2012</small></h1>
           
-          <p>Bitcoin version 0.5.2 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.2/</a></p>
+          <p>Bitcoin version 0.5.3.1 for Windows is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/</a></p>
 
-<p>This is a bugfix-only release.</p>
+<p>This is a bugfix-only release based on 0.5.1.</p>
 
 <p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
 
 <h2 id='bug_fixes'>BUG FIXES</h2>
 
 <ul>
-<li>
-<p>Check all transactions in blocks after the last checkpoint (0.5.0 and 0.5.1 skipped checking ECDSA signatures during initial blockchain download; this was not a security vulnerability).</p>
-</li>
-
-<li>
-<p>Cease locking memory used by non-sensitive information (this caused a huge performance hit on some platforms, especially noticable during initial blockchain download).</p>
-</li>
-
-<li>
-<p>Fixed some address-handling deadlocks (client freezes).</p>
-</li>
-
-<li>
-<p>No longer accept inbound connections over the internet when Bitcoin is being used with Tor (identity leak).</p>
-</li>
-
-<li>
-<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 and 0.5.1 release Linux binaries).</p>
-</li>
-
-<li>
-<p>Use the correct base transaction fee of 0.0005 BTC for accepting transactions into mined blocks (since 0.4.0, it was incorrectly accepting 0.0001 BTC which was only meant to be relayed).</p>
-</li>
-
-<li>
-<p>Don&#8217;t show &#8220;IP&#8221; for transactions which are not necessarily IP transactions.</p>
-</li>
-
-<li>
-<p>Add new DNS seeds (maintained by Pieter Wuille and Luke Dashjr).</p>
-</li>
+<li>Fixed a potentially critical security vulnerability in Windows versions of Bitcoin-Qt.</li>
 </ul>
         </div>
       </div>

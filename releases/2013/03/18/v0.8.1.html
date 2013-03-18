@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitcoin - Bitcoin version 0.5.1 released</title>
+    <title>Bitcoin - Bitcoin version 0.8.1 released</title>
     <meta name="description" content="The original site offering documentation and open-source Bitcoin software." />
     <meta name="author" content="" />
     <meta name="robots" content="noodp" />
@@ -181,49 +181,13 @@
           </ul>
         </div>
         <div class="span11">
-          <h1>Bitcoin version 0.5.1 released <small>15 December 2011</small></h1>
+          <h1>Bitcoin version 0.8.1 released <small>18 March 2013</small></h1>
           
-          <p>Bitcoin version 0.5.1 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/</a></p>
+          <p>Bitcoin-Qt version 0.8.1 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.0/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.0/</a></p>
 
-<p>This is a bugfix-only release.</p>
-
-<p>This release includes 13 translations, including 5 new translations: Italian, Hungarian, Ukranian, Portuguese (Brazilian) and Simplified Chinese. More translations are welcome; join the project at Transifex if you can help: <a href='https://www.transifex.net/projects/p/bitcoin/'>https://www.transifex.net/projects/p/bitcoin/</a></p>
+<p>This is a maintenance release that adds a new network rule to avoid a chain-forking incompatibility with versions 0.7.2 and earlier.</p>
 
 <p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
-
-<p>For Ubuntu users, there is a new ppa maintained by Matt Corallo which you can add to your system so that it will automatically keep bitcoin up-to-date. Just type</p>
-
-<pre><code>sudo apt-add-repository ppa:bitcoin/bitcoin</code></pre>
-
-<p>in your terminal, then install the bitcoin-qt package.</p>
-
-<h2 id='bug_fixes'>BUG FIXES</h2>
-
-<ul>
-<li>
-<p>Re-enable SSL support for the JSON-RPC interface (it was unintentionally disabled for the 0.5.0 release binaries).</p>
-</li>
-
-<li>
-<p>The code that finds peers via &#8220;dns seeds&#8221; no longer stops bitcoin startup if one of the dns seed machines is down.</p>
-</li>
-
-<li>
-<p>Tooltips on the transaction list view were rendering incorrectly (as black boxes or with a transparent background).</p>
-</li>
-
-<li>
-<p>Prevent a denial-of-service attack involving flooding a bitcoin node with orphan blocks.</p>
-</li>
-
-<li>
-<p>The wallet passphrase dialog now warns you if the caps lock key was pressed.</p>
-</li>
-
-<li>
-<p>Improved searching in addresses and labels in bitcoin-qt.</p>
-</li>
-</ul>
         </div>
       </div>
     </div>

@@ -1,139 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc>http://bitcoin.org/en/bitcoin-for-enthusiasts</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/vous-devez-savoir</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/you-need-to-know" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/you-need-to-know</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/you-need-to-know</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/vous-devez-savoir" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/bitcoin-for-organizations</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/version-history</loc>
 </url>
 <url>
-	<loc>http://bitcoin.org/en/support-bitcoin</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/telecharger</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/download" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/community</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/en/download</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/telecharger" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/faq</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/fr/supporter-bitcoin</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/support-bitcoin" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/vocabulary</loc>
-	<lastmod>2013-03-09</lastmod>
+  <loc>http://bitcoin.org/en/support-bitcoin</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/supporter-bitcoin" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/development</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-organisations</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/bitcoin-for-organizations" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/bitcoin-for-individuals</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/bitcoin-for-organizations</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/bitcoin-pour-organisations" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/about</loc>
-	<lastmod>2013-03-09</lastmod>
+  <loc>http://bitcoin.org/fr/ressources</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/resources" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/bitcoin-for-developers</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/resources</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/ressources" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-passionnes</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/bitcoin-for-enthusiasts" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/resources</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/en/bitcoin-for-enthusiasts</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/bitcoin-pour-passionnes" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/download</loc>
-	<lastmod>2013-03-09</lastmod>
+  <loc>http://bitcoin.org/fr/a-propos</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/about" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/how-it-works</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/about</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/a-propos" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/choose-your-wallet</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/comment-ca-marche</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/how-it-works" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/version-history</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/en/how-it-works</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/comment-ca-marche" />
 </url>
 <url>
-	<loc>http://bitcoin.org/en/foundation</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/fr/developpement</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/development" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/bitcoin-pour-developpeurs</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/development</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/developpement" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/developpement</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/fr/choisir-votre-porte-monnaie</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/choose-your-wallet" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/vous-devez-savoir</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/choose-your-wallet</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/choisir-votre-porte-monnaie" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/fondation</loc>
-	<lastmod>2013-03-07</lastmod>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-particuliers</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/bitcoin-for-individuals" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/communaute</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/en/bitcoin-for-individuals</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/bitcoin-pour-particuliers" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/a-propos</loc>
-	<lastmod>2013-03-09</lastmod>
+  <loc>http://bitcoin.org/fr/</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/telecharger</loc>
-	<lastmod>2013-03-07</lastmod>
+  <loc>http://bitcoin.org/en/</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/</loc>
-	<lastmod>2013-03-08</lastmod>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-developpeurs</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/bitcoin-for-developers" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/vocabulaire</loc>
-	<lastmod>2013-03-09</lastmod>
+  <loc>http://bitcoin.org/en/bitcoin-for-developers</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/bitcoin-pour-developpeurs" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/bitcoin-pour-particuliers</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/communaute</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/community" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/choisir-votre-porte-monnaie</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/community</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/communaute" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/supporter-bitcoin</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/vocabulaire</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/vocabulary" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/ressources</loc>
-	<lastmod>2013-03-06</lastmod>
+  <loc>http://bitcoin.org/en/vocabulary</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/vocabulaire" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/bitcoin-pour-organisations</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/fr/fondation</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/foundation" />
 </url>
 <url>
-	<loc>http://bitcoin.org/fr/comment-ca-marche</loc>
-	<lastmod>2013-03-17</lastmod>
-</url>
-<url>
-	<loc>http://bitcoin.org/fr/bitcoin-pour-passionnes</loc>
-	<lastmod>2013-03-17</lastmod>
+  <loc>http://bitcoin.org/en/foundation</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/fondation" />
 </url>
 </urlset>

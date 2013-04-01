@@ -3,15 +3,23 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Bitcoin for Organizations - Bitcoin</title>
-<link rel="stylesheet" type="text/css" href="/68f4a0b7e7ef0a98ac35fba30ba0ee17.css" />
+<link rel="stylesheet" type="text/css" href="/2e2dd3a57de52744a7eb2193a32590b0.css" />
 <script type="text/javascript" src="/js/main.js"></script>
 <link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
 
-  <div id="head">
-    <div class="wrap">
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+      
+      <option value="/fr/bitcoin-pour-organisations">Français</option>
+      
+      <option value="/en/bitcoin-for-organizations" selected="selected">English</option>
+      
+    </select>
     <ul id="lang">
       <li><a href="#" onclick="return false;">English</a>
       <ul>
@@ -21,7 +29,8 @@
       </ul>
       </li>
     </ul>
-    <div id="logo"><a href="/en/"><span>Bitcoin</span></a></div>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
     <ul id="menufor">
       
       <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
@@ -33,8 +42,7 @@
       <li><a href="/en/bitcoin-for-enthusiasts">Enthusiasts</a></li>
       
     </ul>
-    </div>
-    <ul id="menu" class="wrap">
+    <ul id="menu">
         
         <li><a href="/en/how-it-works">How it works</a></li>
         
@@ -51,10 +59,9 @@
         <li><a href="/en/about">About</a></li>
         
     </ul>
-  </div>
+  </div></div>
   <div id="body">
-    <div class="wrap">
-      <div id="content">
+    <div id="content">
     <h1>Bitcoin for Organizations</h1>
 <p class="summary">Bitcoin is a very secure and inexpensive way to handle payments.</p>
 
@@ -82,20 +89,19 @@
 <h2><img src="/img/ico_transparency.svg" alt="Transparency" />Accounting transparency</h2>
 <p>Many organizations are required to produce accounting documents about their activity and to adopt good transparency practices. Using Bitcoin offers the highest level of transparency since your balance and your transactions are public for your members if you keep them aware of your Bitcoin addresses.</p>
 
-      </div>
-      <div id="rightbox">
-        <div id="choose">
-          <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Choose your wallet">Choose your wallet</a>
-        </div>
-        <div id="before">
-          <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="You need to know">You need to know</a>
-        </div>
-        <div id="support">
-          <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Support Bitcoin">Support Bitcoin</a>
-        </div>
-      </div>
-      <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
     </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Choose your wallet">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="You need to know">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Support Bitcoin">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>
 </body>

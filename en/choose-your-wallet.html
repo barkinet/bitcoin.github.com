@@ -3,15 +3,23 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Choose your wallet - Bitcoin</title>
-<link rel="stylesheet" type="text/css" href="/68f4a0b7e7ef0a98ac35fba30ba0ee17.css" />
+<link rel="stylesheet" type="text/css" href="/2e2dd3a57de52744a7eb2193a32590b0.css" />
 <script type="text/javascript" src="/js/main.js"></script>
 <link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
 
-  <div id="head">
-    <div class="wrap">
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+      
+      <option value="/fr/choisir-votre-porte-monnaie">Français</option>
+      
+      <option value="/en/choose-your-wallet" selected="selected">English</option>
+      
+    </select>
     <ul id="lang">
       <li><a href="#" onclick="return false;">English</a>
       <ul>
@@ -21,7 +29,8 @@
       </ul>
       </li>
     </ul>
-    <div id="logo"><a href="/en/"><span>Bitcoin</span></a></div>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
     <ul id="menufor">
       
       <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
@@ -33,8 +42,7 @@
       <li><a href="/en/bitcoin-for-enthusiasts">Enthusiasts</a></li>
       
     </ul>
-    </div>
-    <ul id="menu" class="wrap">
+    <ul id="menu">
         
         <li><a href="/en/how-it-works">How it works</a></li>
         
@@ -51,18 +59,14 @@
         <li><a href="/en/about">About</a></li>
         
     </ul>
-  </div>
+  </div></div>
   <div id="body">
-    <div class="wrap">
-      <div id="content">
-    <!--CSS to prevent bubbles to be partially hidden in low-res devices-->
-<style>body{min-width:1200px;}</style>
-
-<h1>Choose your wallet</h1>
+    <div id="content">
+    <h1>Choose your wallet</h1>
 <p>Your Bitcoin wallet is what allows you to transact with the world. It gives you ownership of Bitcoin <i>addresses</i> that you can use to receive coins from other users, and then lets you send those coins onwards. Just like email, you can receive Bitcoins when you are offline and all wallets are compatible with each other. Before you start with Bitcoin, <b>be sure to read <a href="/en/you-need-to-know">what you need to know</a></b> first.</p>
 <h2>Get started fast and easy</h2>
 <p>If you are new to Bitcoin, these wallets are a good place to begin.</p>
-<ul class="list">
+<ul>
   <li><a href="/en/download"><b>Bitcoin-Qt</b></a> is an app you can download for Windows, Mac and Linux.</li>
   <li><a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet"><b>Bitcoin Wallet</b></a> for Android runs on your phone or tablet.</li>
 </ul>
@@ -75,7 +79,7 @@
 
 <div class="previewrow">
 <h2><img src="/img/ico_software.svg" alt="Software wallets" />Software wallets</h2>
-<p>Software wallets are installed on your computer. They give you complete control of your wallet. You are responsible for doing backups and protecting your money. Just like cash.</p>
+<p>Software wallets are installed on your computer. They give you complete control of your wallet. You are responsible for doing backups and protecting your money.</p>
 <div>
   <div>
     <h2>Bitcoin-Qt</h2>
@@ -83,7 +87,7 @@
     <p>Bitcoin-Qt is the original Bitcoin client and it builds the backbone of the network. It offers the highest levels of security, privacy and stability. However it has fewer features and it takes a lot of space and memory.</p>
     <p><a href="download">Download</a></p>
   </div>
-  <a href="download"><img src="/img/clients/lo-bitcoin.png" alt="bitcoin-qt" />Bitcoin-Qt</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-bitcoin.png" alt="bitcoin-qt" />Bitcoin-Qt</a>
 </div>
 <div>
   <div>
@@ -92,7 +96,7 @@
     <p>Multibit is a lightweight client that focuses on being fast and easy to use. It synchronizes with the network and is ready to use in minutes. Multibit also supports many languages. It is a good choice for non-technical users.</p>
     <p><a href="https://multibit.org/">Visit website</a></p>
   </div>
-  <a href="https://multibit.org/"><img src="/img/clients/lo-multibit.png" alt="multibit" />Multibit</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-multibit.png" alt="multibit" />Multibit</a>
 </div>
 <div class="last">
   <div>
@@ -101,7 +105,7 @@
     <p>Armory is an advanced Bitcoin client that runs on top of Bitcoin-Qt. Expanding its features for Bitcoin power users. It offers many backup and encryption features, and it allows secure cold-storage on offline computers.</p>
     <p><a href="http://bitcoinarmory.com/">Visit website</a></p>
   </div>
-  <a href="http://bitcoinarmory.com/"><img src="/img/clients/lo-armory.png" alt="armory" />Armory</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-armory.png" alt="armory" />Armory</a>
 </div>
 <div>
   <div>
@@ -110,7 +114,7 @@
     <p>Electrum's focus is speed and simplicity, with low resource usage.  It uses remote servers that handle the most complicated parts of the Bitcoin system, and it allows you to recover your wallet from a secret phrase.</p>
     <p><a href="http://electrum.org/">Visit website</a></p>
   </div>
-  <a href="http://electrum.org/"><img src="/img/clients/lo-electrum.png" alt="electrum" />Electrum</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-electrum.png" alt="electrum" />Electrum</a>
 </div>
 </div>
 
@@ -124,7 +128,7 @@
     <p>Bitcoin Wallet is a lightweight mobile client for Android and BlackBerry OS. This client does not need to be associated with any online service to work. It is compatible with QR code scanning and NFC.</p>
     <p><a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet">Visit website</a></p>
   </div>
-  <a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet"><img src="/img/clients/lo-bitcoinwallet.png" alt="bitcoin wallet" />Bitcoin<br>Wallet</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-bitcoinwallet.png" alt="bitcoin wallet" />Bitcoin<br>Wallet</a>
 </div>
 <div data-id="blockchainmobile">
   <div class="walletwarning">
@@ -133,7 +137,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="paytunia" class="last">
   <div class="walletwarning">
@@ -142,7 +146,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 </div>
 
@@ -156,7 +160,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="bips">
   <div class="walletwarning">
@@ -165,7 +169,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="coinbase" class="last">
   <div class="walletwarning">
@@ -174,7 +178,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="instawallet">
   <div class="walletwarning">
@@ -183,7 +187,7 @@
     <p>Web wallets host your bitcoins. That means it is possible for them to lose your bitcoins following any incident on their side. As of today, no web wallet service provide enough insurance to be used to store value like a bank.</p>
     <p><a href="javascript:walletshow();">OK, I understand</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 </div>
 </div>
@@ -249,20 +253,19 @@
 
 </div>
 
-      </div>
-      <div id="rightbox">
-        <div id="choose">
-          <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Choose your wallet">Choose your wallet</a>
-        </div>
-        <div id="before">
-          <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="You need to know">You need to know</a>
-        </div>
-        <div id="support">
-          <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Support Bitcoin">Support Bitcoin</a>
-        </div>
-      </div>
-      <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
     </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Choose your wallet">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="You need to know">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Support Bitcoin">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>
 </body>

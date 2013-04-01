@@ -3,15 +3,23 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Choisir votre porte-monnaie - Bitcoin</title>
-<link rel="stylesheet" type="text/css" href="/68f4a0b7e7ef0a98ac35fba30ba0ee17.css" />
+<link rel="stylesheet" type="text/css" href="/2e2dd3a57de52744a7eb2193a32590b0.css" />
 <script type="text/javascript" src="/js/main.js"></script>
 <link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
 
-  <div id="head">
-    <div class="wrap">
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+      
+      <option value="/fr/choisir-votre-porte-monnaie" selected="selected">Français</option>
+      
+      <option value="/en/choose-your-wallet">English</option>
+      
+    </select>
     <ul id="lang">
       <li><a href="#" onclick="return false;">Français</a>
       <ul>
@@ -21,7 +29,8 @@
       </ul>
       </li>
     </ul>
-    <div id="logo"><a href="/fr/"><span>Bitcoin</span></a></div>
+    <a id="logo" href="/fr/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
     <ul id="menufor">
       
       <li><a href="/fr/bitcoin-pour-particuliers">Particuliers</a></li>
@@ -33,8 +42,7 @@
       <li><a href="/fr/bitcoin-pour-passionnes">Passionnés</a></li>
       
     </ul>
-    </div>
-    <ul id="menu" class="wrap">
+    <ul id="menu">
         
         <li><a href="/fr/comment-ca-marche">Comment ça marche</a></li>
         
@@ -51,18 +59,14 @@
         <li><a href="/fr/a-propos">À propos</a></li>
         
     </ul>
-  </div>
+  </div></div>
   <div id="body">
-    <div class="wrap">
-      <div id="content">
-    <!--CSS to prevent bubbles to be partially hidden in low-res devices-->
-<style>body{min-width:1200px;}</style>
-
-<h1>Choisir votre porte-monnaie</h1>
+    <div id="content">
+    <h1>Choisir votre porte-monnaie</h1>
 <p>Votre porte-monnaie Bitcoin est ce qui vous permet de faire des transactions avec le monde. Il vous rend propriétaire de quelques adresses Bitcoin que vous pouvez utiliser pour recevoir et envoyer des Bitcoins avec d'autres utilisateurs. Et comme les emails, vous pouvez recevoir des Bitcoins lorsque vous êtes hors-ligne et tous les porte-monnaies Bitcoin sont compatibles entre eux. Avant de commencer avec le Bitcoin, assurez-vous d'abord de lire <a href="/fr/vous-devez-savoir"><b>ce que vous devez savoir</b></a>.</p>
 <h2>Débuter rapidement et simplement</h2>
 <p>Si vous êtes un nouvel utilisateur, ces porte-monnaie sont un bon point de départ.</p>
-<ul class="list">
+<ul>
   <li><a href="/fr/telecharger"><b>Bitcoin-Qt</b></a> est un logiciel sur ordinateur pour Windows, Mac OS X et Linux.</li>
   <li><a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet"><b>Bitcoin Wallet</b></a> pour Android fonctionne sur smartphones et tablettes.</li>
 </ul>
@@ -84,7 +88,7 @@
     <p>Bitcoin-Qt est le logiciel Bitcoin original sur lequel s'appuie le réseau. Il offre le plus haut niveau de sécurité, de vie privée et de stabilité. Toutefois, il offre moins de fonctionnalités et prend beaucoup d'espace et de mémoire.</p>
     <p><a href="telecharger">Télécharger</a></p>
   </div>
-  <a href="telecharger"><img src="/img/clients/lo-bitcoin.png" alt="bitcoin-qt" />Bitcoin-Qt</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-bitcoin.png" alt="bitcoin-qt" />Bitcoin-Qt</a>
 </div>
 <div>
   <div>
@@ -93,7 +97,7 @@
     <p>Multibit est un client léger qui tâche d’être rapide et facile d'utilisation. Il se synchronise avec le réseau et est prêt en quelques minutes. Multibit supporte aussi plusieurs languages. Il est un bon choix pour les novices.</p>
     <p><a href="https://multibit.org/">Visiter le site</a></p>
   </div>
-  <a href="https://multibit.org/"><img src="/img/clients/lo-multibit.png" alt="multibit" />Multibit</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-multibit.png" alt="multibit" />Multibit</a>
 </div>
 <div class="last">
   <div>
@@ -102,7 +106,7 @@
     <p>Armory est un client Bitcoin avancé qui élargit les fonctionnalités de Bitcoin-Qt pour les super-utilisateurs. Armory offre plusieurs formes de sauvegardes et d'encryption et il permet une utilisation hors-ligne sécurisée.</p>
     <p><a href="http://bitcoinarmory.com/">Visiter le site</a></p>
   </div>
-  <a href="http://bitcoinarmory.com/"><img src="/img/clients/lo-armory.png" alt="armory" />Armory</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-armory.png" alt="armory" />Armory</a>
 </div>
 <div>
   <div>
@@ -111,7 +115,7 @@
     <p>Electrum se spécialise dans la rapidité et la simplicité. Electrum est très léger et utilise des serveurs distants pour augmenter ses performances. Il vous permet aussi de récupérer votre porte-monnaie à l'aide d'une phrase secrète.</p>
     <p><a href="http://electrum.org/">Visiter le site</a></p>
   </div>
-  <a href="http://electrum.org/"><img src="/img/clients/lo-electrum.png" alt="electrum" />Electrum</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-electrum.png" alt="electrum" />Electrum</a>
 </div>
 </div>
 
@@ -125,7 +129,7 @@
     <p>Bitcoin Wallet est un client léger pour Android et BlackBerry OS. Cette application n'a pas besoin d'être associée à un service en ligne. Et elle est compatible avec le scan de codes QR et la technologie NFC.</p>
     <p><a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet">Visiter le site</a></p>
   </div>
-  <a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet"><img src="/img/clients/lo-bitcoinwallet.png" alt="bitcoin wallet" />Bitcoin<br>Wallet</a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-bitcoinwallet.png" alt="bitcoin wallet" />Bitcoin<br>Wallet</a>
 </div>
 <div data-id="blockchaindesktop">
   <div class="walletwarning">
@@ -134,7 +138,7 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="caché" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="caché" /></a>
 </div>
 <div data-id="paytunia" class="last">
   <div class="walletwarning">
@@ -143,13 +147,13 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 </div>
 
 <div class="previewrow">
 <h2><img src="/img/ico_international.svg" alt="online wallets" />Porte-monnaie web</h2>
-<p>Les porte-monnaie web vous permettent d'utiliser Bitcoin partout avec moins d'effort pour protéger votre porte-monnaie. Toutefois, vous devez choisir votre porte-monnaie web avec prudence puisque ces services hébergent vos bitcoins.</p>
+<p>Les porte-monnaie web vous permettent d'utiliser vos bitcoins partout avec moins d'effort pour les protéger. Toutefois, vous devez choisir ces porte-monnaie avec prudence puisque ces services hébergent vos bitcoins.</p>
 <div data-id="blockchainmobile">
   <div class="walletwarning">
     <h2>Attention</h2>
@@ -157,7 +161,7 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="caché" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="caché" /></a>
 </div>
 <div data-id="bips">
   <div class="walletwarning">
@@ -166,7 +170,7 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="coinbase" class="last">
   <div class="walletwarning">
@@ -175,7 +179,7 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 <div data-id="instawallet">
   <div class="walletwarning">
@@ -184,7 +188,7 @@
     <p>Les porte-monnaie web hébergent vos bitcoins. Ce qui signifie qu'ils peuvent perdre vos bitcoins à la suite d'un incident. À ce jour, aucun de ces services n'offre assez d'assurance pour être utilisé comme une banque.</p>
     <p><a href="javascript:walletshow();">OK, Je comprends</a></p>
   </div>
-  <a><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
+  <a href="#" onclick="return false;"><img src="/img/clients/lo-hidden.png" alt="hidden" /></a>
 </div>
 </div>
 </div>
@@ -250,20 +254,19 @@
 
 </div>
 
-      </div>
-      <div id="rightbox">
-        <div id="choose">
-          <a href="/fr/choisir-votre-porte-monnaie"><img src="/img/but_start.svg" alt="Choisissez votre porte-monnaie">Choisissez votre porte-monnaie</a>
-        </div>
-        <div id="before">
-          <a href="/fr/vous-devez-savoir"><img src="/img/but_warn.svg" alt="Vous devez savoir">Vous devez savoir</a>
-        </div>
-        <div id="support">
-          <a href="/fr/supporter-bitcoin"><img src="/img/but_involve.svg" alt="Supporter Bitcoin">Supporter Bitcoin</a>
-        </div>
-      </div>
-      <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
     </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/fr/choisir-votre-porte-monnaie"><img src="/img/but_start.svg" alt="Choisissez votre porte-monnaie">Choisissez votre porte-monnaie</a>
+      </div>
+      <div id="before">
+        <a href="/fr/vous-devez-savoir"><img src="/img/but_warn.svg" alt="Vous devez savoir">Vous devez savoir</a>
+      </div>
+      <div id="support">
+        <a href="/fr/supporter-bitcoin"><img src="/img/but_involve.svg" alt="Supporter Bitcoin">Supporter Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>
 </body>

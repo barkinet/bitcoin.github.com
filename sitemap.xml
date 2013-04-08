@@ -47,20 +47,6 @@
     href="http://www.bitcoin.org/fr/supporter-bitcoin" />
 </url>
 <url>
-  <loc>http://bitcoin.org/fr/bitcoin-pour-organisations</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-organizations" />
-</url>
-<url>
-  <loc>http://bitcoin.org/en/bitcoin-for-organizations</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-organisations" />
-</url>
-<url>
   <loc>http://bitcoin.org/fr/ressources</loc>
   <xhtml:link
     rel="alternate"
@@ -73,6 +59,20 @@
     rel="alternate"
     hreflang="fr"
     href="http://www.bitcoin.org/fr/ressources" />
+</url>
+<url>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-entreprises</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://www.bitcoin.org/en/bitcoin-for-businesses" />
+</url>
+<url>
+  <loc>http://bitcoin.org/en/bitcoin-for-businesses</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://www.bitcoin.org/fr/bitcoin-pour-entreprises" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-passionnes</loc>

@@ -62,7 +62,15 @@
   </div></div>
   <div id="body">
     <div id="content">
-    <h1>An open source P2P digital currency</h1>
+    <script>
+//Auto redirect to the appropriate language
+var langs={};langs['fr']=true;langs['en']=true;
+var lang=(navigator.language)?navigator.language:navigator.userLanguage;
+lang=lang.split('_')[0];
+if(!langs[lang])lang='en';
+setTimeout(function(){window.location.href='/'+lang+'/';},200);
+</script>
+<h1>An open source P2P digital currency</h1>
 <p style="font-size:125%;">Bitcoin is a digital currency, a protocol, and a software that enables
 <ul style="font-size:125%">
   <li>Instant peer to peer transactions</li>

@@ -17,6 +17,8 @@
       
       <option value="/fr/">Français</option>
       
+      <option value="/es/">Español</option>
+      
       <option value="/en/" selected="selected">English</option>
       
     </select>
@@ -25,6 +27,8 @@
       <ul>
         
         <li><a href="/fr/">Français</a></li>
+        
+        <li><a href="/es/">Español</a></li>
         
       </ul>
       </li>
@@ -64,7 +68,7 @@
     <div id="content">
     <script>
 //Auto redirect to the appropriate language
-var langs={};langs['fr']=true;langs['en']=true;
+var langs={};langs['fr']=true;langs['es']=true;langs['en']=true;
 var lang=(navigator.language)?navigator.language:navigator.userLanguage;
 lang=lang.split('_')[0];
 if(!langs[lang])lang='en';

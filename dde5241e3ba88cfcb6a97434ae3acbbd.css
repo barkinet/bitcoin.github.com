@@ -42,7 +42,7 @@ h2{font-family:'UbuntuBold',sans-serif;font-weight:normal;color:#383838;font-siz
 h3{color:#383838;font-size:100%;}
 h1 img,h2 img,h3 img{vertical-align:middle;margin-right:5px;}
 p{line-height:1.5em;}
-a:link,a:visited,a:active{color:#4892b2;}
+a:link,a:visited,a:active{color:#4892b2;text-decoration:none;}
 a:link:hover,a:visited:hover,a:active:hover{color:#75bfdf;}
 a img,a:link img,a:visited img,a:active img{border:0;}
 blockquote{margin-left:0px;margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}
@@ -83,7 +83,9 @@ li{padding:5px 0px;text-align:left;}
 #menu li a,#menu li a:active,#menu li a:visited,#menu li a:link{font-family:'Ubuntu',sans-serif;display:block;color:#6a6a6a;text-decoration:none;padding:8px 10px;border:1px solid transparent;}
 #menu li:hover a,#menu li.active a{color:#000;background-color:#fff;border:1px solid #d8d8d8;border-radius:3px;-webkit-border-radius:3px;}
 #content{position:relative;padding:20px 265px 30px 30px;margin:0px 5px;max-width:780px;text-align:justify;background-color:#fff;min-height:400px;border:2px solid #ebebeb;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
+#content.wide{padding:20px 40px 30px 30px;max-width:990px;}
 #rightbox{width:210px;position:absolute;right:30px;top:20px;border-radius:5px;-webkit-border-radius:5px;padding:5px;}
+#rightbox.wide{display:none;}
 #choose>a:first-child,#before>a:first-child,#support>a:first-child{padding:10px 8px 10px 48px;color:#fff;display:block;text-align:left;margin-bottom:10px;text-decoration:none;font-weight:bold;border-radius:5px;-webkit-border-radius:5px;}
 #choose img,#before img,#support img{vertical-align:middle;margin-right:8px;margin-left:-40px;}
 #before>a:first-child,#support>a:first-child{background-color:#2c6fad;border:1px solid #20598f;background-image:linear-gradient(bottom, #20598f 14%, #2c6fad 70%);background-image:-o-linear-gradient(bottom, #20598f 14%, #2c6fad 70%);background-image:-moz-linear-gradient(bottom, #20598f 14%, #2c6fad 70%);background-image:-webkit-linear-gradient(bottom, #20598f 14%, #2c6fad 70%);background-image:-ms-linear-gradient(bottom, #20598f 14%, #2c6fad 70%);}
@@ -132,5 +134,35 @@ li{padding:5px 0px;text-align:left;}
 .download a{font-size:125%;display:inline-block;margin:5px 0px;}
 .summary{font-size:125%;}
 .foundation{max-width:500px;margin:40px auto;border:2px dashed #dfdfdf;padding:40px;border-radius:9px;-webkit-border-radius:9px;}
+.press h2{font-size:150%;}
+.press-volunteer{text-align:left;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.press-volunteer>p{margin-top:0px;margin-bottom:30px;}
+.press-volunteer>p>img{vertical-align:bottom;}
+.press-volunteer>div{width:400px;height:150px;display:inline-block;zoom:1;*display:inline;margin-right:30px;margin-bottom:30px;vertical-align:top;}
+.press-volunteer>div>img{float:left;margin-right:30px;}
+.press-volunteer>div>img:first-child+p{font-weight:bold;color:#0d579b;margin:0px;}
+.press-volunteer>div>img:first-child+p+p{margin:0px;}
+.press-volunteer>div>img:first-child+p+p+p{font-size:80%;}
+.press-volunteer>div>img:first-child+p+p+p+p{margin:0px;}
+.press-faq{text-align:left;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.press-faq>div{width:400px;display:inline-block;zoom:1;*display:inline;vertical-align:top;text-align:left;margin-bottom:15px;margin-right:30px;}
+.press-faq>div>a{display:inline-block;font-weight:bold;margin-right:20px;}
+.press-faq>div>div{height:0px;overflow:hidden;text-align:justify;transition:height 400ms ease-out;-moz-transition:height 400ms ease-out;-webkit-transition:height 400ms ease-out;}
+.press-faq li{text-align:justify;line-height:1.5em;}
+.press-faq>div>span>p{margin-bottom:0px;}
+.press-materials{text-align:left;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.press-materials>div>a{font-weight:bold;font-size:110%;}
+.press-materials>div{display:inline-block;zoom:1;*display:inline;width:300px;vertical-align:top;position:relative;}
+.press-materials>div>div{height:270px;overflow:hidden;transition:height 400ms ease-out;-moz-transition:height 400ms ease-out;-webkit-transition:height 400ms ease-out;}
+.press-materials>div:first-child+div>div img{margin-right:14px;margin-bottom:14px;height:120px;width:120px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.press-materials>div:first-child>div>p>a{margin-right:10px;margin-bottom:10px;display:inline-block;}
+.press-materials>div:first-child+div+div>div>p{margin-bottom:25px;margin-top:0px;}
+.press-materials>div:first-child+div+div>div>p>span:first-child{font-weight:bold;display:block;}
+.press-news{text-align:left;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.press-news>div{height:125px;margin-bottom:30px;width:700px;}
+.press-news>div>a>img{float:left;margin-right:30px;}
+.press-news>div>a:first-child+a{display:block;margin-bottom:10px;}
+.press-news a:link,.press-news a:active,.press-news a:visited{font-weight:bold;color:#0d579b;}
+.press-news>div>a:first-child+a+a+p{font-size:80%;}
 .conferencebanner{position:absolute;top:0px;right:5px;}
-@media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){img{max-width:100%;} #head{margin:0px;} #head>div{overflow:hidden;} #langselect{background-color:transparent;border:0px;font-size:115%;position:absolute;right:-20px;top:10px;} #menumobile{display:inline-block;float:right;height:40px;width:40px;padding:12px;background-image:url(/img/menumobile.svg);background-repeat:no-repeat;background-position:center center;} #lang,#menufor,#menu{display:none;} #menufor{position:static;bottom:0px;margin:10px 0px 0px 0px;height:auto;} #menufor li{float:none;display:inline-block;} #menufor li a,#menufor li a:active,#menufor li a:visited,#menufor li a:link{padding:6px 6px 3px 6px;} #menufor li{margin:6px;} #menu{position:static;height:auto;margin:10px 0px 10px 0px;} #menu li{float:none;display:inline-block;padding:5px;} #menu li a,#menu li a:active,#menu li a:visited,#menu li a:link{padding:5px;} #logo{position:static;display:inline-block;margin:10px;} #rightbox{position:static;margin:30px auto 20px auto;} #content{position:static;margin:0px 5px;padding:15px 10px 20px 10px;} #footer{padding:0px 0px 20px 5px;background-color:transparent;} .contributors{width:auto;} .foundation{padding:20px;} .preview{display:none;} .conferencebanner{position:static;display:inline-block;margin:0px 0px 10px -5px;}}
+@media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){img{max-width:100%;} #head{margin:0px;} #head>div{overflow:hidden;} #langselect{background-color:transparent;border:0px;font-size:115%;position:absolute;right:-20px;top:10px;} #menumobile{display:inline-block;float:right;height:40px;width:40px;padding:12px;background-image:url(/img/menumobile.svg);background-repeat:no-repeat;background-position:center center;} #lang,#menufor,#menu{display:none;} #menufor{position:static;bottom:0px;margin:10px 0px 0px 0px;height:auto;} #menufor li{float:none;display:inline-block;} #menufor li a,#menufor li a:active,#menufor li a:visited,#menufor li a:link{padding:6px 6px 3px 6px;} #menufor li{margin:6px;} #menu{position:static;height:auto;margin:10px 0px 10px 0px;} #menu li{float:none;display:inline-block;padding:5px;} #menu li a,#menu li a:active,#menu li a:visited,#menu li a:link{padding:5px;} #logo{position:static;display:inline-block;margin:10px;} #rightbox,#rightbox.wide{display:block;position:static;margin:30px auto 20px auto;} #content,#content.wide{position:static;margin:0px 5px;padding:15px 10px 20px 10px;} #footer{padding:0px 0px 20px 5px;background-color:transparent;} .contributors{width:auto;} .foundation{padding:20px;} .preview{display:none;} .preview{width:auto;border:0px;padding:0px;} .previewrow{float:none;padding-left:0px;margin:auto;} .press-volunteer>div{width:200px;height:auto;} .press-volunteer>div>img{float:none;margin-right:0px;margin-bottom:20px;} .press-faq>div{width:auto;display:block;margin-right:0px;} .press-news>div{width:auto;height:auto;} .press-news>div>a>img{float:none;margin-right:0px;margin-bottom:20px;} .conferencebanner{position:static;display:block;margin:0px 0px 10px -5px;text-align:center;}}

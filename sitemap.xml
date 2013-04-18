@@ -335,6 +335,9 @@
     href="http://www.bitcoin.org/es/elige-tu-monedero" />
 </url>
 <url>
+  <loc>http://bitcoin.org/en/bitcoin-for-press</loc>
+</url>
+<url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-particuliers</loc>
   <xhtml:link
     rel="alternate"

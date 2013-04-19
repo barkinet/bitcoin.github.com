@@ -99,6 +99,7 @@ li{padding:5px 0px;text-align:left;}
 .index>ul{padding:20px 0px 20px 20px;}
 .index a,.index a:link,.index a:active,.index a:visited{display:block;text-decoration:none;}
 .box{border:2px dashed #4892b2;padding:0px 20px 0px 20px;}
+.titlelight{color:#a0a0a0;}
 .contributors{width:900px;text-align:left;}
 .contributors>span>a{font-size:80%;}
 .contributors>span{padding:6px 0px;width:170px;overflow:hidden;display:inline-block;}

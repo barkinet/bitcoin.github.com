@@ -6,33 +6,33 @@
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/debes-saber" />
+    href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/you-need-to-know" />
+    href="http://bitcoin.org/en/you-need-to-know" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/debes-saber</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/vous-devez-savoir" />
+    href="http://bitcoin.org/fr/vous-devez-savoir" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/you-need-to-know" />
+    href="http://bitcoin.org/en/you-need-to-know" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/you-need-to-know</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/vous-devez-savoir" />
+    href="http://bitcoin.org/fr/vous-devez-savoir" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/debes-saber" />
+    href="http://bitcoin.org/es/debes-saber" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/version-history</loc>
@@ -42,297 +42,297 @@
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/descargar" />
+    href="http://bitcoin.org/es/descargar" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/download" />
+    href="http://bitcoin.org/en/download" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/descargar</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/telecharger" />
+    href="http://bitcoin.org/fr/telecharger" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/download" />
+    href="http://bitcoin.org/en/download" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/download</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/telecharger" />
+    href="http://bitcoin.org/fr/telecharger" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/descargar" />
+    href="http://bitcoin.org/es/descargar" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/supporter-bitcoin</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/apoya-bitcoin" />
+    href="http://bitcoin.org/es/apoya-bitcoin" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/support-bitcoin" />
+    href="http://bitcoin.org/en/support-bitcoin" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/apoya-bitcoin</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/supporter-bitcoin" />
+    href="http://bitcoin.org/fr/supporter-bitcoin" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/support-bitcoin" />
+    href="http://bitcoin.org/en/support-bitcoin" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/support-bitcoin</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/supporter-bitcoin" />
+    href="http://bitcoin.org/fr/supporter-bitcoin" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/apoya-bitcoin" />
+    href="http://bitcoin.org/es/apoya-bitcoin" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/ressources</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/recursos" />
+    href="http://bitcoin.org/es/recursos" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/resources" />
+    href="http://bitcoin.org/en/resources" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/recursos</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/ressources" />
+    href="http://bitcoin.org/fr/ressources" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/resources" />
+    href="http://bitcoin.org/en/resources" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/resources</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/ressources" />
+    href="http://bitcoin.org/fr/ressources" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/recursos" />
+    href="http://bitcoin.org/es/recursos" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-entreprises</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-empresas" />
+    href="http://bitcoin.org/es/bitcoin-para-empresas" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-businesses" />
+    href="http://bitcoin.org/en/bitcoin-for-businesses" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/bitcoin-para-empresas</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-entreprises" />
+    href="http://bitcoin.org/fr/bitcoin-pour-entreprises" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-businesses" />
+    href="http://bitcoin.org/en/bitcoin-for-businesses" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/bitcoin-for-businesses</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-entreprises" />
+    href="http://bitcoin.org/fr/bitcoin-pour-entreprises" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-empresas" />
+    href="http://bitcoin.org/es/bitcoin-para-empresas" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-passionnes</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-entusiastas" />
+    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-enthusiasts" />
+    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/bitcoin-para-entusiastas</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-passionnes" />
+    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-enthusiasts" />
+    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/bitcoin-for-enthusiasts</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-passionnes" />
+    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-entusiastas" />
+    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/a-propos</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/acerca-de" />
+    href="http://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/about" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/acerca-de</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/a-propos" />
+    href="http://bitcoin.org/fr/a-propos" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/about" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/about</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/a-propos" />
+    href="http://bitcoin.org/fr/a-propos" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/acerca-de" />
+    href="http://bitcoin.org/es/acerca-de" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/comment-ca-marche</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/como-funciona" />
+    href="http://bitcoin.org/es/como-funciona" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/how-it-works" />
+    href="http://bitcoin.org/en/how-it-works" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/como-funciona</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/comment-ca-marche" />
+    href="http://bitcoin.org/fr/comment-ca-marche" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/how-it-works" />
+    href="http://bitcoin.org/en/how-it-works" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/how-it-works</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/comment-ca-marche" />
+    href="http://bitcoin.org/fr/comment-ca-marche" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/como-funciona" />
+    href="http://bitcoin.org/es/como-funciona" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/developpement</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/desarrollo" />
+    href="http://bitcoin.org/es/desarrollo" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/development" />
+    href="http://bitcoin.org/en/development" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/desarrollo</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/developpement" />
+    href="http://bitcoin.org/fr/developpement" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/development" />
+    href="http://bitcoin.org/en/development" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/development</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/developpement" />
+    href="http://bitcoin.org/fr/developpement" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/desarrollo" />
+    href="http://bitcoin.org/es/desarrollo" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/choisir-votre-porte-monnaie</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/elige-tu-monedero" />
+    href="http://bitcoin.org/es/elige-tu-monedero" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/choose-your-wallet" />
+    href="http://bitcoin.org/en/choose-your-wallet" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/elige-tu-monedero</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/choisir-votre-porte-monnaie" />
+    href="http://bitcoin.org/fr/choisir-votre-porte-monnaie" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/choose-your-wallet" />
+    href="http://bitcoin.org/en/choose-your-wallet" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/choose-your-wallet</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/choisir-votre-porte-monnaie" />
+    href="http://bitcoin.org/fr/choisir-votre-porte-monnaie" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/elige-tu-monedero" />
+    href="http://bitcoin.org/es/elige-tu-monedero" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/bitcoin-for-press</loc>
@@ -342,197 +342,197 @@
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-personas" />
+    href="http://bitcoin.org/es/bitcoin-para-personas" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-individuals" />
+    href="http://bitcoin.org/en/bitcoin-for-individuals" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/bitcoin-para-personas</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-particuliers" />
+    href="http://bitcoin.org/fr/bitcoin-pour-particuliers" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-individuals" />
+    href="http://bitcoin.org/en/bitcoin-for-individuals" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/bitcoin-for-individuals</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-particuliers" />
+    href="http://bitcoin.org/fr/bitcoin-pour-particuliers" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-personas" />
+    href="http://bitcoin.org/es/bitcoin-para-personas" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/" />
+    href="http://bitcoin.org/es/" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/" />
+    href="http://bitcoin.org/en/" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/" />
+    href="http://bitcoin.org/fr/" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/" />
+    href="http://bitcoin.org/en/" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/" />
+    href="http://bitcoin.org/fr/" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/" />
+    href="http://bitcoin.org/es/" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-developpeurs</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-desarrolladores" />
+    href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-developers" />
+    href="http://bitcoin.org/en/bitcoin-for-developers" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/bitcoin-para-desarrolladores</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-developpeurs" />
+    href="http://bitcoin.org/fr/bitcoin-pour-developpeurs" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/bitcoin-for-developers" />
+    href="http://bitcoin.org/en/bitcoin-for-developers" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/bitcoin-for-developers</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/bitcoin-pour-developpeurs" />
+    href="http://bitcoin.org/fr/bitcoin-pour-developpeurs" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/bitcoin-para-desarrolladores" />
+    href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/communaute</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/comunidad" />
+    href="http://bitcoin.org/es/comunidad" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/community" />
+    href="http://bitcoin.org/en/community" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/comunidad</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/communaute" />
+    href="http://bitcoin.org/fr/communaute" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/community" />
+    href="http://bitcoin.org/en/community" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/community</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/communaute" />
+    href="http://bitcoin.org/fr/communaute" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/comunidad" />
+    href="http://bitcoin.org/es/comunidad" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/vocabulaire</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/vocabulario" />
+    href="http://bitcoin.org/es/vocabulario" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/vocabulary" />
+    href="http://bitcoin.org/en/vocabulary" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/vocabulario</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/vocabulaire" />
+    href="http://bitcoin.org/fr/vocabulaire" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/vocabulary" />
+    href="http://bitcoin.org/en/vocabulary" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/vocabulary</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/vocabulaire" />
+    href="http://bitcoin.org/fr/vocabulaire" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/vocabulario" />
+    href="http://bitcoin.org/es/vocabulario" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/fondation</loc>
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/fundacion" />
+    href="http://bitcoin.org/es/fundacion" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/foundation" />
+    href="http://bitcoin.org/en/foundation" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/fundacion</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/fondation" />
+    href="http://bitcoin.org/fr/fondation" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://www.bitcoin.org/en/foundation" />
+    href="http://bitcoin.org/en/foundation" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/foundation</loc>
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://www.bitcoin.org/fr/fondation" />
+    href="http://bitcoin.org/fr/fondation" />
   <xhtml:link
     rel="alternate"
     hreflang="es"
-    href="http://www.bitcoin.org/es/fundacion" />
+    href="http://bitcoin.org/es/fundacion" />
 </url>
 </urlset>

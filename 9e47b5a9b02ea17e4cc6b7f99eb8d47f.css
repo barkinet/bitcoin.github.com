@@ -39,7 +39,7 @@ body{font-family:"Helvetica Neue","Helvetica",Arial,sans-serif;font-size:16px;ma
 h1,h2,h3{text-align:left;}
 h1{font-family:'UbuntuBold',sans-serif;font-weight:normal;color:#0d579b;font-size:160%;margin-top:0;}
 h2{font-family:'UbuntuBold',sans-serif;font-weight:normal;color:#383838;font-size:130%;}
-h3{color:#383838;font-size:100%;}
+h3{color:#383838;font-size:110%;}
 h1 img,h2 img,h3 img{vertical-align:middle;margin-right:5px;}
 p{line-height:1.5em;}
 a:link,a:visited,a:active{color:#4892b2;text-decoration:none;}
@@ -99,6 +99,8 @@ li{padding:5px 0px;text-align:left;}
 .index>ul{padding:20px 0px 20px 20px;}
 .index a,.index a:link,.index a:active,.index a:visited{display:block;text-decoration:none;}
 .box{border:2px dashed #4892b2;padding:0px 20px 0px 20px;}
+.boxexpand{height:56px;overflow:hidden;transition:height 400ms ease-out;-moz-transition:height 400ms ease-out;-webkit-transition:height 400ms ease-out;}
+.boxexpand h3>a:link,.boxexpand h3>a:visited,.boxexpand h3>a:active{text-decoration:none;}
 .titlelight{color:#a0a0a0;}
 .contributors{width:900px;text-align:left;}
 .contributors>span>a{font-size:80%;}

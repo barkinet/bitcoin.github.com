@@ -97,7 +97,7 @@ li{padding:5px 0px;text-align:left;}
 .index{padding:20px;border:2px dashed #4892b2;display:inline-block;}
 .index>li>a{font-weight:bold;}
 .index>ul{padding:20px 0px 20px 20px;}
-.index a,.index a:link,.index a:active,.index a:visited{display:block;text-decoration:none;}
+.index a,.index a:link,.index a:active,.index a:visited{display:block;text-decoration:none;line-height:1.5em;}
 .box{border:2px dashed #4892b2;padding:0px 20px 0px 20px;}
 .boxexpand{height:56px;overflow:hidden;transition:height 400ms ease-out;-moz-transition:height 400ms ease-out;-webkit-transition:height 400ms ease-out;}
 .boxexpand h3>a:link,.boxexpand h3>a:visited,.boxexpand h3>a:active{text-decoration:none;}

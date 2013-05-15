@@ -133,7 +133,8 @@ li{padding:5px 0px;text-align:left;}
 .previewrow .walletwarning>div:first-child+div{background:url(/img/bubblewarnmiddle.svg) bottom center repeat-y;}
 .previewrow .walletwarning>div:first-child+div+div{background:url(/img/bubblewarnbottom.svg) bottom center no-repeat;}
 .previewrow .walletwarning a,.previewrow .walletwarning a:link,.previewrow .walletwarning a:visited,.previewrow .walletwarning a:active{color:#b95357;}
-.versiontext{text-align:left;}
+.versiontext{text-align:left;margin-bottom:40px;}
+.versiontext li>p{margin:0px;}
 .download a{font-size:125%;display:inline-block;margin:5px 0px;}
 .summary{font-size:125%;}
 .foundation{max-width:500px;margin:40px auto;border:2px dashed #dfdfdf;padding:40px;border-radius:9px;-webkit-border-radius:9px;}

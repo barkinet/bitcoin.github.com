@@ -62,9 +62,6 @@
     href="http://bitcoin.org/nl/wat-u-moet-weten" />
 </url>
 <url>
-  <loc>http://bitcoin.org/en/version-history</loc>
-</url>
-<url>
   <loc>http://bitcoin.org/fr/telecharger</loc>
   <xhtml:link
     rel="alternate"
@@ -605,7 +602,18 @@
     href="http://bitcoin.org/nl/kies-uw-portemonnee" />
 </url>
 <url>
+  <loc>http://bitcoin.org/fr/bitcoin-pour-presse</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-press" />
+</url>
+<url>
   <loc>http://bitcoin.org/en/bitcoin-for-press</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-particuliers</loc>
@@ -668,66 +676,6 @@
     href="http://bitcoin.org/nl/bitcoin-voor-particulieren" />
 </url>
 <url>
-  <loc>http://bitcoin.org/fr/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="http://bitcoin.org/es/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/" />
-</url>
-<url>
-  <loc>http://bitcoin.org/es/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/" />
-</url>
-<url>
-  <loc>http://bitcoin.org/nl/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="http://bitcoin.org/es/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/" />
-</url>
-<url>
-  <loc>http://bitcoin.org/en/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="http://bitcoin.org/es/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/" />
-</url>
-<url>
   <loc>http://bitcoin.org/fr/bitcoin-pour-developpeurs</loc>
   <xhtml:link
     rel="alternate"
@@ -788,7 +736,37 @@
     href="http://bitcoin.org/nl/bitcoin-voor-ontwikkelaars" />
 </url>
 <url>
+  <loc>http://bitcoin.org/fr/securiser-porte-monnaie</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/secure-your-wallet" />
+</url>
+<url>
+  <loc>http://bitcoin.org/nl/beveilig-uw-portemonnee</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/securiser-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/secure-your-wallet" />
+</url>
+<url>
   <loc>http://bitcoin.org/en/secure-your-wallet</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/securiser-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/communaute</loc>
@@ -969,5 +947,107 @@
     rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/stichting" />
+</url>
+<url>
+  <loc>http://bitcoin.org/en/version-history.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/critfix.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/google545411b7903b3247.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/dos.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/feb20.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/chainfork.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/index.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/about.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/news.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/may15.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/404.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/clients.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/04/27/v0.3.21.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/06/05/v0.3.22.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/06/14/v0.3.23.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/07/08/v0.3.24.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/09/23/v0.4.0.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/events/2011/10/24/prague.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/11/21/v0.5.0.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2011/12/15/v0.5.1.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/01/09/v0.5.2.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/03/14/v0.5.3.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/03/16/v0.5.3.1.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/03/30/v0.6.0.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/05/04/v0.6.1.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/05/08/v0.6.2.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/06/25/v0.6.3.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/events/2012/06/27/berlin.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/events/2012/07/16/london.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/09/17/v0.7.0.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/10/19/v0.7.1.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2012/12/14/v0.7.2.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2013/02/19/v0.8.0.html</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/releases/2013/03/18/v0.8.1.html</loc>
 </url>
 </urlset>

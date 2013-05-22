@@ -26,6 +26,8 @@
     
       <option value="/nl/">Nederlands</option>
     
+      <option value="/ru/">Русский</option>
+    
       <option value="/ar/">ألعربية</option>
     
     </select>
@@ -40,6 +42,8 @@
         <li><a href="/it/">Italiano</a></li>
       
         <li><a href="/nl/">Nederlands</a></li>
+      
+        <li><a href="/ru/">Русский</a></li>
       
         <li><a href="/ar/">ألعربية</a></li>
       
@@ -95,7 +99,7 @@
     <div id="content">
     <script>
 //Auto redirect to the appropriate language
-var langs={};langs['it']=true;langs['fr']=true;langs['es']=true;langs['ar']=true;langs['nl']=true;
+var langs={};langs['it']=true;langs['fr']=true;langs['ru']=true;langs['es']=true;langs['ar']=true;langs['nl']=true;
 var lang=(navigator.language)?navigator.language:navigator.userLanguage;
 lang=lang.split('_')[0];
 if(!langs[lang])lang='en';

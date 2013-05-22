@@ -13,6 +13,10 @@
     href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحتاج-أن-تعلم" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/wat-u-moet-weten" />
   <xhtml:link
@@ -32,6 +36,10 @@
     href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحتاج-أن-تعلم" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/wat-u-moet-weten" />
   <xhtml:link
@@ -49,6 +57,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/vous-devez-savoir" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحتاج-أن-تعلم" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/wat-u-moet-weten" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/you-need-to-know" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/تحتاج-أن-تعلم</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/da-sapere" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/vous-devez-savoir" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -74,6 +109,10 @@
     href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحتاج-أن-تعلم" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/you-need-to-know" />
 </url>
@@ -93,6 +132,10 @@
     href="http://bitcoin.org/es/debes-saber" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحتاج-أن-تعلم" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/wat-u-moet-weten" />
 </url>
@@ -106,6 +149,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/descargar" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحميل" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -127,6 +174,10 @@
     href="http://bitcoin.org/es/descargar" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحميل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/download" />
   <xhtml:link
@@ -144,6 +195,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/telecharger" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحميل" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/download" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/download" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/تحميل</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/scarica" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/telecharger" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/descargar" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -169,6 +247,10 @@
     href="http://bitcoin.org/es/descargar" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحميل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/download" />
 </url>
@@ -188,6 +270,10 @@
     href="http://bitcoin.org/es/descargar" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تحميل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/download" />
 </url>
@@ -201,6 +287,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/apoya-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إدعم-ألبت-كوين" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -222,6 +312,10 @@
     href="http://bitcoin.org/es/apoya-bitcoin" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إدعم-ألبت-كوين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/help-bitcoin" />
   <xhtml:link
@@ -239,6 +333,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/supporter-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إدعم-ألبت-كوين" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/help-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/support-bitcoin" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/إدعم-ألبت-كوين</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/sostieni-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/supporter-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/apoya-bitcoin" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -264,6 +385,10 @@
     href="http://bitcoin.org/es/apoya-bitcoin" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إدعم-ألبت-كوين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/support-bitcoin" />
 </url>
@@ -283,6 +408,10 @@
     href="http://bitcoin.org/es/apoya-bitcoin" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إدعم-ألبت-كوين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/help-bitcoin" />
 </url>
@@ -296,6 +425,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/recursos" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مصادر" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -317,6 +450,10 @@
     href="http://bitcoin.org/es/recursos" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مصادر" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/hulpmiddelen" />
   <xhtml:link
@@ -334,6 +471,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/ressources" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مصادر" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/hulpmiddelen" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/resources" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/مصادر</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/risorse" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/ressources" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/recursos" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -359,6 +523,10 @@
     href="http://bitcoin.org/es/recursos" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مصادر" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/resources" />
 </url>
@@ -378,6 +546,10 @@
     href="http://bitcoin.org/es/recursos" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مصادر" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/hulpmiddelen" />
 </url>
@@ -391,6 +563,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-empresas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأعمال" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -412,6 +588,10 @@
     href="http://bitcoin.org/es/bitcoin-para-empresas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأعمال" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-bedrijven" />
   <xhtml:link
@@ -429,6 +609,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/bitcoin-pour-entreprises" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأعمال" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-bedrijven" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-businesses" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/بت-كوين-للأعمال</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-imprese" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-entreprises" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-empresas" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -454,6 +661,10 @@
     href="http://bitcoin.org/es/bitcoin-para-empresas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأعمال" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/bitcoin-for-businesses" />
 </url>
@@ -473,6 +684,10 @@
     href="http://bitcoin.org/es/bitcoin-para-empresas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأعمال" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-bedrijven" />
 </url>
@@ -486,6 +701,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للهواة" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -507,6 +726,10 @@
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للهواة" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
   <xhtml:link
@@ -524,6 +747,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للهواة" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/بت-كوين-للهواة</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-appassionati" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -549,6 +799,10 @@
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للهواة" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
 </url>
@@ -568,6 +822,10 @@
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للهواة" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
 </url>
@@ -581,6 +839,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/acerca-de" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/عن" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -602,6 +864,10 @@
     href="http://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/عن" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/over-bitcoin" />
   <xhtml:link
@@ -619,6 +885,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/a-propos" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/عن" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/over-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/about" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/عن</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/a-proposito" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/a-propos" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -644,6 +937,10 @@
     href="http://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/عن" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/about" />
 </url>
@@ -663,6 +960,10 @@
     href="http://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/عن" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/over-bitcoin" />
 </url>
@@ -676,6 +977,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/como-funciona" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/كيف-يعمل" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -697,6 +1002,10 @@
     href="http://bitcoin.org/es/como-funciona" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/كيف-يعمل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/hoe-het-werkt" />
   <xhtml:link
@@ -714,6 +1023,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/comment-ca-marche" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/كيف-يعمل" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/hoe-het-werkt" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/how-it-works" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/كيف-يعمل</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/come-funziona" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/comment-ca-marche" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/como-funciona" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -739,6 +1075,10 @@
     href="http://bitcoin.org/es/como-funciona" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/كيف-يعمل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/how-it-works" />
 </url>
@@ -758,6 +1098,10 @@
     href="http://bitcoin.org/es/como-funciona" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/كيف-يعمل" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/hoe-het-werkt" />
 </url>
@@ -771,6 +1115,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/desarrollo" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تطوير" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -792,6 +1140,10 @@
     href="http://bitcoin.org/es/desarrollo" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تطوير" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/ontwikkeling" />
   <xhtml:link
@@ -809,6 +1161,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/developpement" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تطوير" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/ontwikkeling" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/development" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/تطوير</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/sviluppo" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/developpement" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/desarrollo" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -834,6 +1213,10 @@
     href="http://bitcoin.org/es/desarrollo" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تطوير" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/development" />
 </url>
@@ -853,6 +1236,10 @@
     href="http://bitcoin.org/es/desarrollo" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/تطوير" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/ontwikkeling" />
 </url>
@@ -866,6 +1253,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/elige-tu-monedero" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إختر-محفظتك" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -887,6 +1278,10 @@
     href="http://bitcoin.org/es/elige-tu-monedero" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إختر-محفظتك" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/kies-uw-portemonnee" />
   <xhtml:link
@@ -904,6 +1299,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/choisir-votre-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إختر-محفظتك" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/kies-uw-portemonnee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/choose-your-wallet" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/إختر-محفظتك</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/scegli-il-tuo-portafoglio" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/choisir-votre-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/elige-tu-monedero" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -929,6 +1351,10 @@
     href="http://bitcoin.org/es/elige-tu-monedero" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إختر-محفظتك" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/choose-your-wallet" />
 </url>
@@ -948,6 +1374,10 @@
     href="http://bitcoin.org/es/elige-tu-monedero" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/إختر-محفظتك" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/kies-uw-portemonnee" />
 </url>
@@ -959,6 +1389,10 @@
     href="http://bitcoin.org/fr/bitcoin-pour-presse" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/bitcoin-for-press" />
 </url>
@@ -968,6 +1402,25 @@
     rel="alternate"
     hreflang="it"
     href="http://bitcoin.org/it/" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-press" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
@@ -983,6 +1436,10 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/bitcoin-pour-presse" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
 </url>
 <url>
   <loc>http://bitcoin.org/it/bitcoin-per-privati</loc>
@@ -994,6 +1451,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-personas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأفراد" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1015,6 +1476,10 @@
     href="http://bitcoin.org/es/bitcoin-para-personas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأفراد" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-particulieren" />
   <xhtml:link
@@ -1032,6 +1497,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/bitcoin-pour-particuliers" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأفراد" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-particulieren" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-individuals" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/بت-كوين-للأفراد</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-privati" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-particuliers" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-personas" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1057,6 +1549,10 @@
     href="http://bitcoin.org/es/bitcoin-para-personas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأفراد" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/bitcoin-for-individuals" />
 </url>
@@ -1076,6 +1572,10 @@
     href="http://bitcoin.org/es/bitcoin-para-personas" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للأفراد" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-particulieren" />
 </url>
@@ -1089,6 +1589,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للمطورين" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1110,6 +1614,10 @@
     href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للمطورين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-ontwikkelaars" />
   <xhtml:link
@@ -1127,6 +1635,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/bitcoin-pour-developpeurs" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للمطورين" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-ontwikkelaars" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-developers" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/بت-كوين-للمطورين</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-sviluppatori" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-developpeurs" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1152,6 +1687,10 @@
     href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للمطورين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/bitcoin-for-developers" />
 </url>
@@ -1171,6 +1710,10 @@
     href="http://bitcoin.org/es/bitcoin-para-desarrolladores" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/بت-كوين-للمطورين" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/bitcoin-voor-ontwikkelaars" />
 </url>
@@ -1180,6 +1723,10 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1195,6 +1742,29 @@
     rel="alternate"
     hreflang="it"
     href="http://bitcoin.org/it/proteggi-il-portafoglio" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/secure-your-wallet" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/proteggi-il-portafoglio" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/securiser-porte-monnaie" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1216,6 +1786,10 @@
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/secure-your-wallet" />
 </url>
@@ -1231,6 +1805,10 @@
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
 </url>
@@ -1244,6 +1822,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/comunidad" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مجتمع" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1265,6 +1847,10 @@
     href="http://bitcoin.org/es/comunidad" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مجتمع" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/community" />
   <xhtml:link
@@ -1282,6 +1868,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/communaute" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مجتمع" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/community" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/community" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/مجتمع</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/comunita" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/communaute" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/comunidad" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1307,6 +1920,10 @@
     href="http://bitcoin.org/es/comunidad" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مجتمع" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/community" />
 </url>
@@ -1326,6 +1943,10 @@
     href="http://bitcoin.org/es/comunidad" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مجتمع" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/community" />
 </url>
@@ -1339,6 +1960,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/vocabulario" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مفردات" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1360,6 +1985,10 @@
     href="http://bitcoin.org/es/vocabulario" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مفردات" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/woordenlijst" />
   <xhtml:link
@@ -1377,6 +2006,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/vocabulaire" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مفردات" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/woordenlijst" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/vocabulary" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/مفردات</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/glossario" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/vocabulaire" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/vocabulario" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1402,6 +2058,10 @@
     href="http://bitcoin.org/es/vocabulario" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مفردات" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/vocabulary" />
 </url>
@@ -1421,6 +2081,10 @@
     href="http://bitcoin.org/es/vocabulario" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مفردات" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/woordenlijst" />
 </url>
@@ -1434,6 +2098,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/fundacion" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مؤسسة" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1455,6 +2123,10 @@
     href="http://bitcoin.org/es/fundacion" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مؤسسة" />
+  <xhtml:link
+    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/stichting" />
   <xhtml:link
@@ -1472,6 +2144,33 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/fondation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مؤسسة" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/stichting" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/foundation" />
+</url>
+<url>
+  <loc>http://bitcoin.org/ar/مؤسسة</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/fondazione" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/fondation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/fundacion" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -1497,6 +2196,10 @@
     href="http://bitcoin.org/es/fundacion" />
   <xhtml:link
     rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مؤسسة" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/foundation" />
 </url>
@@ -1514,6 +2217,10 @@
     rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/fundacion" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/مؤسسة" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"

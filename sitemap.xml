@@ -1892,99 +1892,7 @@
     href="http://bitcoin.org/nl/kies-uw-portemonnee" />
 </url>
 <url>
-  <loc>http://bitcoin.org/it/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-press" />
-</url>
-<url>
-  <loc>http://bitcoin.org/fr/bitcoin-pour-presse</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-press" />
-</url>
-<url>
-  <loc>http://bitcoin.org/ru/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-press" />
-</url>
-<url>
-  <loc>http://bitcoin.org/ar/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-press" />
-</url>
-<url>
   <loc>http://bitcoin.org/en/bitcoin-for-press</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-presse" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
 </url>
 <url>
   <loc>http://bitcoin.org/it/bitcoin-per-privati</loc>
@@ -2372,14 +2280,6 @@
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
   <xhtml:link
     rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
     hreflang="nl"
     href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
   <xhtml:link
@@ -2393,60 +2293,6 @@
     rel="alternate"
     hreflang="it"
     href="http://bitcoin.org/it/proteggi-il-portafoglio" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/secure-your-wallet" />
-</url>
-<url>
-  <loc>http://bitcoin.org/ru/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/proteggi-il-portafoglio" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/securiser-porte-monnaie" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/beveilig-uw-portemonnee" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/secure-your-wallet" />
-</url>
-<url>
-  <loc>http://bitcoin.org/ar/</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/proteggi-il-portafoglio" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/securiser-porte-monnaie" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -2468,14 +2314,6 @@
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
   <xhtml:link
     rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
-  <xhtml:link
-    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/secure-your-wallet" />
 </url>
@@ -2489,14 +2327,6 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/securiser-porte-monnaie" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"

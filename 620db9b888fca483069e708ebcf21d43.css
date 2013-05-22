@@ -129,7 +129,7 @@ li{padding:5px 0px;text-align:left;}
 .previewrow>div>div>div>span>img{margin-left:4px;}
 .previewrow>div>div>div>h2:first-child+span+p{font-size:95%;line-height:1.2em;margin:0px;padding:10px 0px;}
 .previewrow>div>div>div>h2:first-child+span+p+p{text-align:center;margin:0px;padding:0px;position:relative;bottom:-10px;}
-.previewrow>div>div a,.previewrow>div>div a:link,.previewrow>div>div a:visited,.previewrow>div>div a:active{font-weight:bold;text-decoration:none;font-size:125%;}
+.previewrow>div>div>div>h2:first-child+span+p+p>a,.previewrow>div>div>div>h2:first-child+span+p+p>a:visited,.previewrow>div>div>div>h2:first-child+span+p+p>a:link,.previewrow>div>div>div>h2:first-child+span+p+p>a:active{font-weight:bold;text-decoration:none;font-size:125%;}
 .previewrow .walletwarning>div:first-child{background:url(/img/bubblewarntop.svg) bottom center no-repeat;}
 .previewrow .walletwarning>div:first-child+div{background:url(/img/bubblewarnmiddle.svg) bottom center repeat-y;}
 .previewrow .walletwarning>div:first-child+div+div{background:url(/img/bubblewarnbottom.svg) bottom center no-repeat;}

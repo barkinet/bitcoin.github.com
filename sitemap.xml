@@ -2900,105 +2900,99 @@
     href="http://bitcoin.org/nl/stichting" />
 </url>
 <url>
-  <loc>http://bitcoin.org/en/version-history.html</loc>
+  <loc>http://bitcoin.org/en/version-history</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/critfix.html</loc>
+  <loc>http://bitcoin.org/critfix</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/google545411b7903b3247.html</loc>
+  <loc>http://bitcoin.org/google545411b7903b3247</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/dos.html</loc>
+  <loc>http://bitcoin.org/dos</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/feb20.html</loc>
+  <loc>http://bitcoin.org/feb20</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/chainfork.html</loc>
+  <loc>http://bitcoin.org/chainfork</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/index.html</loc>
+  <loc>http://bitcoin.org/about</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/about.html</loc>
+  <loc>http://bitcoin.org/news</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/news.html</loc>
+  <loc>http://bitcoin.org/may15</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/may15.html</loc>
+  <loc>http://bitcoin.org/clients</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/404.html</loc>
+  <loc>http://bitcoin.org/releases/2011/04/27/v0.3.21</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/clients.html</loc>
+  <loc>http://bitcoin.org/releases/2011/06/05/v0.3.22</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/04/27/v0.3.21.html</loc>
+  <loc>http://bitcoin.org/releases/2011/06/14/v0.3.23</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/06/05/v0.3.22.html</loc>
+  <loc>http://bitcoin.org/releases/2011/07/08/v0.3.24</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/06/14/v0.3.23.html</loc>
+  <loc>http://bitcoin.org/releases/2011/09/23/v0.4.0</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/07/08/v0.3.24.html</loc>
+  <loc>http://bitcoin.org/events/2011/10/24/prague</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/09/23/v0.4.0.html</loc>
+  <loc>http://bitcoin.org/releases/2011/11/21/v0.5.0</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/events/2011/10/24/prague.html</loc>
+  <loc>http://bitcoin.org/releases/2011/12/15/v0.5.1</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/11/21/v0.5.0.html</loc>
+  <loc>http://bitcoin.org/releases/2012/01/09/v0.5.2</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2011/12/15/v0.5.1.html</loc>
+  <loc>http://bitcoin.org/releases/2012/03/14/v0.5.3</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/01/09/v0.5.2.html</loc>
+  <loc>http://bitcoin.org/releases/2012/03/16/v0.5.3.1</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/03/14/v0.5.3.html</loc>
+  <loc>http://bitcoin.org/releases/2012/03/30/v0.6.0</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/03/16/v0.5.3.1.html</loc>
+  <loc>http://bitcoin.org/releases/2012/05/04/v0.6.1</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/03/30/v0.6.0.html</loc>
+  <loc>http://bitcoin.org/releases/2012/05/08/v0.6.2</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/05/04/v0.6.1.html</loc>
+  <loc>http://bitcoin.org/releases/2012/06/25/v0.6.3</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/05/08/v0.6.2.html</loc>
+  <loc>http://bitcoin.org/events/2012/06/27/berlin</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/06/25/v0.6.3.html</loc>
+  <loc>http://bitcoin.org/events/2012/07/16/london</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/events/2012/06/27/berlin.html</loc>
+  <loc>http://bitcoin.org/releases/2012/09/17/v0.7.0</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/events/2012/07/16/london.html</loc>
+  <loc>http://bitcoin.org/releases/2012/10/19/v0.7.1</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/09/17/v0.7.0.html</loc>
+  <loc>http://bitcoin.org/releases/2012/12/14/v0.7.2</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/10/19/v0.7.1.html</loc>
+  <loc>http://bitcoin.org/releases/2013/02/19/v0.8.0</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/releases/2012/12/14/v0.7.2.html</loc>
-</url>
-<url>
-  <loc>http://bitcoin.org/releases/2013/02/19/v0.8.0.html</loc>
-</url>
-<url>
-  <loc>http://bitcoin.org/releases/2013/03/18/v0.8.1.html</loc>
+  <loc>http://bitcoin.org/releases/2013/03/18/v0.8.1</loc>
 </url>
 </urlset>

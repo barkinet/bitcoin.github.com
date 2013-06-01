@@ -46,7 +46,22 @@ p{
 #rightbox{
 	left:30px;
 	right:auto;
-	direction:ltr;
+}
+#footer{
+	text-align:right;
+	padding:20px 40px 20px 0px;
+}
+#rightbox{
+	left:30px;
+	right:auto;
+}
+#choose img,#before img,#support img{
+	margin-right:-40px;
+	margin-left:8px;
+}
+#choose>a:first-child,#before>a:first-child,#support>a:first-child{
+	text-align:right;
+	padding:10px 48px 10px 8px;
 }
 .previewrow>div{
 	margin-right:auto;
@@ -58,12 +73,12 @@ p{
 .previewrow>div.last{
 	margin-left:0px;
 }
-.previewrow>div>div>span{
+.previewrow>div>div>div>span {
 	right:auto;
 	left:30px;
 }
 .previewrow>div>div>div>h2{
-	text-align:left;
+	text-align:right;
 }
 .previewrow>div>div>div>h2:first-child+span+p{
 	line-height:1.5em;
@@ -79,11 +94,15 @@ p{
 .press-faq li{
 	line-height:2em;
 }
+.conferencebanner{
+	right:auto;
+	left:5px;
+}
 	
 /*Override UbuntuBold by Droid Naskh*/
 
-@font-face{font-family:'DroidNaskh';src:url('/ar/font/droidnaskh-regular.eot');font-weight:normal;font-style:normal;}
-@font-face{font-family:'DroidNaskh';src:url('/ar/font/droidnaskh-regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.eot');font-weight:normal;font-style:normal;}
+@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
 
 /*Styles specific to mobiles*/
 

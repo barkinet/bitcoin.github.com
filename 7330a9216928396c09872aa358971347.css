@@ -112,6 +112,10 @@ li{padding:5px 0px;text-align:left;}
 .resources>li{font-size:115%;font-weight:bold;}
 .resources>li>ul>li{font-weight:normal;}
 #chatbox{text-align:center;}
+.devprojectlist{overflow:hidden;}
+.devprojectlist>li{display:none;}
+.devprojectlist>li:first-child,.devprojectlist>li:first-child+li,.devprojectlist>li:first-child+li+li,.devprojectlist>li:first-child+li+li+li{display:list-item;}
+.devprojectlist>a{display:inline-block;margin-top:5px;}
 .floatimg{float:left;margin-right:10px;}
 .preview{width:880px;padding-left:40px;padding-top:15px;border:2px solid #eee;margin-top:30px;border-radius:8px;-webkit-border-radius:8px;}
 .previewcol{clear:both;}

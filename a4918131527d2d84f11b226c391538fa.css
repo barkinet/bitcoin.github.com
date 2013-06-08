@@ -58,15 +58,15 @@ li{padding:5px 0px;text-align:left;}
 .alert-message>div>div{margin:auto;width:960px;padding:10px;}
 .alert-message,.alert-message a,.alert-message a:link,.alert-message a:active,.alert-message a:visited{color:#fff;}
 #head{margin:22px 0px 10px 0px;}
-#head>div{max-width:1050px;margin:auto;position:relative;}
+#head>div{max-width:1050px;margin:auto;position:relative;z-index:100;}
 #head.home{text-align:center;}
 #head.home #logo{text-align:center;}
 #body{max-width:1050px;margin:auto;position:relative;}
 #langselect{display:none;}
-#lang,#lang li,#lang ul{display:block;list-style:none;padding:0px;margin:0px;text-align:right;cursor:pointer;z-index:1000;}
-#lang{position:absolute;right:5px;top:0px;height:30px;border-left:1px solid transparent;border-right:1px solid transparent;border-top:1px solid transparent;}
-#lang>li>ul{display:none;right:-1px;top:28px;position:absolute;background-color:#fff;margin-left:-5px;padding-bottom:4px;border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;border-bottom:1px solid #ebebeb;}
-#lang:hover{border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;border-top:1px solid #ebebeb;background-color:#fff;}
+#lang,#lang li,#lang ul{display:block;list-style:none;padding:0px;margin:0px;text-align:right;cursor:pointer;}
+#lang{position:absolute;right:5px;top:0px;height:30px;border-left:2px solid transparent;border-right:2px solid transparent;border-top:2px solid transparent;}
+#lang>li>ul{display:none;right:-2px;top:28px;position:absolute;background-color:#fff;margin-left:-5px;padding-bottom:4px;border-left:2px solid #ebebeb;border-right:2px solid #ebebeb;border-bottom:2px solid #ebebeb;}
+#lang:hover{border-left:2px solid #ebebeb;border-right:2px solid #ebebeb;border-top:2px solid #ebebeb;background-color:#fff;}
 #lang:hover>li>ul{display:block;}
 #lang>li>a,#lang>li>a:link,#lang>li>a:visited,#lang>li>a:active{padding:4px 8px;}
 #lang a,#lang a:link,#lang a:visited,#lang a:active{padding:2px 8px;text-decoration:none;color:#000;font-size:115%;width:100px;display:inline-block;}

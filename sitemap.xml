@@ -6044,22 +6044,25 @@
     href="http://bitcoin.org/nl/stichting" />
 </url>
 <url>
+  <loc>http://bitcoin.org/en/alerts</loc>
+</url>
+<url>
   <loc>http://bitcoin.org/en/version-history</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/critfix</loc>
+  <loc>http://bitcoin.org/en/alert/2012-03-16-critical-vulnerability</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/dos</loc>
+  <loc>http://bitcoin.org/en/alert/2013-03-11-chain-fork</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/feb20</loc>
+  <loc>http://bitcoin.org/en/alert/2013-03-15-upgrade-deadline</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/chainfork</loc>
+  <loc>http://bitcoin.org/en/alert/2012-05-14-dos</loc>
 </url>
 <url>
-  <loc>http://bitcoin.org/may15</loc>
+  <loc>http://bitcoin.org/en/alert/2012-02-18-protocol-change</loc>
 </url>
 <url>
   <loc>http://bitcoin.org/releases/2011/04/27/v0.3.21</loc>

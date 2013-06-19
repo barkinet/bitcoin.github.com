@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>15 May 2013 Upgrade Deadline</title>
+<link rel="stylesheet" type="text/css" href="/a5b8ffc9b8be796560dd1bebf00d6ffa.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+
+<script type="text/javascript" src="/js/main.js"></script>
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
+</head>
+<body>
+
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+    
+      <option value="/de/">Deutsch</option>
+    
+      <option value="/en/" selected="selected">English</option>
+    
+      <option value="/es/">Español</option>
+    
+      <option value="/fr/">Français</option>
+    
+      <option value="/it/">Italiano</option>
+    
+      <option value="/nl/">Nederlands</option>
+    
+      <option value="/pl/">Polski</option>
+    
+      <option value="/ru/">Русский</option>
+    
+      <option value="/ar/">ألعربية</option>
+    
+      <option value="/fa/">فارسی</option>
+    
+    </select>
+    <ul id="lang">
+      <li><a href="#" onclick="return false;">English</a>
+      <ul>
+      
+        <li><a href="/de/">Deutsch</a></li>
+      
+        <li><a href="/es/">Español</a></li>
+      
+        <li><a href="/fr/">Français</a></li>
+      
+        <li><a href="/it/">Italiano</a></li>
+      
+        <li><a href="/nl/">Nederlands</a></li>
+      
+        <li><a href="/pl/">Polski</a></li>
+      
+        <li><a href="/ru/">Русский</a></li>
+      
+        <li><a href="/ar/">ألعربية</a></li>
+      
+        <li><a href="/fa/">فارسی</a></li>
+      
+      </ul>
+      </li>
+    </ul>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <ul id="menufor">
+    
+      
+        <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+      
+    
+      
+        <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+      
+    
+      
+        <li><a href="/en/bitcoin-for-developers">Developers</a></li>
+      
+    
+      
+        <li><a href="/en/bitcoin-for-enthusiasts">Enthusiasts</a></li>
+      
+    
+      
+        
+        <li><a href="/en/bitcoin-for-press">Press</a></li>
+        
+      
+    
+    </ul>
+    <ul id="menu">
+    
+      <li><a href="/en/how-it-works">How it works</a></li>
+    
+      <li><a href="/en/vocabulary">Vocabulary</a></li>
+    
+      <li><a href="/en/resources">Resources</a></li>
+    
+      <li><a href="/en/community">Community</a></li>
+    
+      <li><a href="/en/development">Development</a></li>
+    
+      <li><a href="/en/foundation">Foundation</a></li>
+    
+      <li><a href="/en/about">About</a></li>
+    
+    </ul>
+  </div></div>
+  <div id="body">
+    <div id="content">
+    
+<link rel="alternate" type="application/rss+xml" href="/en/rss/alerts.rss" title="Bitcoin network status and alerts">
+<div class="versiontext">
+  <h1>15 May 2013 Upgrade Deadline<br><small>15 March 2013</small></h1>
+          <h2>What is happening</h2>
+<p>
+If you are using an old version of Bitcoin-Qt (or bitcoind, the server bitcoin software),
+you must either upgrade to version 0.8.0 or later before May 15, 2013,
+<a href="#backports">upgrade to an up-to-date "backport" release</a>,
+or <a href="#workaround">modify a file</a> and
+restart bitcoin to work around a bug with the old software.
+</p>
+<p>This bug does not affect any bitcoins you already have, but if you do nothing you will
+be out of sync with the rest of the Bitcoin network and will be unable to receive
+bitcoins (payments sent to you will look like they never get confirmed, or will be confirmed
+very slowly). You also risk being the victim of a &quot;double-spend&quot; attack, where somebody sends
+you bitcoins that the rest of the network would reject as invalid.
+</p>
+<p>
+We recommend that you
+<a href="https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.1/">upgrade to version 0.8.1</a>
+before the 15th of May to avoid any issues.  If you are a solo miner or mining pool operator,
+please see the the notes at the end of this page for how to upgrade safely.
+</p>
+        <h2 id="backports">If you cannot upgrade to version 0.8.1</h2>
+<p>
+If you cannot upgrade to the latest version,
+<a href="https://bitcointalk.org/?topic=199699">backports to older branches are now in final testing</a>.
+These include not only compatibility for the 15 May changes, but also fixes for known vulnerabilities and bugs, which have already been included and tested in the latest release.
+</p>
+        <h2 id="workaround">If you cannot upgrade to a backport</h2>
+<p>
+If you cannot upgrade to any of the above, you can still avoid the problem.
+Create a file called DB_CONFIG in the bitcoin data directory, containing this line:
+</p>
+<blockquote>
+<pre>
+set_lk_max_locks 537000
+</pre>
+</blockquote>
+<p>
+<a href="https://en.bitcoin.it/wiki/Data_directory">Look here</a> if you need help
+finding the bitcoin data directory.
+</p>
+        <h2>Miners/mining pool operators</h2>
+<p>
+If you are creating new blocks (you are a solo miner or mining pool operator), then
+you should be aware that upgrading from 0.7 to 0.8 requires a lengthy
+re-indexing operation; you <b>must</b> wait for the reindex to complete before
+serving work to miners.
+</p>
+<p>
+And if you are creating blocks and cannot upgrade to version 0.8.1 or a
+backport for some
+reason, you should <b>not</b> set_lk_max_locks in a DB_CONFIG file until
+May 15th; if you increase locks before then you run the risk of creating
+or building on blocks incompatible with the rest of the network.
+</p>
+        <h2>Why this is necessary</h2>
+<p>
+A bug caused a <a href="chainfork.html">temporary block chain fork on 11 March, 2013</a>.
+After investigating
+that bug, we determined that the bug can happen even if the entire network was
+still running old versions of Bitcoin-Qt/bitcoind. Therefore, the only option is to
+require everybody to either upgrade or workaround the bug.
+</p>
+
+  <div style="text-align:right">
+    <i>This notice last updated: 10 May 2013 21:30 UTC</i>
+  </div>
+</div>
+<a href="/en/alerts">Go back to the network alerts history</a>
+
+    </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div><a href="/en/alerts">Network Status</a><span>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></span></div></div>
+  </div>
+  <script type="text/javascript">svgfallback();</script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin-Qt version 0.5.0 released</title>
+<link rel="stylesheet" type="text/css" href="/1f0dc749aeeae70069fd4169e38cc5fc.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+
+<script type="text/javascript" src="/js/main.js"></script>
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
+</head>
+<body>
+
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+    
+      <option value="/de/">Deutsch</option>
+    
+      <option value="/en/" selected="selected">English</option>
+    
+      <option value="/es/">Español</option>
+    
+      <option value="/fr/">Français</option>
+    
+      <option value="/it/">Italiano</option>
+    
+      <option value="/nl/">Nederlands</option>
+    
+      <option value="/pl/">Polski</option>
+    
+      <option value="/ru/">Русский</option>
+    
+      <option value="/ar/">ألعربية</option>
+    
+      <option value="/fa/">فارسی</option>
+    
+    </select>
+    <ul id="lang">
+      <li><a href="#" onclick="return false;">English</a>
+      <ul>
+      
+        <li><a href="/de/">Deutsch</a></li>
+      
+        <li><a href="/es/">Español</a></li>
+      
+        <li><a href="/fr/">Français</a></li>
+      
+        <li><a href="/it/">Italiano</a></li>
+      
+        <li><a href="/nl/">Nederlands</a></li>
+      
+        <li><a href="/pl/">Polski</a></li>
+      
+        <li><a href="/ru/">Русский</a></li>
+      
+        <li><a href="/ar/">ألعربية</a></li>
+      
+        <li><a href="/fa/">فارسی</a></li>
+      
+      </ul>
+      </li>
+    </ul>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    
+    
+    <ul id="menusimple">
+      <li><a href="#" onclick="return false;">Introduction</a>
+        <ul>
+          <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+          <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+          <li><a href="/en/bitcoin-for-developers">Developers</a></li>
+          <li><a href="/en/how-it-works">How it works</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="return false;">Resources</a>
+        <ul>
+          <li><a href="/en/vocabulary">Vocabulary</a></li>
+          <li><a href="/en/resources">Resources</a></li>
+          <li><a href="/en/community">Community</a></li>
+          <li><a href="/en/development">Development</a></li>
+          <li><a href="/en/press">Press</a></li>
+        </ul>
+      </li>
+      <li><a href="/en/innovation">Innovation</a></li>
+      <li><a href="/en/foundation">Foundation</a></li>
+      <li><a href="/en/about">About</a></li>
+    </ul>
+    
+  </div></div>
+  <div id="body">
+    <div id="content">
+    
+<link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
+<div class="versiontext">
+  <h1>Bitcoin-Qt version 0.5.0 released<br><small>21 November 2011</small></h1>
+  
+  <p>Bitcoin-Qt version 0.5.0 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.0/</a></p>
+
+<p>The major change for this release is a completely new graphical that uses the Qt user interface toolkit.</p>
+
+<p>This release includes German, Spanish, Spanish-Castilian, Norwegian and Dutch translations. More translations are welcome; join the project at Transifex if you can help: <a href='https://www.transifex.net/projects/p/bitcoin/'>https://www.transifex.net/projects/p/bitcoin/</a></p>
+
+<p>Please report bugs using the issue tracker at github: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
+
+<h2 id='major_bug_fix_cve20114447'>MAJOR BUG FIX (CVE-2011-4447)</h2>
+
+<p>The wallet encryption feature introduced in Bitcoin version 0.4.0 did not sufficiently secure the private keys. An attacker who managed to get a copy of your encrypted wallet.dat file might be able to recover some or all of the unencrypted keys and steal the associated coins.</p>
+
+<p>If you have a previously encrypted wallet.dat, the first time you run bitcoin-qt or bitcoind the wallet will be rewritten, Bitcoin will shut down, and you will be prompted to restart it to run with the new, properly encrypted file.</p>
+
+<p>If you had a previously encrypted wallet.dat that might have been copied or stolen (for example, you backed it up to a public location) you should send all of your bitcoins to yourself using a new bitcoin address and stop using any previously generated addresses.</p>
+
+<p>Wallets encrypted with this version of Bitcoin are written properly.</p>
+
+<p>Technical note: the encrypted wallet&#8217;s &#8216;keypool&#8217; will be regenerated the first time you request a new bitcoin address; to be certain that the new private keys are properly backed up you should:</p>
+
+<ol>
+<li>
+<p>Run Bitcoin and let it rewrite the <code>wallet.dat</code> file</p>
+</li>
+
+<li>
+<p>Run it again, then ask it for a new bitcoin address.</p>
+
+<p>Bitcoin-Qt: Address Book, then New Address&#8230;</p>
+
+<p>bitcoind: run the &#8216;walletpassphrase&#8217; RPC command to unlock the wallet, then run the &#8216;getnewaddress&#8217; RPC command.</p>
+</li>
+
+<li>
+<p>If your encrypted wallet.dat may have been copied or stolen, send all of your bitcoins to the new bitcoin address.</p>
+</li>
+
+<li>
+<p>Shut down Bitcoin, then backup the wallet.dat file. IMPORTANT: be sure to request a new bitcoin address before backing up, so that the &#8216;keypool&#8217; is regenerated and backed up.</p>
+</li>
+</ol>
+
+<p>&#8220;Security in depth&#8221; is always a good idea, so choosing a secure location for the backup and/or encrypting the backup before uploading it is recommended. And as in previous releases, if your machine is infected by malware there are several ways an attacker might steal your bitcoins.</p>
+
+<p>Thanks to Alan Reiner (aka etotheipi) for finding and reporting this bug.</p>
+
+<h2 id='major_gui_changes'>MAJOR GUI CHANGES</h2>
+
+<ul>
+<li>
+<p>&#8220;Splash&#8221; graphics at startup that show address/wallet/blockchain loading progress.</p>
+</li>
+
+<li>
+<p>&#8220;Synchronizing with network&#8221; progress bar to show block-chain download progress.</p>
+</li>
+
+<li>
+<p>Icons at the bottom of the window that show how well connected you are to the network, with tooltips to display details.</p>
+</li>
+
+<li>
+<p>Drag and drop support for bitcoin: URIs on web pages.</p>
+</li>
+
+<li>
+<p>Export transactions as a .csv file.</p>
+</li>
+
+<li>
+<p>Many other GUI improvements, large and small.</p>
+</li>
+</ul>
+
+<h2 id='rpc_changes'>RPC CHANGES</h2>
+
+<ul>
+<li>
+<p>getmemorypool : new RPC command, provides everything needed to construct a block with a custom generation transaction and submit a solution</p>
+</li>
+
+<li>
+<p>listsinceblock : new RPC command, list transactions since given block</p>
+</li>
+
+<li>
+<p>signmessage/verifymessage : new RPC commands to sign a message with one of your private keys or verify that a message signed by the private key associated with a bitcoin address.</p>
+</li>
+</ul>
+
+<h2 id='general_changes'>GENERAL CHANGES</h2>
+
+<ul>
+<li>Faster initial block download.</li>
+</ul>
+</div>
+<a href="/en/version-history">Go back to the version history</a>
+
+    </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div><a href="/en/alerts">Network Status</a><span>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></span></div></div>
+  </div>
+  <script type="text/javascript">svgfallback();</script>
+</body>
+
+</html>

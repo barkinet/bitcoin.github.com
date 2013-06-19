@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin version 0.3.21 released</title>
+<link rel="stylesheet" type="text/css" href="/1f0dc749aeeae70069fd4169e38cc5fc.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+
+<script type="text/javascript" src="/js/main.js"></script>
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
+</head>
+<body>
+
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+    
+      <option value="/de/">Deutsch</option>
+    
+      <option value="/en/" selected="selected">English</option>
+    
+      <option value="/es/">Español</option>
+    
+      <option value="/fr/">Français</option>
+    
+      <option value="/it/">Italiano</option>
+    
+      <option value="/nl/">Nederlands</option>
+    
+      <option value="/pl/">Polski</option>
+    
+      <option value="/ru/">Русский</option>
+    
+      <option value="/ar/">ألعربية</option>
+    
+      <option value="/fa/">فارسی</option>
+    
+    </select>
+    <ul id="lang">
+      <li><a href="#" onclick="return false;">English</a>
+      <ul>
+      
+        <li><a href="/de/">Deutsch</a></li>
+      
+        <li><a href="/es/">Español</a></li>
+      
+        <li><a href="/fr/">Français</a></li>
+      
+        <li><a href="/it/">Italiano</a></li>
+      
+        <li><a href="/nl/">Nederlands</a></li>
+      
+        <li><a href="/pl/">Polski</a></li>
+      
+        <li><a href="/ru/">Русский</a></li>
+      
+        <li><a href="/ar/">ألعربية</a></li>
+      
+        <li><a href="/fa/">فارسی</a></li>
+      
+      </ul>
+      </li>
+    </ul>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    
+    
+    <ul id="menusimple">
+      <li><a href="#" onclick="return false;">Introduction</a>
+        <ul>
+          <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+          <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+          <li><a href="/en/bitcoin-for-developers">Developers</a></li>
+          <li><a href="/en/how-it-works">How it works</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="return false;">Resources</a>
+        <ul>
+          <li><a href="/en/vocabulary">Vocabulary</a></li>
+          <li><a href="/en/resources">Resources</a></li>
+          <li><a href="/en/community">Community</a></li>
+          <li><a href="/en/development">Development</a></li>
+          <li><a href="/en/press">Press</a></li>
+        </ul>
+      </li>
+      <li><a href="/en/innovation">Innovation</a></li>
+      <li><a href="/en/foundation">Foundation</a></li>
+      <li><a href="/en/about">About</a></li>
+    </ul>
+    
+  </div></div>
+  <div id="body">
+    <div id="content">
+    
+<link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
+<div class="versiontext">
+  <h1>Bitcoin version 0.3.21 released<br><small>27 April 2011</small></h1>
+  
+  <p>Binaries for Bitcoin version 0.3.21 are available at: <a href='https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/'>https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.21/</a></p>
+
+<p>Changes and new features from the 0.3.20 release include:</p>
+
+<ul>
+<li>Universal Plug and Play support. Enable automatic opening of a port for incoming connections by running bitcoin or bitcoind with the</li>
+
+<li>-upnp=1 command line switch or using the Options dialog box.</li>
+
+<li>Support for full-precision bitcoin amounts. You can now send, and bitcoin will display, bitcoin amounts smaller than 0.01. However, sending fewer than 0.01 bitcoins still requires a 0.01 bitcoin fee (so you can send 1.0001 bitcoins without a fee, but you will be asked to pay a fee if you try to send 0.0001).</li>
+
+<li>A new method of finding bitcoin nodes to connect with, via DNS A records. Use the -dnsseed option to enable.</li>
+</ul>
+
+<p>For developers, changes to bitcoin&#8217;s remote-procedure-call API:</p>
+
+<ul>
+<li>New rpc command &#8220;sendmany&#8221; to send bitcoins to more than one address in a single transaction.</li>
+
+<li>Several bug fixes, including a serious intermittent bug that would sometimes cause bitcoind to stop accepting rpc requests.</li>
+
+<li>-logtimestamps option, to add a timestamp to each line in debug.log.</li>
+
+<li>Immature blocks (newly generated, under 120 confirmations) are now shown in listtransactions.</li>
+</ul>
+</div>
+<a href="/en/version-history">Go back to the version history</a>
+
+    </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div><a href="/en/alerts">Network Status</a><span>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></span></div></div>
+  </div>
+  <script type="text/javascript">svgfallback();</script>
+</body>
+
+</html>

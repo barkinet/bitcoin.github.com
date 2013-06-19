@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin version 0.4.0 released</title>
+<link rel="stylesheet" type="text/css" href="/1f0dc749aeeae70069fd4169e38cc5fc.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+
+<script type="text/javascript" src="/js/main.js"></script>
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
+</head>
+<body>
+
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+    
+      <option value="/de/">Deutsch</option>
+    
+      <option value="/en/" selected="selected">English</option>
+    
+      <option value="/es/">Español</option>
+    
+      <option value="/fr/">Français</option>
+    
+      <option value="/it/">Italiano</option>
+    
+      <option value="/nl/">Nederlands</option>
+    
+      <option value="/pl/">Polski</option>
+    
+      <option value="/ru/">Русский</option>
+    
+      <option value="/ar/">ألعربية</option>
+    
+      <option value="/fa/">فارسی</option>
+    
+    </select>
+    <ul id="lang">
+      <li><a href="#" onclick="return false;">English</a>
+      <ul>
+      
+        <li><a href="/de/">Deutsch</a></li>
+      
+        <li><a href="/es/">Español</a></li>
+      
+        <li><a href="/fr/">Français</a></li>
+      
+        <li><a href="/it/">Italiano</a></li>
+      
+        <li><a href="/nl/">Nederlands</a></li>
+      
+        <li><a href="/pl/">Polski</a></li>
+      
+        <li><a href="/ru/">Русский</a></li>
+      
+        <li><a href="/ar/">ألعربية</a></li>
+      
+        <li><a href="/fa/">فارسی</a></li>
+      
+      </ul>
+      </li>
+    </ul>
+    <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    
+    
+    <ul id="menusimple">
+      <li><a href="#" onclick="return false;">Introduction</a>
+        <ul>
+          <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+          <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+          <li><a href="/en/bitcoin-for-developers">Developers</a></li>
+          <li><a href="/en/how-it-works">How it works</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="return false;">Resources</a>
+        <ul>
+          <li><a href="/en/vocabulary">Vocabulary</a></li>
+          <li><a href="/en/resources">Resources</a></li>
+          <li><a href="/en/community">Community</a></li>
+          <li><a href="/en/development">Development</a></li>
+          <li><a href="/en/press">Press</a></li>
+        </ul>
+      </li>
+      <li><a href="/en/innovation">Innovation</a></li>
+      <li><a href="/en/foundation">Foundation</a></li>
+      <li><a href="/en/about">About</a></li>
+    </ul>
+    
+  </div></div>
+  <div id="body">
+    <div id="content">
+    
+<link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
+<div class="versiontext">
+  <h1>Bitcoin version 0.4.0 released<br><small>23 September 2011</small></h1>
+  
+  <p>
+    <a href="http://sourceforge.net/mailarchive/message.php?msg_id=28132490">Full announcement (including signatures)</a>
+  </p>
+  
+  <p>Bitcoin version 0.4.0 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/</a></p>
+
+<p>The main feature in this release is wallet private key encryption; you can set a passphrase that must be entered before sending coins. See below for more information; if you decide to encrypt your wallet, <strong>WRITE DOWN YOUR PASSPHRASE AND PUT IT IN A SECURE LOCATION</strong>. If you forget or lose your wallet passphrase, you lose your bitcoins. Previous versions of bitcoin are unable to read encrypted wallets, and will crash on startup if the wallet is encrypted.</p>
+
+<p>Also note: bitcoin version 0.4 uses a newer version of Berkeley DB (bdb version 4.8) than previous versions (bdb 4.7). If you upgrade to version 0.4 and then revert back to an earlier version of bitcoin the it may be unable to start because bdb 4.7 cannot read bdb 4.8 &#8220;log&#8221; files.</p>
+
+<h2 id='notable_bug_fixes_from_version_0324'>Notable bug fixes from version 0.3.24</h2>
+
+<ul>
+<li>
+<p>Fix several bitcoin-becomes-unresponsive bugs due to multithreading deadlocks.</p>
+</li>
+
+<li>
+<p>Optimize database writes for large (lots of inputs) transactions (fixes a potential denial-of-service attack)</p>
+</li>
+</ul>
+
+<h2 id='wallet_encryption'>Wallet Encryption</h2>
+
+<p>Bitcoin supports native wallet encryption so that people who steal your wallet file don&#8217;t automatically get access to all of your Bitcoins. In order to enable this feature, chose &#8220;Encrypt Wallet&#8221; from the Options menu. You will be prompted to enter a passphrase, which will be used as the key to encrypt your wallet and will be needed every time you wish to send Bitcoins. If you lose this passphrase, you will lose access to spend all of the bitcoins in your wallet, no one, not even the Bitcoin developers can recover your Bitcoins. This means you are responsible for your own security, store your passphrase in a secure location and do not forget it.</p>
+
+<p>Remember that the encryption built into bitcoin only encrypts the actual keys which are required to send your bitcoins, not the full wallet. This means that someone who steals your wallet file will be able to see all the addresses which belong to you, as well as the relevant transactions, you are only protected from someone spending your coins.</p>
+
+<p>It is recommended that you backup your wallet file before you encrypt your wallet. To do this, close the Bitcoin client and copy the wallet.dat file from <code>~/.bitcoin/</code> on Linux, <code>/Users/(user
+name)/Library/Application Support/Bitcoin/</code> on Mac OSX, and <code>%APPDATA%/Bitcoin/</code> on Windows (that is <code>/Users/(user name)/AppData/Roaming/Bitcoin</code> on Windows Vista and 7 and <code>/Documents and Settings/(user name)/Application
+Data/Bitcoin</code> on Windows XP). Once you have copied that file to a safe location, reopen the Bitcoin client and Encrypt your wallet. If everything goes fine, delete the backup and enjoy your encrypted wallet. Note that once you encrypt your wallet, you will never be able to go back to a version of the Bitcoin client older than 0.4.</p>
+
+<p>Keep in mind that you are always responsible for your own security. All it takes is a slightly more advanced wallet-stealing trojan which installs a keylogger to steal your wallet passphrase as you enter it in addition to your wallet file and you have lost all your Bitcoins. Wallet encryption cannot keep you safe if you do not practice good security, such as running up-to-date antivirus software, only entering your wallet passphrase in the Bitcoin client and using the same passphrase only as your wallet passphrase.</p>
+
+<p>See the <code>doc/README</code> file in the bitcoin source for technical details of wallet encryption.</p>
+</div>
+<a href="/en/version-history">Go back to the version history</a>
+
+    </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/en/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">Choose your wallet</a>
+      </div>
+      <div id="before">
+        <a href="/en/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">You need to know</a>
+      </div>
+      <div id="support">
+        <a href="/en/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Support Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div><a href="/en/alerts">Network Status</a><span>© Bitcoin Project 2009–2013 Released under the <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT license</a></span></div></div>
+  </div>
+  <script type="text/javascript">svgfallback();</script>
+</body>
+
+</html>

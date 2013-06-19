@@ -157,7 +157,8 @@ li p{margin:0px;}
 .previewrow .walletwarning>div:first-child+div+div{background:url(/img/bubblewarnbottom.svg) bottom center no-repeat;}
 .previewrow .walletwarning a,.previewrow .walletwarning a:link,.previewrow .walletwarning a:visited,.previewrow .walletwarning a:active{color:#b95357;}
 .versiontext{text-align:left;margin-bottom:40px;}
-.rssicon{vertical-align:bottom;margin-bottom:9px;margin-left:10px;}
+h1 .rssicon{vertical-align:bottom;margin-bottom:9px;margin-left:10px;}
+h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}
 .alertstatusinactive{font-size:130%;color:#0d579b;margin-bottom:30px;}
 .alertstatusactive{font-size:130%;color:#d57700;margin-bottom:30px;}
 .alertsactive{margin-bottom:20px;}

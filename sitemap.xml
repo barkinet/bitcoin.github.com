@@ -1969,6 +1969,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
@@ -1982,7 +1986,46 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/%D8%A8%D8%AA-%D9%83%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/innovation" />
+</url>
+<url>
+  <loc>http://bitcoin.org/de/bitcoin-fuer-enthusiasten</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-appassionati" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="http://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="http://bitcoin.org/fa/%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D8%A7%D9%82%D9%87-%D9%85%D9%86%D8%AF%D8%A7%D9%86" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2008,6 +2051,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="ru"
     href="http://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
   <xhtml:link
@@ -2017,7 +2064,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2043,6 +2090,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
@@ -2052,7 +2103,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2078,6 +2129,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
@@ -2087,42 +2142,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/%D8%A8%D8%AA-%D9%83%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/innovation" />
-</url>
-<url>
-  <loc>http://bitcoin.org/pl/bitcoin-dla-entuzjastow</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/bitcoin-per-appassionati" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fa"
-    href="http://bitcoin.org/fa/%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D8%A7%D9%82%D9%87-%D9%85%D9%86%D8%AF%D8%A7%D9%86" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2148,6 +2168,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
@@ -2161,7 +2185,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="nl"
@@ -2183,6 +2207,10 @@
     href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
     hreflang="es"
     href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
@@ -2196,7 +2224,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2622,6 +2650,45 @@
     rel="alternate"
     hreflang="pl"
     href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/%D8%A8%D8%AA-%D9%83%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/bitcoin-voor-liefhebbers" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
+</url>
+<url>
+  <loc>http://bitcoin.org/pl/innowacje</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/bitcoin-per-appassionati" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/bitcoin-fuer-enthusiasten" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/bitcoin-para-entusiastas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="http://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="http://bitcoin.org/fa/%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D8%A7%D9%82%D9%87-%D9%85%D9%86%D8%AF%D8%A7%D9%86" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"

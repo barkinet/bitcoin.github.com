@@ -1562,13 +1562,6 @@
     href="http://bitcoin.org/nl/hulpmiddelen" />
 </url>
 <url>
-  <loc>http://bitcoin.org/fr/presse</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-press" />
-</url>
-<url>
   <loc>http://bitcoin.org/en/press</loc>
 </url>
 <url>
@@ -2649,7 +2642,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"
@@ -2661,7 +2654,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
+    href="http://bitcoin.org/en/innovation" />
 </url>
 <url>
   <loc>http://bitcoin.org/pl/innowacje</loc>
@@ -2672,7 +2665,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
+    href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="de"
@@ -2700,7 +2693,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/bitcoin-for-enthusiasts" />
+    href="http://bitcoin.org/en/innovation" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/innovation</loc>
@@ -2711,7 +2704,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="fr"
-    href="http://bitcoin.org/fr/bitcoin-pour-passionnes" />
+    href="http://bitcoin.org/fr/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="de"
@@ -2731,7 +2724,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="pl"
-    href="http://bitcoin.org/pl/bitcoin-dla-entuzjastow" />
+    href="http://bitcoin.org/pl/innowacje" />
   <xhtml:link
     rel="alternate"
     hreflang="ar"

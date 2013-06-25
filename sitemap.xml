@@ -1565,6 +1565,9 @@
   <loc>http://bitcoin.org/en/press</loc>
 </url>
 <url>
+  <loc>http://bitcoin.org/en/events</loc>
+</url>
+<url>
   <loc>http://bitcoin.org/it/bitcoin-per-imprese</loc>
   <xhtml:link
     rel="alternate"
@@ -6123,14 +6126,5 @@
 </url>
 <url>
   <loc>http://bitcoin.org/en/release/v0.3.24</loc>
-</url>
-<url>
-  <loc>http://bitcoin.org/events/2011/10/24/prague</loc>
-</url>
-<url>
-  <loc>http://bitcoin.org/events/2012/06/27/berlin</loc>
-</url>
-<url>
-  <loc>http://bitcoin.org/events/2012/07/16/london</loc>
 </url>
 </urlset>

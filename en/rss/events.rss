@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>Bitcoin conferences and events</title>
+	<link>http://bitcoin.org/en/events</link>
+	<description>This RSS feed allows to follow Bitcoin events and conferences.</description>
+	<image>
+		<url>http://bitcoin.org/img/logo_rss.png</url>
+		<link>http://bitcoin.org/en/events</link>
+	</image>
+	
+        <item>
+            <title>Bitcoin London, London - United Kingdom</title>
+            <link>http://btclondon.com/</link>
+            <pubDate>Tue, 02 Jul 2013</pubDate>
+        </item>
+	
+        <item>
+            <title>Inside Bitcoins, the future of virtual currency, New York - United States</title>
+            <link>http://www.mediabistro.com/insidebitcoins/</link>
+            <pubDate>Tue, 30 Jul 2013</pubDate>
+        </item>
+	
+        <item>
+            <title>The European Bitcoin convention, Amsterdam - Netherlands</title>
+            <link>http://theconference.eu/</link>
+            <pubDate>Fri, 27 Sep 2013</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin 2013: unSYSTEM, Vienna - Austria</title>
+            <link>https://unsystem.net/</link>
+            <pubDate>Fri, 01 Nov 2013</pubDate>
+        </item>
+	
+        <item>
+            <title>BitcoinExpo 2013, London - United Kingdom</title>
+            <link>http://bitcoinexpo.co.uk/</link>
+            <pubDate>Sat, 30 Nov 2013</pubDate>
+        </item>
+	
+</channel>
+</rss>

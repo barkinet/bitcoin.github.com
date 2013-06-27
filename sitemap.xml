@@ -1562,10 +1562,51 @@
     href="http://bitcoin.org/nl/hulpmiddelen" />
 </url>
 <url>
+  <loc>http://bitcoin.org/pl/prasa</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/press" />
+</url>
+<url>
   <loc>http://bitcoin.org/en/press</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/prasa" />
+</url>
+<url>
+  <loc>http://bitcoin.org/fr/evenements</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/wydarzenia" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/events" />
+</url>
+<url>
+  <loc>http://bitcoin.org/pl/wydarzenia</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/evenements" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/events" />
 </url>
 <url>
   <loc>http://bitcoin.org/en/events</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/evenements" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/wydarzenia" />
 </url>
 <url>
   <loc>http://bitcoin.org/it/bitcoin-per-imprese</loc>

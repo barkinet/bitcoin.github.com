@@ -7419,7 +7419,22 @@
     href="http://bitcoin.org/nl/stichting" />
 </url>
 <url>
+  <loc>http://bitcoin.org/fr/a-propos-de-nous</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/hakkimizda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/about-us" />
+</url>
+<url>
   <loc>http://bitcoin.org/tr/hakkimizda</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/a-propos-de-nous" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
@@ -7427,6 +7442,10 @@
 </url>
 <url>
   <loc>http://bitcoin.org/en/about-us</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/a-propos-de-nous" />
   <xhtml:link
     rel="alternate"
     hreflang="tr"

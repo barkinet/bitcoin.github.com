@@ -1894,18 +1894,7 @@
     href="http://bitcoin.org/nl/hulpmiddelen" />
 </url>
 <url>
-  <loc>http://bitcoin.org/pl/prasa</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="http://bitcoin.org/en/press" />
-</url>
-<url>
   <loc>http://bitcoin.org/en/press</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="pl"
-    href="http://bitcoin.org/pl/prasa" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/evenements</loc>
@@ -7422,6 +7411,25 @@
   <loc>http://bitcoin.org/fr/a-propos-de-nous</loc>
   <xhtml:link
     rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/o-nas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/hakkimizda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/about-us" />
+</url>
+<url>
+  <loc>http://bitcoin.org/pl/o-nas</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/a-propos-de-nous" />
+  <xhtml:link
+    rel="alternate"
     hreflang="tr"
     href="http://bitcoin.org/tr/hakkimizda" />
   <xhtml:link
@@ -7437,6 +7445,10 @@
     href="http://bitcoin.org/fr/a-propos-de-nous" />
   <xhtml:link
     rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/o-nas" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/about-us" />
 </url>
@@ -7446,6 +7458,10 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/a-propos-de-nous" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/o-nas" />
   <xhtml:link
     rel="alternate"
     hreflang="tr"

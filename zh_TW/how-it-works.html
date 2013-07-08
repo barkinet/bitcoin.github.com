@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="zh_TW">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin 運作原理 - Bitcoin</title>
+<link rel="stylesheet" type="text/css" href="/a3e94b2d772d469f982cb2b0f7c1832d.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/zh_TW/css/main.css">
+<script type="text/javascript" src="/js/main.js"></script>
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
+</head>
+<body>
+
+  <div id="head"><div>
+    <select id="langselect" onchange="window.location=this.value;">
+    
+      <option value="/de/wie-es-funktioniert">Deutsch</option>
+    
+      <option value="/en/how-it-works">English</option>
+    
+      <option value="/es/como-funciona">Español</option>
+    
+      <option value="/fr/comment-ca-marche">Français</option>
+    
+      <option value="/it/come-funziona">Italiano</option>
+    
+      <option value="/nl/hoe-het-werkt">Nederlands</option>
+    
+      <option value="/pl/jak-to-dziala">Polski</option>
+    
+      <option value="/ru/%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82">Русский</option>
+    
+      <option value="/tr/nasil-calisir">Türkçe</option>
+    
+      <option value="/zh_TW/how-it-works" selected="selected">‪繁體中文‬</option>
+    
+      <option value="/ar/%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%85%D9%84">ألعربية</option>
+    
+      <option value="/fa/%DA%86%DA%AF%D9%88%D9%86%D9%87-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF">فارسی</option>
+    
+    </select>
+    <ul id="lang">
+      <li><a href="#" onclick="return false;">‪繁體中文‬</a>
+      <ul>
+      
+        <li><a href="/de/wie-es-funktioniert">Deutsch</a></li>
+      
+        <li><a href="/en/how-it-works">English</a></li>
+      
+        <li><a href="/es/como-funciona">Español</a></li>
+      
+        <li><a href="/fr/comment-ca-marche">Français</a></li>
+      
+        <li><a href="/it/come-funziona">Italiano</a></li>
+      
+        <li><a href="/nl/hoe-het-werkt">Nederlands</a></li>
+      
+        <li><a href="/pl/jak-to-dziala">Polski</a></li>
+      
+        <li><a href="/ru/%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82">Русский</a></li>
+      
+        <li><a href="/tr/nasil-calisir">Türkçe</a></li>
+      
+        <li><a href="/ar/%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%85%D9%84">ألعربية</a></li>
+      
+        <li><a href="/fa/%DA%86%DA%AF%D9%88%D9%86%D9%87-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF">فارسی</a></li>
+      
+      </ul>
+      </li>
+    </ul>
+    <a id="logo" href="/zh_TW/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
+    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">介紹</a>
+        <ul>
+          <li><a href="/zh_TW/bitcoin-for-individuals">個人</a></li>
+          <li><a href="/zh_TW/bitcoin-for-businesses">商務</a></li>
+          <li><a href="/zh_TW/bitcoin-for-developers">開發人員</a></li>
+          <li class="active"><a href="/zh_TW/how-it-works">運作原理</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">資源</a>
+        <ul>
+          <li><a href="/zh_TW/vocabulary">詞彙</a></li>
+          <li><a href="/zh_TW/resources">資源</a></li>
+          <li><a href="/zh_TW/community">社群</a></li>
+          <li><a href="/zh_TW/development">開發</a></li>
+          <li><a href="/zh_TW/events">活動</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/zh_TW/innovation">創新</a></li>
+      <li><a href="/zh_TW/foundation">基金會</a></li>
+      <li><a href="/zh_TW/about">關於</a></li>
+    </ul>
+    
+  </div></div>
+  <div id="body">
+    <div id="content">
+    <h1>Bitcoin 運作原理</h1>
+
+<p>這是個常令人感到困惑的問題，以下是速成的解釋！</p>
+
+<h2>給新手的基礎知識</h2>
+<p>身為一個新手，你只需要<a href="/zh_TW/choose-your-wallet">選擇你的錢包</a>，然後安裝在自己的電腦或手機上。錢包安裝完成後，就會建立你的第一個 Bitcoin 地址，而你隨時都可以建立更多地址。你可以告訴朋友你的地址讓他們付款給你，反之亦然；這其實就類似 Email 的運作方式。現在你只需要取得一些 bitcoin，並<a href="/zh_TW/secure-your-wallet">確保它們的安全</a>。要開始使用 Bitcoin 的話，你根本不需要瞭解技術細節。</p>
+<p>不過，如果你想知道更多的話，請繼續閱讀！</p>
+
+<p><br><img src="/zh_TW/img/bitcoin_at_a_glance.svg" alt="Bitcoin" /></p>
+
+<h2>餘額<a class="titlelight"> - 區塊鏈</a></h2>
+<p>區塊鏈是整個 Bitcoin 網路所倚賴的<b>共享的公開交易紀錄</b>。所有經確認的交易都會存放在區塊鏈上，毫無例外。藉此我們可以確認新的交易確實是由 bitcoin 的所有人發出。區塊鏈的完整性及時間順序是由<a href="/zh_TW/vocabulary#cryptography">密碼學</a>來執行的。</p>
+
+<h2>交易<a class="titlelight"> - 私密金鑰</a></h2>
+<p>一筆交易即是區塊鏈中記載的 Bitcoin 地址之間的金錢轉移。Bitcoin 錢包內的每個地址都有對應的祕密資料，稱之為<a href="/zh_TW/vocabulary#private-key"><i>私密金鑰</i></a>。私密金鑰可用來簽署交易，以提供數學上的證明這個交易確實是由該地址的擁有者發出。<a href="/zh_TW/vocabulary#signature"><i>簽章</i></a>同時能夠防止其他人竄改過去公佈的交易。所有的交易都會在使用者之間傳遞，並且在數分鐘內經由<a href="/zh_TW/vocabulary#mining"><i>挖礦</i></a>的行為經由網路確認。</p>
+
+<h2>處理<a class="titlelight"> - 挖礦</a></h2>
+<p>挖礦是一種<b>分散式的共識系統</b>，用於<a href="/zh_TW/vocabulary#confirmation"><i>確認</i></a>交易並把交易加入區塊鏈之中。挖礦能確保區塊鏈的時間順序、保護網路的中立性，並且讓不同的電腦就系統的狀態取得共識。待確認的交易將會打包到某個<a href="/zh_TW/vocabulary#block"><i>區塊</i></a>之中，而區塊必須滿足非常嚴格的密碼學規則。該規則被設計規則如下：如果想要篡改某個區塊，此區塊之後的每個區塊都必須一併修改。網路將會檢查區塊是否符合規則，以避免之前的區塊遭到更改。挖礦創造了一個競爭性的隨機系統，可避免任何人輕易地將連續的區塊加到區塊鏈中。藉由這個系統，沒有人能控制區塊鏈中能包含哪些交易，或是更動區塊鏈的某一部份來消除它們自己的付款紀錄。</p>
+
+<h2>探索未知的世界</h2>
+<p>以上僅是 Bitcoin 系統的簡要說明，如果想瞭解更多細節，你可以閱讀<a href="/bitcoin.pdf">原始論文</a>，其中描述了系統設計，你也可以探索一下<a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>。</p>
+
+    </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/zh_TW/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">選擇你的錢包</a>
+      </div>
+      <div id="before">
+        <a href="/zh_TW/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">Bitcoin 使用須知</a>
+      </div>
+      <div id="support">
+        <a href="/zh_TW/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">支持 Bitcoin</a>
+      </div>
+    </div>
+    <div id="footer"><div>
+    <a href="/en/alerts">Network Status</a>
+    
+    <a href="/zh_TW/about-us">關於 bitcoin.org</a>
+    
+    <span>© Bitcoin Project 2009–2013 以 <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT 授權</a>發佈</span>
+    </div></div>
+  </div>
+  <script type="text/javascript">svgfallback();</script>
+</body>
+
+</html>

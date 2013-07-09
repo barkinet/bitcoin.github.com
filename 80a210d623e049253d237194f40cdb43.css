@@ -152,11 +152,13 @@ li p{margin:0px;}
 .previewrow>div>div>div>span>img{margin-left:4px;}
 .previewrow>div>div>div>h2:first-child+span+p{font-size:95%;line-height:1.2em;margin:0px;padding:10px 0px;}
 .previewrow>div>div>div>h2:first-child+span+p+p{text-align:center;margin:0px;padding:0px;position:relative;bottom:-10px;}
-.previewrow>div>div>div>h2:first-child+span+p+p>a,.previewrow>div>div>div>h2:first-child+span+p+p>a:visited,.previewrow>div>div>div>h2:first-child+span+p+p>a:link,.previewrow>div>div>div>h2:first-child+span+p+p>a:active{font-weight:bold;text-decoration:none;font-size:125%;}
+.previewrow>div>div>div>h2:first-child+span+p+p>a,.previewrow>div>div>div>h2:first-child+span+p+p>a:visited,.previewrow>div>div>div>h2:first-child+span+p+p>a:link,.previewrow>div>div>div>h2:first-child+span+p+p>a:active{font-weight:bold;text-decoration:none;color:#fff;background-color:#2c6fad;background-image:linear-gradient(bottom, #255f96 14%, #2c6fad 70%);background-image:-o-linear-gradient(bottom, #255f96 14%, #2c6fad 70%);background-image:-moz-linear-gradient(bottom, #255f96 14%, #2c6fad 70%);background-image:-webkit-linear-gradient(bottom, #255f96 14%, #2c6fad 70%);background-image:-ms-linear-gradient(bottom, #255f96 14%, #2c6fad 70%);border:1px solid #255f96;padding:4px 8px;border-radius:4px;-webkit-border-radius:4px;}
+.previewrow>div>div>div>h2:first-child+span+p+p>a:hover{background-image:none;}
 .previewrow .walletwarning>div:first-child{background:url(/img/bubblewarntop.svg) bottom center no-repeat;}
 .previewrow .walletwarning>div:first-child+div{background:url(/img/bubblewarnmiddle.svg) bottom center repeat-y;}
 .previewrow .walletwarning>div:first-child+div+div{background:url(/img/bubblewarnbottom.svg) bottom center no-repeat;}
-.previewrow .walletwarning a,.previewrow .walletwarning a:link,.previewrow .walletwarning a:visited,.previewrow .walletwarning a:active{color:#b95357;}
+.previewrow .walletwarning>div>h2:first-child+span+p+p a,.previewrow .walletwarning>div>h2:first-child+span+p+p a:link,.previewrow .walletwarning>div>h2:first-child+span+p+p a:visited,.previewrow .walletwarning>div>h2:first-child+span+p+p a:active{background-color:#b95357;background-image:linear-gradient(bottom, #a04246 14%, #b95357 70%);background-image:-o-linear-gradient(bottom, #a04246 14%, #b95357 70%);background-image:-moz-linear-gradient(bottom, #a04246 14%, #b95357 70%);background-image:-webkit-linear-gradient(bottom, #a04246 14%, #b95357 70%);background-image:-ms-linear-gradient(bottom, #a04246 14%, #b95357 70%);border:1px solid #a04246;}
+.previewrow .walletwarning>div>h2:first-child+span+p+p a:hover{background-image:none;}
 .versiontext{text-align:left;margin-bottom:40px;}
 h1 .rssicon{vertical-align:bottom;margin-bottom:9px;margin-left:10px;}
 h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}

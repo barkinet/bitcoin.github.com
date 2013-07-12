@@ -41,8 +41,8 @@ h2{font-family:'Ubuntu',sans-serif;font-weight:700;color:#383838;font-size:130%;
 h3{color:#383838;font-size:110%;text-align:left;}
 h1 img,h2 img,h3 img{vertical-align:middle;margin-right:5px;}
 p{line-height:1.5em;}
-a:link,a:visited,a:active{color:#4892b2;text-decoration:none;}
-a:link:hover,a:visited:hover,a:active:hover{color:#75bfdf;}
+a:link,a:visited,a:active{color:#2c6fad;text-decoration:none;}
+a:link:hover,a:visited:hover,a:active:hover{color:#63a4e1;}
 a img,a:link img,a:visited img,a:active img{border:0;}
 blockquote{margin-left:0px;margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}
 pre{background-color:#f5f5f5;display:block;padding:17px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre-wrap;word-wrap:break-word;}
@@ -160,6 +160,7 @@ h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}
 .alertsactive{margin-bottom:20px;}
 .alertsactive a{font-weight:bold;}
 .download a{font-size:125%;display:inline-block;margin:5px 0px;}
+.download span{width:16px;height:16px;display:inline-block;}
 .summary{font-size:125%;margin-bottom:40px;}
 .summarytxt{margin-bottom:40px;}
 .foundation{max-width:500px;margin:40px auto;border:2px dashed #dfdfdf;padding:40px;border-radius:9px;-webkit-border-radius:9px;}
@@ -167,7 +168,7 @@ h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}
 .press-volunteer{text-align:left;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
 .press-volunteer>div>div{width:400px;height:150px;display:inline-block;margin-right:30px;margin-bottom:30px;vertical-align:top;}
 .press-volunteer>div>div>img{float:left;margin-right:30px;}
-.press-volunteer>div>div>img:first-child+p{font-weight:bold;color:#0d579b;margin:0px;}
+.press-volunteer>div>div>img:first-child+p{font-weight:bold;color:#2c6fad;margin:0px;}
 .press-volunteer>div>div>img:first-child+p+p{margin:0px;}
 .press-volunteer>div>div>img:first-child+p+p+p{font-size:80%;}
 .press-volunteer>div>div>img:first-child+p+p+p+p{margin:0px;}
@@ -192,7 +193,7 @@ h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}
 .press-news>div{height:125px;margin-bottom:30px;width:700px;}
 .press-news>div>a>img{float:left;margin-right:30px;}
 .press-news>div>a:first-child+a{display:block;margin-bottom:10px;}
-.press-news a:link,.press-news a:active,.press-news a:visited{font-weight:bold;color:#0d579b;}
+.press-news a:link,.press-news a:active,.press-news a:visited{font-weight:bold;color:#2c6fad;}
 .press-news>div>a:first-child+a+a+p{font-size:80%;}
 @media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){img{max-width:100%;} #head{margin:0px;} #langselect{background-color:transparent;border:0px;font-size:115%;position:absolute;right:-20px;top:10px;width:150px;text-align:right;} #menumobile{display:inline-block;float:right;height:40px;width:40px;padding:12px;background-image:url(/img/menumobile.svg);background-repeat:no-repeat;background-position:center center;} #lang,#menusimple{display:none;} #menusimple{position:static;bottom:0px;margin:0px 0px 10px 0px;height:auto;} #menusimple li a,#menusimple li ul li a,#menusimple li ul li a:active,#menusimple li ul li a:visited,#menusimple li ul li a:link{padding:10px 6px 8px 6px;display:block;} #menusimple li{display:block;margin:4px;position:static;} #menusimple li ul{min-width:0;position:relative;} #menusimple ul.hover{display:block;} #logo{position:static;display:inline-block;margin:10px;} #rightbox,#rightbox.wide{display:block;position:static;margin:30px auto 20px auto;} #content,#content.wide{position:static;margin:0px 5px;padding:15px 10px 20px 10px;} #footer{padding:0px 0px 20px 5px;background-color:transparent;} .contributors{width:auto;} .foundation{padding:20px;} .preview{display:none;} .preview{width:auto;border:0px;padding:0px;} .previewrow{float:none;padding-left:0px;margin:auto;} .press-volunteer>div>div{width:200px;height:auto;} .press-volunteer>div>div>img{float:none;margin-right:0px;margin-bottom:20px;} .press-faq>div{width:auto;display:block;margin-right:0px;} .press-news>div{width:auto;height:auto;} .press-news>div>a>img{float:none;margin-right:0px;margin-bottom:20px;}}#menufor{margin:0px;position:absolute;top:8px;left:250px;padding:0px;height:35px;}
 #menufor li{list-style:none;float:left;padding:0px;margin:0px 8px;border-radius:5px;-webkit-left-radius:5px;}

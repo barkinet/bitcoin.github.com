@@ -2258,9 +2258,6 @@
     href="http://bitcoin.org/nl/hulpmiddelen" />
 </url>
 <url>
-  <loc>http://bitcoin.org/en/press</loc>
-</url>
-<url>
   <loc>http://bitcoin.org/zh_TW/events</loc>
   <xhtml:link
     rel="alternate"
@@ -8971,6 +8968,9 @@
 </url>
 <url>
   <loc>http://bitcoin.org/en/alerts</loc>
+</url>
+<url>
+  <loc>http://bitcoin.org/en/press</loc>
 </url>
 <url>
   <loc>http://bitcoin.org/en/version-history</loc>

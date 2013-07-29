@@ -1694,6 +1694,9 @@
     href="http://bitcoin.org/nl/help-bitcoin" />
 </url>
 <url>
+  <loc>http://bitcoin.org/en/getting-started</loc>
+</url>
+<url>
   <loc>http://bitcoin.org/zh_TW/resources</loc>
   <xhtml:link
     rel="alternate"

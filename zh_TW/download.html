@@ -9,12 +9,12 @@
 <title>下載 - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/155493146a54a20fbe9b89d968f94f3d.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
-
+<link rel="stylesheet" type="text/css" href="/zh_TW/css/main.css">
 <script type="text/javascript" src="/js/main.js"></script>
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body>
+<body class="old">
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -75,15 +75,16 @@
     </ul>
     <a id="logo" href="/zh_TW/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+
+    
+
     <ul id="menusimple">
       <li><a href="#" onclick="mobilehover(event);">介紹</a>
         <ul>
           <li><a href="/zh_TW/bitcoin-for-individuals">個人</a></li>
           <li><a href="/zh_TW/bitcoin-for-businesses">商務</a></li>
           <li><a href="/zh_TW/bitcoin-for-developers">開發人員</a></li>
-          <li><a href="/zh_TW/"></a></li>
           <li><a href="/zh_TW/how-it-works">運作原理</a></li>
-          <li><a href="/zh_TW/you-need-to-know"></a></li>
         </ul>
       </li>
       <li><a href="#" onclick="mobilehover(event);">資源</a>
@@ -97,52 +98,52 @@
         </ul>
       </li>
       <li><a href="/zh_TW/innovation">創新</a></li>
-      <li><a href="/zh_TW/support-bitcoin"></a></li>
+      <li><a href="/zh_TW/foundation">基金會</a></li>
       <li><a href="/zh_TW/about">關於</a></li>
     </ul>
+
+    
+
   </div></div>
   <div id="body">
     <div id="content">
     
 
 <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
-<div class="download">
-  <h1>下載 Bitcoin-Qt</h1>
-  <h2>最新版本 : 0.8.3<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
-  <div class="mainbutton"><a id="downloadbutton" href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32-setup.exe/download"><img src="/img/but_windows.svg" alt="icon"></a></div>
-  <div class="downloadbox">
-    <p></p>
-    <div><img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32.zip/download">下載適用於 Windows 的版本 (zip)</a> <small>~13MB</small></div>
-    <div id="download_windows"><img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32-setup.exe/download">下載適用於 Windows 的版本 (exe)</a> <small>~9MB</small></div>
-    <div><img src="/img/dow-ubuntu.png"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">下載適用於 Ubuntu 的版本 (PPA)</a> <small>~4MB</small></div>
-    <div><img src="/img/dow-linux.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-linux.tar.gz/download">下載適用於 Linux 的版本 (tgz，32/64 位元)</a> <small>~12MB</small></div>
-    <div><img src="/img/dow-osx-uni.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-macosx.dmg/download">下載適用於 Mac OS X 的版本</a> <small>~13MB</small></div>
-    <div><span></span> <a href="https://github.com/bitcoin/bitcoin">原始碼</a> (GitHub)</div>
-    <p><a href="/en/version-history">顯示版本歷史</a></p>
-  </div>
-  <p><b>附註</b> : Bitcoin-Qt 初始同步可能要花費一天才能完成。請先確認你有足夠的頻寬和儲存容量來滿足完整的 <a href="http://blockchain.info/charts/blocks-size">區塊鏈大小</a>。</p>
-  <p>Bitcoin-Qt 是社群所推動的<a href="http://www.fsf.org/about/what-is-free-software">自由開放原始碼</a>，以 <a href="http://creativecommons.org/licenses/MIT/">MIT 授權</a> 發佈。</p>
-</div>
-<script type="text/javascript">
-var os='windows';
-if(navigator.userAgent.indexOf('Mac')!=-1)var os='mac'
-if(navigator.userAgent.indexOf('Linux')!=-1)var os='ubuntu';
-var but=document.getElementById('downloadbutton');
-but.getElementsByTagName('IMG')[0].src='/img/but_'+os+'.svg';
-switch(os){
-case 'windows':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32-setup.exe/download';break;
-case 'ubuntu':but.href='https://launchpad.net/~bitcoin/+archive/bitcoin';break;
-case 'mac':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-macosx.dmg/download';break;
-}
-</script>
+<h1>下載 Bitcoin-Qt</h1>
+<h2>最新版本 : 0.8.3<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
+<p class="downloadold">
+<img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32.zip/download">下載適用於 Windows 的版本 (zip)</a> <small>~13MB</small><br>
+<img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-win32-setup.exe/download">下載適用於 Windows 的版本 (exe)</a> <small>~9MB</small><br>
+<img src="/img/dow-ubuntu.png"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">下載適用於 Ubuntu 的版本 (PPA)</a><br>
+<img src="/img/dow-linux.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-linux.tar.gz/download">下載適用於 Linux 的版本 (tgz，32/64 位元)</a> <small>~12MB</small><br>
+<img src="/img/dow-osx-uni.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.3/bitcoin-0.8.3-macosx.dmg/download">下載適用於 Mac OS X 的版本</a> <small>~13MB</small><br>
+<span></span> <a href="https://github.com/bitcoin/bitcoin">原始碼</a> (GitHub)<br><br>
+<span></span> <a href="/en/version-history" style="font-weight:bold;">顯示版本歷史</a>
+</p>
+<br>
+<p>Bitcoin-Qt 是社群所推動的<a href="http://www.fsf.org/about/what-is-free-software">自由開放原始碼</a>，以 <a href="http://creativecommons.org/licenses/MIT/">MIT 授權</a> 發佈。</p>
+<p><b>附註</b> : Bitcoin-Qt 初始同步可能要花費一天才能完成。請先確認你有足夠的頻寬和儲存容量來滿足完整的 <a href="http://blockchain.info/charts/blocks-size">區塊鏈大小</a>。</p>
 
 
 
     </div>
+    <div id="rightbox">
+      <div id="choose">
+        <a href="/zh_TW/choose-your-wallet"><img src="/img/but_start.svg" alt="Icon">選擇你的錢包</a>
+      </div>
+      <div id="before">
+        <a href="/zh_TW/you-need-to-know"><img src="/img/but_warn.svg" alt="Icon">Bitcoin 使用須知</a>
+      </div>
+      <div id="support">
+        <a href="/zh_TW/support-bitcoin"><img src="/img/but_involve.svg" alt="Icon">支持 Bitcoin</a>
+      </div>
+    </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    <a href="https://bitcoinfoundation.org/">基金會</a>
+    
     <a href="/zh_TW/about-us">關於 bitcoin.org</a>
+    
     <span>© Bitcoin Project 2009–2013 以 <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT 授權</a>發佈</span>
     </div></div>
   </div>

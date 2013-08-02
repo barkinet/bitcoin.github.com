@@ -37,6 +37,8 @@
     
       <option value="/tr/">Türkçe</option>
     
+      <option value="/zh_CN/">‪简体中文‬</option>
+    
       <option value="/zh_TW/">‪繁體中文‬</option>
     
       <option value="/ar/">ألعربية</option>
@@ -63,6 +65,8 @@
         <li><a href="/ru/">Русский</a></li>
       
         <li><a href="/tr/">Türkçe</a></li>
+      
+        <li><a href="/zh_CN/">‪简体中文‬</a></li>
       
         <li><a href="/zh_TW/">‪繁體中文‬</a></li>
       
@@ -105,7 +109,7 @@
     <div id="content">
     <script>
 //Auto redirect to the appropriate language
-var langs={};langs['zh_TW']=true;langs['it']=true;langs['fr']=true;langs['de']=true;langs['ru']=true;langs['es']=true;langs['fa']=true;langs['pl']=true;langs['ar']=true;langs['tr']=true;langs['nl']=true;
+var langs={};langs['zh_TW']=true;langs['it']=true;langs['fr']=true;langs['de']=true;langs['ru']=true;langs['es']=true;langs['fa']=true;langs['pl']=true;langs['ar']=true;langs['zh_CN']=true;langs['tr']=true;langs['nl']=true;
 var lang=(navigator.language)?navigator.language:navigator.userLanguage;
 lang=lang.split('_')[0];
 if(!langs[lang])lang='en';

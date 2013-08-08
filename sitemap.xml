@@ -1998,6 +1998,10 @@
     href="http://bitcoin.org/zh_CN/getting-started" />
   <xhtml:link
     rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/yeni-baslamak" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="http://bitcoin.org/en/getting-started" />
 </url>
@@ -2007,6 +2011,25 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/yeni-baslamak" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/getting-started" />
+</url>
+<url>
+  <loc>http://bitcoin.org/tr/yeni-baslamak</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="http://bitcoin.org/zh_CN/getting-started" />
   <xhtml:link
     rel="alternate"
     hreflang="en"
@@ -2022,6 +2045,10 @@
     rel="alternate"
     hreflang="zh_CN"
     href="http://bitcoin.org/zh_CN/getting-started" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/yeni-baslamak" />
 </url>
 <url>
   <loc>http://bitcoin.org/zh_TW/resources</loc>

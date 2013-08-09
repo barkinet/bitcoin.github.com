@@ -146,7 +146,7 @@
 </div>
 
 <h2>Offline wallet for savings</h2>
-<p>An offline wallet, also known as cold storage, provides the highest level of security for savings. It involves storing a wallet in a secured place that is not connected to the network. When done properly, it can offer a very good protection against computer vulnerabilities. It is however very important to test this type of setup before you start to use it with serious transactions. Using an offline wallet in conjunction with backups and encryption is also a good practice. Here is an overview of some approaches.</p>
+<p>An offline wallet, also known as cold storage, provides the highest level of security for savings. It involves storing a wallet in a secured place that is not connected to the network. When done properly, it can offer a very good protection against computer vulnerabilities. Using an offline wallet in conjunction with backups and encryption is also a good practice. Here is an overview of some approaches.</p>
 
 <div class="box boxexpand">
 <h3><a href="#" onclick="boxshow(event);">Offline transaction signing</a></h3>
@@ -159,26 +159,17 @@
 <p>Because the computer that is connected to the network cannot sign transactions, it cannot be used to withdraw any funds if it is compromised. <a href="https://bitcoinarmory.com/using-offline-wallets-in-armory/">Armory</a> can be used to do offline transaction signature.</p>
 </div>
 
+
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Temporary environment</a></h3>
-<p>This approach involves loading a wallet inside a temporary environment. For example, it is possible to boot on a Linux live CD, load a light SPV wallet software with its configuration from an USB key and issue a transaction. When a computer is booted from a trusted read-only environment that is only loaded in memory, malicious code is kept away and no trace of your wallet is left on the hard drive. You should however be very careful with the following points.</p>
-<p><b>Losing funds</b></p>
-<p>A temporary environment is the perfect place to lose funds forever. If your wallet is not correctly loaded from an external permanent storage like an USB key, any changes made in your wallet will be lost permanently. Including the new Bitcoin adresses that might have been created during the temporary session to receive the change of your last transactions.</p>
-<p><b>Password mismatch</b></p>
-<p>Booting in a temporary environment might possibly assign a different layout to your keyboard which will later produce different characters then expected. When using encryption, this can cause password mismatches. You might want to type your password on the screen to prevent problems.</p>
-<p><b>Leaving no trace</b></p>
-<p>As long as a storage media like a hard drive is connected to the computer, there is a small risk that some traces of your private keys can remain. You might want to disconnect any hard drive or disable all swap partitions before loading your wallet.</p>
-</div>
-
-
-<h2>Hardware wallets are the future</h2>
+<h3><a href="#" onclick="boxshow(event);">Hardware wallets</a></h3>
 <p>Hardware wallets are the best balance between very high security and ease of use. They are little devices that are designed from the root to be a wallet and nothing else. No software can be installed on them, making them very secure against computer vulnerabilities and online thieves. Because they can allow backup, you can recover your funds if you lose the device.</p>
 <p>As of today, no hardware wallet has entered in production but they are coming soon:</p>
 <p>
 <a href="http://bitcointrezor.com/">Trezor</a><br>
 ButterflyLabs BitSafe
 </p>
+</div>
 
 
 <h2>Multi-signature to protect against theft</h2>

@@ -10,6 +10,12 @@
 	</image>
 	
         <item>
+            <title>Android security vulnerability</title>
+            <link>http://bitcoin.org/en/alert/2013-08-11-android</link>
+            <pubDate>Sun, 11 Aug 2013</pubDate>
+        </item>
+	
+        <item>
             <title>15 May 2013 Upgrade Deadline</title>
             <link>http://bitcoin.org/en/alert/2013-03-15-upgrade-deadline</link>
             <pubDate>Fri, 15 Mar 2013</pubDate>

@@ -47,7 +47,7 @@ blockquote{margin-left:0px;margin-bottom:18px;border-left:5px solid #eee;padding
 pre{background-color:#f5f5f5;display:block;padding:17px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre-wrap;word-wrap:break-word;}
 ul{padding-left:20px;margin-left:0px;}
 ul ul{list-style-type:disc;}
-li{padding:5px 0px;text-align:left;}
+li{padding:5px 0px;line-height:1.5em;}
 li p{margin:0px;}
 @font-face{font-family:'Ubuntu';src:url('/font/ubuntu-r-webfont.eot');src:url('/font/ubuntu-r-webfont.eot?iefix') format('eot'),url('/font/ubuntu-r-webfont.woff') format('woff'),url('/font/ubuntu-r-webfont.ttf') format('truetype'),url('/font/ubuntu-r-webfont.svg') format('svg');font-weight:300;font-style:normal;}@font-face{font-family:'Ubuntu';src:url('/font/ubuntu-ri-webfont.eot');src:url('/font/ubuntu-ri-webfont.eot?iefix') format('eot'),url('/font/ubuntu-ri-webfont.woff') format('woff'),url('/font/ubuntu-ri-webfont.ttf') format('truetype'),url('/font/ubuntu-ri-webfont.svg') format('svg');font-weight:300;font-style:italic;}@font-face{font-family:'Ubuntu';src:url('/font/ubuntu-b-webfont.eot');src:url('/font/ubuntu-b-webfont.eot?iefix') format('eot'),url('/font/ubuntu-b-webfont.woff') format('woff'),url('/font/ubuntu-b-webfont.ttf') format('truetype'),url('/font/ubuntu-b-webfont.svg') format('svg');font-weight:700;font-style:normal;}@font-face{font-family:'Ubuntu';src:url('/font/ubuntu-bi-webfont.eot');src:url('/font/ubuntu-bi-webfont.eot?iefix') format('eot'),url('/font/ubuntu-bi-webfont.woff') format('woff'),url('/font/ubuntu-bi-webfont.ttf') format('truetype'),url('/font/ubuntu-bi-webfont.svg') format('svg');font-weight:700;font-style:italic;}.alert-message div{background-color:#c5251f;}
 .alert-message div div{margin:auto;width:850px;padding:10px;}
@@ -257,7 +257,7 @@ body.old .foundation{max-width:500px;margin:40px auto;border:2px dashed #dfdfdf;
 body.old .preview{width:880px;padding-left:40px;padding-top:15px;border:2px solid #eee;border-radius:8px;-webkit-border-radius:8px;}
 body.old .resourcesold{font-size:115%;font-weight:bold;}
 body.old .resourcesold ul{padding-top:5px;}
-body.old .resourcesold li{padding-top:6px;}
+body.old .resourcesold li{padding-top:6px;text-align:left;}
 body.old .resourcesold a,body.old .resourcesold a:link,body.old .resourcesold a:active,body.old .resourcesold a:visited{text-decoration:none;}
 body.old .resourcesold li ul li{font-weight:normal;}
 @media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){body.old #menufor,body.old #menu{display:none;} body.old #menufor{position:static;bottom:0px;margin:10px 0px 0px 0px;height:auto;} body.old #menufor li{float:none;display:inline-block;} body.old #menufor li a,body.old #menufor li a:active,body.old #menufor li a:visited,body.old #menufor li a:link{padding:6px 6px 3px 6px;} body.old #menufor li{margin:6px;} body.old #menu{position:static;height:auto;margin:10px 0px 10px 0px;} body.old #menu li{float:none;display:inline-block;padding:5px;} body.old #menu li a,body.old #menu li a:active,body.old #menu li a:visited,body.old #menu li a:link{padding:5px;} body.old #rightbox,body.old #rightbox.wide{display:block;position:static;margin:30px auto 20px auto;} body.old #content{padding:15px 10px 20px 10px;} body.old #content.wide{position:static;margin:0px 5px;padding:15px 10px 20px 10px;} body.old .foundation{padding:20px;}}

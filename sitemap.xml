@@ -1994,6 +1994,29 @@
   <loc>http://bitcoin.org/fr/debuter</loc>
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/erste-schritte" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="http://bitcoin.org/zh_CN/getting-started" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/yeni-baslamak" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/getting-started" />
+</url>
+<url>
+  <loc>http://bitcoin.org/de/erste-schritte</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
     hreflang="zh_CN"
     href="http://bitcoin.org/zh_CN/getting-started" />
   <xhtml:link
@@ -2013,6 +2036,10 @@
     href="http://bitcoin.org/fr/debuter" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/erste-schritte" />
+  <xhtml:link
+    rel="alternate"
     hreflang="tr"
     href="http://bitcoin.org/tr/yeni-baslamak" />
   <xhtml:link
@@ -2028,6 +2055,10 @@
     href="http://bitcoin.org/fr/debuter" />
   <xhtml:link
     rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/erste-schritte" />
+  <xhtml:link
+    rel="alternate"
     hreflang="zh_CN"
     href="http://bitcoin.org/zh_CN/getting-started" />
   <xhtml:link
@@ -2041,6 +2072,10 @@
     rel="alternate"
     hreflang="fr"
     href="http://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
     hreflang="zh_CN"
@@ -2722,7 +2757,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="pl"
@@ -2749,7 +2784,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="pl"
@@ -2768,7 +2803,7 @@
     href="http://bitcoin.org/en/events" />
 </url>
 <url>
-  <loc>http://bitcoin.org/de/Events</loc>
+  <loc>http://bitcoin.org/de/events</loc>
   <xhtml:link
     rel="alternate"
     hreflang="zh_TW"
@@ -2807,7 +2842,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="zh_CN"
@@ -2834,7 +2869,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="pl"
@@ -2861,7 +2896,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="pl"
@@ -2888,7 +2923,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="de"
-    href="http://bitcoin.org/de/Events" />
+    href="http://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="pl"

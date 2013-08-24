@@ -21,6 +21,8 @@
     
       <option value="/de/">Deutsch</option>
     
+      <option value="/id/">Bahasa Indonesia‬</option>
+    
       <option value="/en/" selected="selected">English</option>
     
       <option value="/es/">Español</option>
@@ -51,6 +53,8 @@
       <ul>
       
         <li><a href="/de/">Deutsch</a></li>
+      
+        <li><a href="/id/">Bahasa Indonesia‬</a></li>
       
         <li><a href="/es/">Español</a></li>
       
@@ -111,7 +115,7 @@
     <div id="content">
     <script>
 //Auto redirect to the appropriate language
-var langs={};langs['zh_TW']=true;langs['it']=true;langs['fr']=true;langs['de']=true;langs['ru']=true;langs['es']=true;langs['fa']=true;langs['pl']=true;langs['ar']=true;langs['zh_CN']=true;langs['tr']=true;langs['nl']=true;
+var langs={};langs['zh_TW']=true;langs['it']=true;langs['fr']=true;langs['de']=true;langs['ru']=true;langs['es']=true;langs['id']=true;langs['fa']=true;langs['pl']=true;langs['ar']=true;langs['zh_CN']=true;langs['tr']=true;langs['nl']=true;
 var lang=(navigator.language)?navigator.language:navigator.userLanguage;
 lang=lang.split('_')[0];
 if(!langs[lang])lang='en';

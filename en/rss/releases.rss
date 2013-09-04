@@ -10,6 +10,12 @@
 	</image>
 	
         <item>
+            <title>Bitcoin-Qt version 0.8.4 released</title>
+            <link>http://bitcoin.org/en/release/v0.8.4</link>
+            <pubDate>Tue, 03 Sep 2013</pubDate>
+        </item>
+	
+        <item>
             <title>Bitcoin-Qt version 0.8.3 released</title>
             <link>http://bitcoin.org/en/release/v0.8.3</link>
             <pubDate>Tue, 25 Jun 2013</pubDate>

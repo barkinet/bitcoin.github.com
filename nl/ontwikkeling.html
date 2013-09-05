@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Ontwikkeling - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,54 +83,50 @@
     </ul>
     <a id="logo" href="/nl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-liefhebbers">Liefhebbers</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
-    
-      <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
-    
-      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
-    
-      <li><a href="/nl/community">Community</a></li>
-    
-      <li class="active"><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Inleiding</a>
+        <ul>
+          <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+          <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+          <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
+          <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+          <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+          <li><a href="/nl/wat-u-moet-weten">Wat u moet weten</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Hulpmiddelen</a>
+        <ul>
+          <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
+          <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="/nl/community">Community</a></li>
+          <li class="active"><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+          <li><a href="/nl/evenementen">Evenementen</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/nl/innovatie">Innovatie</a></li>
+      <li><a href="/nl/help-bitcoin">Meedoen</a></li>
+      
       <li><a href="/nl/over-bitcoin">Over Bitcoin</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     <h1>Ontwikkeling van Bitcoin</h1>
 
+<p class="summary">Zoek naar meer informatie over huidige specificatie, software en ontwikkelaars.</p>
 
 
 <h2>Specificatie</h2>
-<p>Wil je meer weten over de technische specificaties van Bitcoin, begin dan met deze documenten.</p>
+<p>Wilt u meer weten over de technische specificaties van Bitcoin? Begin dan met deze documenten.</p>
 <ul>
   <li><a href="/bitcoin.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System</a></li>
   <li><a href="https://en.bitcoin.it/wiki/Protocol_rules">Protocol rules</a></li>
-  <li><a href="https://en.bitcoin.it/wiki/Category:Technical">Bitcoin Wiki</a></li>
+  <li><a href="https://en.bitcoin.it/wiki/Category:Technical">Bitcoin-wiki</a></li>
 </ul>
 
-<h2>Ontwikkelaars</h2>
+<h2>Core-ontwikkelaars</h2>
 <ul>
   <li>Satoshi Nakamoto - <a href="/satoshinakamoto.asc">PGP</a></li>
   <li>Gavin Andresen - <a href="mailto:gavinandresen@gmail.com">gavinandresen@gmail.com</a> - <a href="/gavinandresen.asc">PGP</a></li>
@@ -147,14 +142,28 @@
 
 <h2>Doe mee</h2>
 
-<p>Bitcoin is een open-sourceproject en elke ontwikkelaar kan eraan bijdragen. Alles wat je nodig hebt is te vinden in de <a href="https://github.com/bitcoin/bitcoin">Github repository</a>. Lees vooral eerst het ontwikkelproces in de README, zorg voor code van hoge kwaliteit en respecteer de richtlijnen van het project.</p>
+<p>Bitcoin-ontwikkeling is opensource en elke ontwikkelaar kan een bijdrage aan het project leveren. Alles wat u nodig hebt, is te vinden in het <a href="https://github.com/bitcoin/bitcoin">Github-centrum</a>. Lees het ontwikkelingsproces zoals beschreven in de README door, lever code van goede kwaliteit en leef alle richtlijnen na.</p>
+<p>Discussies over de ontwikkeling vinden plaats op Github en de mailinglist <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development">bitcoin-development</a> op sourceforge. Minder formele discussies over de ontwikkeling vinden plaats op irc.freenode.net #bitcoin-dev (&rarr;<a href="#" onclick="freenodeShow(event);" />web interface</a>; <a href="http://bitcoinstats.com">logs</a>).</p>
+<div id="chatbox"></div>
 
 
 
+<h2>Meer opensourceprojecten</h2>
+<ul class="devprojectlist">
+  <li><a href="https://code.google.com/p/bitcoinj/">bitcoinj</a> - A Java implementation of a Bitcoin client-only node used in thin SPV Bitcoin clients.</li>
+  <li><a href="https://multibit.org/">MultiBit</a> - A thin SPV international Bitcoin client for desktops.</li>
+  <li><a href="https://code.google.com/p/bitcoin-wallet/">Bitcoin Wallet for Android</a> - A thin SPV Bitcoin client for mobiles.</li>
+  <li><a href="https://github.com/etotheipi/BitcoinArmory">Armory</a> - A Bitcoin client with enhanced security features.</li>
+  <li><a href="http://electrum.org/community.html">Electrum</a> - A fast Bitcoin client relying on remote servers to store the block chain.</li>
+  <li><a href="https://github.com/jgarzik/picocoin">picocoin</a> - A tiny bitcoin library, with lightweight client and utils.</li>
+  <li><a href="https://github.com/jgarzik/python-bitcoinlib">python-bitcoinlib</a> - A library for Bitcoin written in python.</li>
+  <li><a href="https://github.com/bitsofproof/supernode">Bits of Proof Enterprise Bitcoin Server</a> - A modular implementation of the Bitcoin protocol in Java.</li>
+  <li class="more"><a href="#" onclick="librariesShow(event)">Meer weergeven...</a></li>
+</ul>
 
 
 <section id="contributors">
-  <h2>Medeontwikkelaars</h2>
+  <h2>Bitcoin-Qt-bijdragers</h2>
   <p>(Gesorteerd op aantal commits)</p>
   <div class="contributors">
     <span>
@@ -705,22 +714,11 @@
 </section>
 
     </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/nl/kies-uw-portemonnee"><img src="/img/but_start.svg" alt="Icon">Kies uw portemonnee</a>
-      </div>
-      <div id="before">
-        <a href="/nl/wat-u-moet-weten"><img src="/img/but_warn.svg" alt="Icon">Wat u moet weten</a>
-      </div>
-      <div id="support">
-        <a href="/nl/help-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Help Bitcoin</a>
-      </div>
-    </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href=\"http://opensource.org/licenses/mit-license.php" target="_blank\">MIT-licentie</a></span>
+    <a href="https://bitcoinfoundation.org/">Foundation</a>
+    <a href="/nl/over-ons">Over bitcoin.org</a>
+    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

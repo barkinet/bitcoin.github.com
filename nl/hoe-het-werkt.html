@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Hoe werkt Bitcoin? - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,79 +83,63 @@
     </ul>
     <a id="logo" href="/nl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-liefhebbers">Liefhebbers</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li class="active"><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
-    
-      <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
-    
-      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
-    
-      <li><a href="/nl/community">Community</a></li>
-    
-      <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Inleiding</a>
+        <ul>
+          <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+          <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+          <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
+          <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+          <li class="active"><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+          <li><a href="/nl/wat-u-moet-weten">Wat u moet weten</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Hulpmiddelen</a>
+        <ul>
+          <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
+          <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="/nl/community">Community</a></li>
+          <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+          <li><a href="/nl/evenementen">Evenementen</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/nl/innovatie">Innovatie</a></li>
+      <li><a href="/nl/help-bitcoin">Meedoen</a></li>
+      
       <li><a href="/nl/over-bitcoin">Over Bitcoin</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     <h1>Hoe werkt Bitcoin?</h1>
-<p class="summary">Deze vraag veroorzaakt nogal wat verwarring. Hier is een korte uitleg.</p>
+<p class="summary">Dit is een vraag die vaak tot verwarring leidt. Hier volgt een snelle uitleg!</p>
 
 <h2>De basis voor nieuwe gebruikers</h2>
-<p>Als nieuwe gebruiker hoeft u alleen maar <a href="/nl/kies-uw-portemonnee">een portemonnee te kiezen</a> om op uw computer of mobiele telefoon te installeren. Hebt u eenmaal een portemonnee geïnstalleerd, dan maakt die uw eerste Bitcoin-adres voor u aan. Uw portemonnee kan er later meer aanmaken, zodra u ze nodig hebt. U kunt één van uw Bitcoin-adressen aan uw contacten geven, zodat die u kunnen betalen. Andersom kunt u uw contacten betalen als zij u hun adressen geven. Dit lijkt eigenlijk heel erg op hoe e-mail werkt. Het enige wat u nu dus nog te doen staat is een paar bitcoins verkrijgen en ze <a href="/nl/beveilig-uw-portemonnee">veilig bewaren</a>. U hoeft niet alle technische details te begrijpen om aan de slag te kunnen gaan met Bitcoin.</p>
-<p>Maar wilt u dat wel, blijf vooral lezen!</p>
+<p>Als nieuwe gebruiker hoeft u alleen maar <a href="/nl/kies-uw-portemonnee">een portemonnee te kiezen</a> om op uw computer of mobiele telefoon te installeren. Hebt u eenmaal een portemonnee geïnstalleerd, dan maakt die uw eerste Bitcoin-adres voor u aan. Uw portemonnee kan er later meer aanmaken, zodra u ze nodig hebt. U kunt één van uw Bitcoin-adressen aan uw contacten geven, zodat die u kunnen betalen. Andersom kunt u uw contacten betalen als zij u hun adressen geven. Dit lijkt eigenlijk heel erg op hoe e-mail werkt. Het enige wat u nu dus nog te doen staat, is een paar bitcoins verkrijgen en ze <a href="/nl/beveilig-uw-portemonnee">veilig bewaren</a>. U hoeft niet alle technische details te begrijpen om aan de slag te kunnen gaan met Bitcoin.</p>
+<p>Maar wilt u dat wel, blijf dan vooral lezen!</p>
 
 <p><br><img src="/nl/img/bitcoin_at_a_glance.svg" alt="Bitcoin" /></p>
 
-<h2>Blokketen</h2>
-<p>De blokketen is een <b>openbare gedeelde transactiegeschiedenis</b> waar het hele Bitcoin-netwerk op gebouwd is. Alle bevestigde transacties zijn zonder uitzondering in de blokketen opgenomen. Zo kan gecontroleerd worden dat de bitcoins in een nieuwe transactie ook echt uitgegeven worden door de eigenaar. De integriteit en de chronologische volgorde van de blokketen worden intact gehouden door middel van <a href="/nl/woordenlijst#cryptografie">cryptografie</a>.</p>
+<h2>Saldo's<a class="titlelight"> - blokketen</a></h2>
+<p>De blokketen is een <b>openbare gedeelde transactiegeschiedenis</b> waar het hele Bitcoin-netwerk op is gebouwd. Alle bevestigde transacties zijn zonder uitzondering in de blokketen opgenomen. Zo kan worden gecontroleerd dat de bitcoins in een nieuwe transactie ook echt worden uitgegeven door de eigenaar. De integriteit en de chronologische volgorde van de blokketen worden intact gehouden door middel van <a href="/nl/woordenlijst#cryptografie">cryptografie</a>.</p>
 
-<h2>Transactie</h2>
-<p>Een transactie is <b>een overdracht van waarde tussen twee Bitcoin-adressen</b> die opgenomen wordt in de blokketen. Bitcoin-portemonnees hebben een geheim stukje data, een <a href="/nl/woordenlijst#geheime-sleutel"><i>geheime sleutel</i></a> voor elk Bitcoin-adres. Geheime sleutels worden gebruikt om transacties te ondertekenen en zo wiskundig te verzekeren dat de betreffende transactie van de eigenaar van het bijbehorende adres komt. De <a href="/nl/woordenlijst#geheime-sleutel"><i>digitale handtekening</i></a> zorgt er ook voor dat de transactie door niemand gewijzigd kan worden nadat hij gemaakt is. Een transactie wordt door de maker ervan uitgezonden aan het netwerk en elke gebruiker die hem ontvangt zendt hem zonodig door zodat de transactie zich over het hele netwerk verspreidt. In de volgende minuten bevestigt het netwerk de transactie middels een proces dat <a href="/nl/woordenlijst#delven"><i>delven</i></a> heet.</p>
+<h2>Transacties<a class="titlelight"> - geheime sleutels</a></h2>
+<p>Een transactie is <b>een overdracht van waarde tussen twee Bitcoin-adressen</b> die wordt opgenomen in de blokketen. Bitcoin-portemonnees hebben een geheim stukje data, een <a href="/nl/woordenlijst#geheime-sleutel"><i>geheime sleutel</i></a> voor elk Bitcoin-adres. Geheime sleutels worden gebruikt om transacties te ondertekenen en zo wiskundig te verzekeren dat de betreffende transactie van de eigenaar van het bijbehorende adres komt. De <a href="/nl/woordenlijst#geheime-sleutel"><i>digitale handtekening</i></a> zorgt er ook voor dat de transactie door niemand kan worden gewijzigd nadat deze is uitgevoerd. Een transactie wordt door de maker ervan uitgezonden aan het netwerk en elke gebruiker die deze ontvangt, zendt deze zonodig door zodat de transactie zich over het hele netwerk verspreidt. In de volgende minuten bevestigt het netwerk de transactie middels een proces dat <a href="/nl/woordenlijst#mining"><i>mining</i></a> heet.</p>
 
-<h2>Delven</h2>
-<p>Bitcoin-delven is een <b>gedistribueerd consensus-systeem</b> dat gebruikt wordt om nieuwe transacties te <a href="/nl/woordenlijst#bevestiging"><i>bevestigen</i></a> door ze op te nemen in de blokketen. Het garandeert dat transacties in chronologische volgorde in de blokketen worden opgenomen, beschermt de neutraliteit van het netwerk en zorgt ervoor dat verschillende computers hetzelfde idee hebben over de toestand van het systeem. Om bevestigd te kunnen worden, moeten transacties verpakt worden in een <a href="/nl/woordenlijst#blok"><i>blok</i></a> met heel precieze cryptografische voorwaarden, dat dan gecontroleerd wordt door het netwerk. Die voorwaarden voorkomen dat een eerder blok veranderd kan worden, omdat zo'n verandering alle latere blokken ook ongeldig zou maken. Delven werkt ook als een soort loterij waar u meer kans maakt als u (uw computer) meer werk verzet, waardoor het veel te moeilijk wordt voor een individu om blokken aan de blokketen toe te voegen die er niet horen. Zo kan niemand bepalen welk blok als volgende wordt toegevoegd of de blokketen veranderen om zijn eigen uitgaven ongedaan te maken.</p>
+<h2>Verwerking<a class="titlelight"> - mining</a></h2>
+<p>Bitcoin-mining is een <b>gedistribueerd consensus-systeem</b> dat wordt gebruikt om nieuwe transacties te <a href="/nl/woordenlijst#bevestiging"><i>bevestigen</i></a> door ze op te nemen in de blokketen. Het garandeert dat transacties in chronologische volgorde in de blokketen worden opgenomen, beschermt de neutraliteit van het netwerk en zorgt ervoor dat verschillende computers hetzelfde idee hebben over de toestand van het systeem. Om bevestigd te kunnen worden, moeten transacties worden verpakt in een <a href="/nl/woordenlijst#blok"><i>blok</i></a> met heel precieze cryptografische voorwaarden, dat dan wordt gecontroleerd door het netwerk. Die voorwaarden voorkomen dat een eerder blok kan worden veranderd, omdat zo'n verandering alle latere blokken ook ongeldig zou maken. Mining werkt ook als een soort loterij waar u meer kans maakt als uw computer meer werk verzet, waardoor het veel te moeilijk wordt voor een individu om blokken aan de blokketen toe te voegen die er niet horen. Zo kan niemand bepalen welk blok als volgende wordt toegevoegd of de blokketen veranderen om zijn eigen uitgaven ongedaan te maken.</p>
 
 <h2>Nog meer informatie</h2>
-<p>Dit is maar een korte, bondige samenvatting van het systeem. Wilt u helemaal weten hoe het werkt, lees dan <a href="/bitcoin.pdf">het originele paper (Engels)</a>, waar het ontwerp van het systeem in wordt beschreven, of kijk rond in de <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
+<p>Dit is maar een korte, bondige samenvatting van het systeem. Wilt u helemaal weten hoe het werkt, lees dan <a href="/bitcoin.pdf">de originele paper</a>, waar het ontwerp van het systeem in wordt beschreven, of kijk rond in de <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
 
-    </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/nl/kies-uw-portemonnee"><img src="/img/but_start.svg" alt="Icon">Kies uw portemonnee</a>
-      </div>
-      <div id="before">
-        <a href="/nl/wat-u-moet-weten"><img src="/img/but_warn.svg" alt="Icon">Wat u moet weten</a>
-      </div>
-      <div id="support">
-        <a href="/nl/help-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Help Bitcoin</a>
-      </div>
     </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href=\"http://opensource.org/licenses/mit-license.php" target="_blank\">MIT-licentie</a></span>
+    <a href="https://bitcoinfoundation.org/">Foundation</a>
+    <a href="/nl/over-ons">Over bitcoin.org</a>
+    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

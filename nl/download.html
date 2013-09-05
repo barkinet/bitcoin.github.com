@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Download - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,78 +83,77 @@
     </ul>
     <a id="logo" href="/nl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
-    
-      <li><a href="/nl/bitcoin-voor-liefhebbers">Liefhebbers</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
-    
-      <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
-    
-      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
-    
-      <li><a href="/nl/community">Community</a></li>
-    
-      <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Inleiding</a>
+        <ul>
+          <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+          <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+          <li><a href="/nl/bitcoin-voor-ontwikkelaars">Ontwikkelaars</a></li>
+          <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+          <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+          <li><a href="/nl/wat-u-moet-weten">Wat u moet weten</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Hulpmiddelen</a>
+        <ul>
+          <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
+          <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="/nl/community">Community</a></li>
+          <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+          <li><a href="/nl/evenementen">Evenementen</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/nl/innovatie">Innovatie</a></li>
+      <li><a href="/nl/help-bitcoin">Meedoen</a></li>
+      
       <li><a href="/nl/over-bitcoin">Over Bitcoin</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     
 
 <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
-<h1>Download Bitcoin-Qt</h1>
-<h2>Laatste versie : 0.8.4<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
-<p class="downloadold">
-<img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32.zip/download">Download voor Windows (zip)</a> <small>~13MB</small><br>
-<img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32-setup.exe/download">Download voor Windows (exe)</a> <small>~9MB</small><br>
-<img src="/img/dow-ubuntu.png"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">Download voor Ubuntu (PPA)</a><br>
-<img src="/img/dow-linux.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-linux.tar.gz/download">Download voor Linux (tgz, 32/64-bit)</a> <small>~12MB</small><br>
-<img src="/img/dow-osx-uni.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-macosx.dmg/download">Download voor Mac OS X</a> <small>~13MB</small><br>
-<span></span> <a href="https://github.com/bitcoin/bitcoin">Broncode</a> (GitHub)<br><br>
-<span></span> <a href="/en/version-history" style="font-weight:bold;">Toon versiegeschiedenis</a>
-</p>
-<br>
-<p>Bitcoin-Qt is een  <a href="http://www.fsf.org/about/what-is-free-software">"vrij"<a> open source project dat wordt ontwikkeld door de gemeenschap en verspreid onder de <a href="http://opensource.org/licenses/mit-license.php">MIT-licentie</a>.</p>
-<p><b>N.B.</b> : De initiële synchronisatie van Bitcoin-Qt kan wel een dag duren. Zorg ervoor dat u genoeg bandbreedte en opslagruimte hebt voor <a href="http://blockchain.info/charts/blocks-size">de hele blokketen</a>.</p>
+<div class="download">
+  <h1>Download Bitcoin-Qt</h1>
+  <h2>Laatste versie:0.8.4<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
+  <div class="mainbutton"><a id="downloadbutton" href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32-setup.exe/download"><img src="/img/but_windows.svg" alt="icon">Download Bitcoin-Qt</a></div>
+  <div class="downloadbox">
+    <p>Of kies uw besturingssysteem</p>
+    <div><img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32.zip/download">Download voor Windows (zip)</a> <small>~13MB</small></div>
+    <div id="download_windows"><img src="/img/dow-win.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32-setup.exe/download">Download voor Windows (exe)</a> <small>~9MB</small></div>
+    <div><img src="/img/dow-ubuntu.png"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">Download voor Ubuntu (PPA)</a> <small>~4MB</small></div>
+    <div><img src="/img/dow-linux.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-linux.tar.gz/download">Download voor Linux (tgz, 32/64-bit)</a> <small>~12MB</small></div>
+    <div><img src="/img/dow-osx-uni.png"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-macosx.dmg/download">Download voor Mac OS X</a> <small>~13MB</small></div>
+    <div><span></span> <a href="https://github.com/bitcoin/bitcoin">Broncode</a> (GitHub)</div>
+    <p><a href="/en/version-history">Toon versiegeschiedenis</a></p>
+  </div>
+  <p><b>N.B.</b>: De initiële synchronisatie van Bitcoin-Qt kan wel een dag duren. Zorg ervoor dat u genoeg bandbreedte en opslagruimte hebt voor <a href="http://blockchain.info/charts/blocks-size">de hele blokketen</a>.</p>
+  <p>Bitcoin-Qt is een <a href="http://www.fsf.org/about/what-is-free-software">"vrij"<a> opensource-project dat wordt ontwikkeld door de community en verspreid onder de <a href="http://opensource.org/licenses/mit-license.php">MIT-licentie</a>.</p>
+</div>
+<script type="text/javascript">
+var os='windows';
+if(navigator.userAgent.indexOf('Mac')!=-1)var os='mac'
+if(navigator.userAgent.indexOf('Linux')!=-1)var os='ubuntu';
+var but=document.getElementById('downloadbutton');
+but.getElementsByTagName('IMG')[0].src='/img/but_'+os+'.svg';
+switch(os){
+case 'windows':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-win32-setup.exe/download';break;
+case 'ubuntu':but.href='https://launchpad.net/~bitcoin/+archive/bitcoin';break;
+case 'mac':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/bitcoin-0.8.4-macosx.dmg/download';break;
+}
+</script>
 
 
 
-    </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/nl/kies-uw-portemonnee"><img src="/img/but_start.svg" alt="Icon">Kies uw portemonnee</a>
-      </div>
-      <div id="before">
-        <a href="/nl/wat-u-moet-weten"><img src="/img/but_warn.svg" alt="Icon">Wat u moet weten</a>
-      </div>
-      <div id="support">
-        <a href="/nl/help-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Help Bitcoin</a>
-      </div>
     </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href=\"http://opensource.org/licenses/mit-license.php" target="_blank\">MIT-licentie</a></span>
+    <a href="https://bitcoinfoundation.org/">Foundation</a>
+    <a href="/nl/over-ons">Over bitcoin.org</a>
+    <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

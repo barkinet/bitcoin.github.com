@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>A proposito - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,38 +83,33 @@
     </ul>
     <a id="logo" href="/it/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
-    
-      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
-    
-      <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
-    
-      <li><a href="/it/bitcoin-per-appassionati">Appassionati</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/it/come-funziona">Come funziona</a></li>
-    
-      <li><a href="/it/glossario">Glossario</a></li>
-    
-      <li><a href="/it/risorse">Risorse</a></li>
-    
-      <li><a href="/it/comunita">Comunità</a></li>
-    
-      <li><a href="/it/sviluppo">Sviluppo</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Introduzione</a>
+        <ul>
+          <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+          <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+          <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
+          <li><a href="/it/come-iniziare">Come iniziare</a></li>
+          <li><a href="/it/come-funziona">Come funziona</a></li>
+          <li><a href="/it/da-sapere">Da sapere</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Risorse</a>
+        <ul>
+          <li><a href="/it/glossario">Glossario</a></li>
+          <li><a href="/it/risorse">Risorse</a></li>
+          <li><a href="/it/comunita">Comunità</a></li>
+          <li><a href="/it/sviluppo">Sviluppo</a></li>
+          <li><a href="/it/eventi">Eventi</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/it/innovazione">Innovazione</a></li>
+      <li><a href="/it/sostieni-bitcoin">Partecipa</a></li>
+      
       <li class="active"><a href="/it/a-proposito">A proposito</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
@@ -123,15 +117,15 @@
 
 <h2>Un po' di storia</h2>
 <p>Bitcoin è una delle prime implementazioni dell'idea di cripto-valuta, idea descritta per la prima volta nel 1998 da Wei Dai nella mailing list cypherpunks. Bitcoin è pensato come una nuova forma di denaro, intendendo per denaro tutto ciò che viene accettato come pagamento di beni e servizi e come rimborso dei debiti in un determinato paese o contesto socio-economico. La sua particolarità è l'impiego di tecniche crittografiche, senza fare affidamento su autorità centrali, per il controllo della creazioni di nuovi Bitcoin e per il controllo delle transazioni.</p>
-<p>Nel 2009, la prima specifica di Bitcoin venne pubblicata in una mailing list di Crittografia da un utente noto con lo pseudonimo di Satoshi Nakamoto. Verso la fine del 2010 Satoshi lascia il progetto per dedicarsi ad altro. Il creatore di Bitcoin non hai mai rivelato la sua identita ed ha semplicemente lasciato al mondo la sua invenzione. L'origine e la motivazione dietro Bitcoin sono ancora oggi avvolte nel mistero.</p>
+<p>Nel 2009, la prima specifica e la bozza del concetto di Bitcoin vennero pubblicate in una mailing list di crittografia da un utente noto con lo pseudonimo di Satoshi Nakamoto. Verso la fine del 2010 Satoshi lascia il progetto, dicendo che voleva dedicarsi ad altro. Il creatore di Bitcoin non hai mai rivelato la sua identità e ha semplicemente lasciato al mondo la sua invenzione. L'origine e la motivazione che stanno dietro a Bitcoin sono ancora oggi avvolte nel mistero.</p>
 <p>Dal 2010 la comunità Bitcoin è cresciuta e conta oggi molti sviluppatori al lavoro sul progetto. Nei mesi di Giugno e Luglio 2011 Bitcoin ottenne improvvisamente l'attenzione dei media, cosa che provocò un acquisto di massa di Bitcoin. La bolla speculativa prodotta andò scemando verso la fine del 2011 ed il valore del Bitcoin riprese ad aumentare.</p>
 <p>Il 27 Settembre 2012 venne creata la Fondazione Bitcoin nel tentativo di standardizzare, proteggere e promuovere Bitcoin. Oggi l'economia Bitcoin si sta sviluppando rapidamente e conta nuovi utenti ogni giorno.</p>
 
 <h2>Caratteristiche tecniche</h2>
-<p>Le caratteristiche base di ogni rete come Bitcoin sono le seguenti.</p>
+<p>Queste sono le caratteristiche base di ogni rete come Bitcoin.</p>
 <ul>
   <li>I Bitcoin possono essere trasferiti tra nodi arbitrari sulla rete.</li>
-  <li>Le transazioni sono irreversibili.</li></li>
+  <li>Le transazioni sono irreversibili.</li>
   <li>Il <a href="https://en.bitcoin.it/wiki/Double-spending">double-spending</a> è impedito grazie all'impiego di una <a href="https://en.bitcoin.it/wiki/Block_chain">blockchain</a>.</li>
   <li>Le transazioni sono trasmesse in pochi secondi e <a href="https://en.bitcoin.it/wiki/FAQ#Why_do_I_have_to_wait_10_minutes_before_I_can_spend_money_I_received.3F">verificate entro 10-60 minuti</a>.</li>
   <li>L'elaborazione delle transazioni e l'emissione di moneta vengono effettuate collettivamente attraverso il processo di <a href="https://en.bitcoin.it/wiki/Mining">mining</a>.</li>
@@ -139,7 +133,7 @@
 </ul>
 
 <h2>Regole economiche</h2>
-<p>Queste regole vengono applicate collettivamente dalla rete. Anche se queste non cambieranno per Bitcoin, altre valute digitali che impiegano la stessa tecnologia potrebbero cambiarle per soddisfare le loro esigenze.</p>
+<p>Queste regole sono forzate in modo collettivo dalla rete Bitcoin.</p>
 <ul>
   <li>Limite fisso di <a href="https://en.bitcoin.it/wiki/Controlled_Currency_Supply">circa 21 milioni di Bitcoin</a>.</li>
   <li>I Bitcoin sono divisibili fino a 8 cifre decimali, ottenendo approssimativamente 21×10<sup>14</sup> unità di moneta.</li>
@@ -157,22 +151,11 @@
 </ul>
 
     </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/it/scegli-il-tuo-portafoglio"><img src="/img/but_start.svg" alt="Icon">Scegli il tuo portafoglio</a>
-      </div>
-      <div id="before">
-        <a href="/it/da-sapere"><img src="/img/but_warn.svg" alt="Icon">Da sapere</a>
-      </div>
-      <div id="support">
-        <a href="/it/sostieni-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Sostieni Bitcoin</a>
-      </div>
-    </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
+    <a href="https://bitcoinfoundation.org/">Fondazione</a>
+    <a href="/it/chi-siamo">A proposito di Bitcoin</a>
+    <span>© Progetto Bitcoin 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

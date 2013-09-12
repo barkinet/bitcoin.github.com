@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Glossario - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,46 +83,43 @@
     </ul>
     <a id="logo" href="/it/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
-    
-      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
-    
-      <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
-    
-      <li><a href="/it/bitcoin-per-appassionati">Appassionati</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/it/come-funziona">Come funziona</a></li>
-    
-      <li class="active"><a href="/it/glossario">Glossario</a></li>
-    
-      <li><a href="/it/risorse">Risorse</a></li>
-    
-      <li><a href="/it/comunita">Comunità</a></li>
-    
-      <li><a href="/it/sviluppo">Sviluppo</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Introduzione</a>
+        <ul>
+          <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+          <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+          <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
+          <li><a href="/it/come-iniziare">Come iniziare</a></li>
+          <li><a href="/it/come-funziona">Come funziona</a></li>
+          <li><a href="/it/da-sapere">Da sapere</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Risorse</a>
+        <ul>
+          <li class="active"><a href="/it/glossario">Glossario</a></li>
+          <li><a href="/it/risorse">Risorse</a></li>
+          <li><a href="/it/comunita">Comunità</a></li>
+          <li><a href="/it/sviluppo">Sviluppo</a></li>
+          <li><a href="/it/eventi">Eventi</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/it/innovazione">Innovazione</a></li>
+      <li><a href="/it/sostieni-bitcoin">Partecipa</a></li>
+      
       <li><a href="/it/a-proposito">A proposito</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     <h1>Alcuni termini di Bitcoin che potresti sentire</h1>
-<p class="summarytxt">Bitcoin fornisce un nuovo approccio ai pagamenti, e per questo ci sono alcuni nuovi termini che potrebbero diventare parte del tuo vocabolario. Non c'è dai preoccuparsi, in fondo persino la semplice televisione crea nuove parole!</p>
+<p class="summarytxt">Bitcoin fornisce un nuovo approccio ai pagamenti e, per questo, ci sono alcuni nuovi termini che potrebbero diventare parte del tuo vocabolario. Non c'è dai preoccuparsi, in fondo persino la semplice televisione crea nuove parole!</p>
 <h2>Sommario</h2>
 
 <div class="index">
+
+<a href="#bitcoin">Bitcoin</a>
 
 <a href="#blocco">Blocco</a>
 
@@ -154,14 +150,17 @@
 </div>
 
 
+<h2><a name="bitcoin">Bitcoin</a></h2>
+<p>Bitcoin - con l'iniziale maiuscola, è usato quando si descrive il concetto di Bitcoin, o l'intera rete stessa. Ad esempio "Io oggi sto imparando il protocollo Bitcoin." bitcoin - senza iniziale maiuscola, è usato quando si descrivono i bitcoin come unità di conto. Ad esempio "Io oggi ho inviato dieci bitcoin."</p>
+
 <h2><a name="blocco">Blocco</a></h2>
 <p>Un blocco è una <b>parte della blockchain che contiene e conferma molte transazioni in attesa</b>. In media ogni 10 minuti circa un nuovo blocco, che include delle transazioni, viene aggiunto alla <a href="#blockchain">blockchain</a> attraverso il processo di <a href="#mining">mining</a>.</p>
 
 <h2><a name="blockchain">Block Chain</a></h2>
-<p>La blockchain è un <b>registro pubblico di tutte le transazioni Bitcoin</b>, ordinato cronologicamente. La blockchain è condivisa tra tutti gli utenti Bitcoin. E' impiegata per verificare il saldo degli indirizzi Bitcoin e per impedire il <a href="#double-spend">double spending</a>.</p>
+<p>La blockchain è un <b>registro pubblico di tutte le transazioni Bitcoin</b>, ordinato cronologicamente. La blockchain è condivisa tra tutti gli utenti Bitcoin. È impiegata per verificare il saldo degli indirizzi Bitcoin e per impedire il <a href="#double-spend">double spending</a>.</p>
 
 <h2><a name="btc">BTC</a></h2>
-<p>BTC è l'unità comune della moneta Bitcoin. E' un'abbreviazione e può essere usata come si usa la sigla USD per indicare il dollaro americano (US dollar).</p>
+<p>BTC è l'unità comune della moneta Bitcoin. Può essere usata in un modo simile a USD per dollaro Americano invece di B⃦ o $.</p>
 
 <h2><a name="chiave-privata">Chiave Privata</a></h2>
 <p>Una chiave privata è un <b>segmento segreto di dati che dimostra il tuo diritto di spendere Bitcoin da uno specifico indirizzo Bitcoin</b> attraverso una <a href="#firma">firma</a> crittografica. Ogni <a href="#indirizzo">indirizzo Bitcoin</a> dispone di una sua propria chiave privata. Se utilizzi un programma portafoglio le tue chiavi private sono conservate sul tuo computer, mentre se utilizzi un portafoglio web le tue chiavi private sono salvate su alcuni server remoti. Le chiavi private non devono mai essere rivelate in quanto consentono di spendere Bitcoin dagli indirizzi ad esse associati.</p>
@@ -191,26 +190,15 @@
 <p>Per <i>peer to peer</i> (abbreviato in P2P) si intendono <b>i sistemi che funzionano come un collettivo organizzato</b> permettendo ad ogni individuo di interagire direttamente con gli altri. Nel caso di Bitcoin, la rete è costruita in modo che ogni utente trasmetta le transazioni degli altri utenti. E, fatto di importanza cruciale, nessuna banca è richiesta come parte terza.</p>
 
 <h2><a name="portafoglio">Portafoglio</a></h2>
-<p>Per portafoglio Bitcoin si intende <b>l'equivalente di un portafoglio fisico ma sulla rete Bitcoin</b>. Il portafoglio contiene la <a href="#chiave-privata">chiave privata</a> dell'utente e gli consente di spendere i bitcoin registrati sul suo <a href="#indirizzo">indirizzo Bitcoin</a> nella <a href="#blockchain">blockchain</a>. Ogni portafoglio Bitcoin può mostrare il saldo totale di tutti gli <a href="#indirizzo">indirizzi Bitcoin</a> che contiene e consente di effettuare il pagamento di una specifica somma ad una specifica persona, proprio come un portafoglio reale. Questo è diverso dalle carte di credito che invece vengono addebitate dai commercianti.</p>
+<p>Un portafoglio Bitcoin genericamente è <b>l'equivalente di un portafoglio fisico ma sulla rete Bitcoin</b>. Il portafoglio effettivamente contiene le tue <a href="#chiave-privata">chiavi private</a> e ti consente di spendere i bitcoin registrati sui tuoi <a href="#indirizzo">indirizzi Bitcoin</a> nella <a href="#blockchain">blockchain</a>. Ogni portafoglio Bitcoin può mostrare il saldo totale di tutti gli <a href="#indirizzo">indirizzi Bitcoin</a> che contiene e ti consente di effettuare il pagamento di una specifica somma ad una specifica persona, proprio come un portafoglio reale. Questo è diverso dalle carte di credito che invece vengono addebitate dai commercianti.</p>
 
 
-    </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/it/scegli-il-tuo-portafoglio"><img src="/img/but_start.svg" alt="Icon">Scegli il tuo portafoglio</a>
-      </div>
-      <div id="before">
-        <a href="/it/da-sapere"><img src="/img/but_warn.svg" alt="Icon">Da sapere</a>
-      </div>
-      <div id="support">
-        <a href="/it/sostieni-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Sostieni Bitcoin</a>
-      </div>
     </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
+    <a href="https://bitcoinfoundation.org/">Fondazione</a>
+    <a href="/it/chi-siamo">A proposito di Bitcoin</a>
+    <span>© Progetto Bitcoin 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

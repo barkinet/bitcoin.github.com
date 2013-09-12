@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Alcune cose da sapere - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,47 +83,42 @@
     </ul>
     <a id="logo" href="/it/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
-    
-      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
-    
-      <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
-    
-      <li><a href="/it/bitcoin-per-appassionati">Appassionati</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/it/come-funziona">Come funziona</a></li>
-    
-      <li><a href="/it/glossario">Glossario</a></li>
-    
-      <li><a href="/it/risorse">Risorse</a></li>
-    
-      <li><a href="/it/comunita">Comunità</a></li>
-    
-      <li><a href="/it/sviluppo">Sviluppo</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Introduzione</a>
+        <ul>
+          <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+          <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+          <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
+          <li><a href="/it/come-iniziare">Come iniziare</a></li>
+          <li><a href="/it/come-funziona">Come funziona</a></li>
+          <li class="active"><a href="/it/da-sapere">Da sapere</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Risorse</a>
+        <ul>
+          <li><a href="/it/glossario">Glossario</a></li>
+          <li><a href="/it/risorse">Risorse</a></li>
+          <li><a href="/it/comunita">Comunità</a></li>
+          <li><a href="/it/sviluppo">Sviluppo</a></li>
+          <li><a href="/it/eventi">Eventi</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/it/innovazione">Innovazione</a></li>
+      <li><a href="/it/sostieni-bitcoin">Partecipa</a></li>
+      
       <li><a href="/it/a-proposito">A proposito</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     <h1>Alcune cose da sapere</h1>
-<p class="summarytxt">Se stai per esplorare Bitcoin, ci sono alcune cose che dovresti sapere. Bitcoin non serve per inviare email o scattare foto; Bitcoin ti permette di scambiare denaro e valori. Come tale, Bitcoin va trattato con la stessa cura con cui tratti il tuo normale portafoglio, se non di più in alcuni casi!</p>
+<p class="summarytxt">Se tu stai esplorando Bitcoin, ci sono una serie di cose che dovresti sapere. Bitcoin ti permette di scambiare denaro in  un modo diverso da quello che usano le banche di solito. Per questo, dovresti spendere un po' di tempo per informarti prima di usare Bitcoin per eseguire transazioni serie. Bitcoin dovrebbe essere trattato con la stessa attenzione del tuo portafoglio reale, o anche di più in alcuni casi!</p>
 
 <h2><img class="titleicon" src="/img/ico_key.svg" alt="Icon" />Proteggi il tuo portafoglio</h2>
 
-<p>Come nella vita reale, il tuo portafoglio deve essere al sicuro. Bitcoin permette facilmente il trasferimento di valori in tutto il mondo. Grandi potenzialità come queste sono accompagnate anche da grandi problemi di sicurezza. Ma se usato correttamente Bitcoin può fornire elevati livelli di sicurezza. Ricorda sempre che è tua responsabilità adottare le giuste precauzione per proteggere il tuo denaro. <a href="/it/proteggi-il-portafoglio"><b>Leggi come proteggere il tuo portafoglio</b></a></p>
+<p>Come nella vita reale, il tuo portafoglio deve essere sicuro. Bitcoin rende possibile questa cosa trasferendo valori dovunque in modo molto facile e ti permette di controllare il tuo denaro. Tali grandi caratteristiche portano anche grandi problemi di sicurezza. Allo stesso tempo, Bitcoin provvede alti livelli di sicurezza se usato correttamente. Ricorda sempre che è tua responsabilità adottare buone pratiche per proteggere il tuo denaro. <a href="/it/proteggi-il-portafoglio"><b>Leggi di più riguardo la sicurezza del tuo portafoglio</b></a>.</p>
 
 <h2><img class="titleicon" src="/img/ico_market.svg" alt="Icon" />Il prezzo dei Bitcoin è volatile</h2>
 <p>Il prezzo di un bitcoin può aumentare o diminuire imprevedibilmente durante un breve periodo di tempo a causa della sua giovane economia, della sua natura nuova, e qualche volta a causa dei mercati illiquidi. Di conseguenza, mantenere i tuoi risparmi in bitcoin non è raccomandato. Bitcoin dovrebbe essere considerato come una risorsa ad alto rischio, e non dovresti mai mettere da parte con Bitcoin del denaro che non puoi permetterti di perdere. Se ricevi pagamenti con Bitcoin, molti provider di servizi ti permettono di convertirli istantaneamente nella tua valuta locale.</p>
@@ -136,6 +130,9 @@
 <p>Per proteggere la tua privacy con Bitcoin è necessario qualche sforzo. Tutte le transazioni Bitcoin sono registrate pubblicamente e permanentemente sulla rete, il che significa che chiunque può vedere il bilancio e le transazioni di qualunque indirizzo Bitcoin. Tuttavia, non è possibile associare un indirizzo Bitcoin con il suo possessore, a meno che quest'ultimo non riveli informazioni personali durante uno scambio. E' per questo motivo che si raccomanda di utilizzare diversi indirizzi Bitcoin; infatti, bisognerebbe crearne uno nuovo ogni volta che si deve ricevere del denaro. Questo è particolarmente importante per usi pubblici, come per i siti web. Si potrebbe anche considerare di nascondere l'indirizzo IP del proprio computer, con strumenti come <a href="https://www.torproject.org/">Tor</a>, in modo che non possa essere registrato da altri.</p>
 
 
+<h2><img class="titleicon" src="/img/ico_fast.svg" alt="Icon" />Le transazioni immediate sono meno sicure</h2>
+<p>Di solito una transazione Bitcoin avviene nel giro di pochi secondi e confermata entro 10 minuti. Durante questo tempo, una transazione può essere considerata autenticata ma anche revocata. Utenti disonesti potrebbero tentare di ingannarti. Se non puoi aspettare una conferma, richiedi una piccola transazione gratuita oppure l'utilizzo un sistema di rilevamento per transazioni non sicure può migliorare la sicurezza. Per grandi conti come 1000$ americani, ha senso aspettare 6 conferme o più. Ogni conferma abbassa <i>in modo esponenziale</i>il rischio di una transazione revocata.</p>
+
 
 <h2><img class="titleicon" src="/img/ico_lab.svg" alt="Icon" />Bitcoin è ancora sperimentale</h2>
 <p>Bitcoin è una nuova valuta sperimentale in pieno sviluppo. Sebbene stia diventando sempre meno sperimentale con l'aumentare del suo impiego, si dovrebbe tener presente che Bitcoin è una nuova invenzione che sta esplorando idee mai tentate prima. Come tale, il suo futuro non può essere predetto da nessuno.</p>
@@ -144,22 +141,11 @@
 <p>Bitcoin non è una valuta ufficiale. Detto questo, la maggior parte delle giurisdizioni richiede il pagamento di imposte sul redditto, sulle vendite, sui salari e sulle plusvalenze per qualunque cosa abbia valore, incluso Bitcoin.</p>
 
     </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/it/scegli-il-tuo-portafoglio"><img src="/img/but_start.svg" alt="Icon">Scegli il tuo portafoglio</a>
-      </div>
-      <div id="before">
-        <a href="/it/da-sapere"><img src="/img/but_warn.svg" alt="Icon">Da sapere</a>
-      </div>
-      <div id="support">
-        <a href="/it/sostieni-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Sostieni Bitcoin</a>
-      </div>
-    </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
+    <a href="https://bitcoinfoundation.org/">Fondazione</a>
+    <a href="/it/chi-siamo">A proposito di Bitcoin</a>
+    <span>© Progetto Bitcoin 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

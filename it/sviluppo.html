@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Sviluppo - Bitcoin</title>
 <link rel="stylesheet" type="text/css" href="/33589ac28da01b881063739efcdc86b8.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
@@ -15,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,43 +83,39 @@
     </ul>
     <a id="logo" href="/it/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
-    <ul id="menufor">
-    
-      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
-    
-      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
-    
-      <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
-    
-      <li><a href="/it/bitcoin-per-appassionati">Appassionati</a></li>
-    
-    </ul>
-    <ul id="menu">
-    
-      <li><a href="/it/come-funziona">Come funziona</a></li>
-    
-      <li><a href="/it/glossario">Glossario</a></li>
-    
-      <li><a href="/it/risorse">Risorse</a></li>
-    
-      <li><a href="/it/comunita">Comunità</a></li>
-    
-      <li class="active"><a href="/it/sviluppo">Sviluppo</a></li>
-    
+    <ul id="menusimple">
+      <li><a href="#" onclick="mobilehover(event);">Introduzione</a>
+        <ul>
+          <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+          <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+          <li><a href="/it/bitcoin-per-sviluppatori">Sviluppatori</a></li>
+          <li><a href="/it/come-iniziare">Come iniziare</a></li>
+          <li><a href="/it/come-funziona">Come funziona</a></li>
+          <li><a href="/it/da-sapere">Da sapere</a></li>
+        </ul>
+      </li>
+      <li><a href="#" onclick="mobilehover(event);">Risorse</a>
+        <ul>
+          <li><a href="/it/glossario">Glossario</a></li>
+          <li><a href="/it/risorse">Risorse</a></li>
+          <li><a href="/it/comunita">Comunità</a></li>
+          <li class="active"><a href="/it/sviluppo">Sviluppo</a></li>
+          <li><a href="/it/eventi">Eventi</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="/it/innovazione">Innovazione</a></li>
+      <li><a href="/it/sostieni-bitcoin">Partecipa</a></li>
+      
       <li><a href="/it/a-proposito">A proposito</a></li>
-    
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
     <h1>Sviluppo di Bitcoin</h1>
 
+<p class="summary">Trova maggiori informazioni riguardo la specifica, il software e gli sviluppatori attuali.</p>
 
 
 <h2>La specifica</h2>
@@ -131,7 +126,7 @@
   <li><a href="https://en.bitcoin.it/wiki/Category:Technical">Bitcoin Wiki</a></li>
 </ul>
 
-<h2>Sviluppatori</h2>
+<h2>Sviluppatori del nucleo</h2>
 <ul>
   <li>Satoshi Nakamoto - <a href="/satoshinakamoto.asc">PGP</a></li>
   <li>Gavin Andresen - <a href="mailto:gavinandresen@gmail.com">gavinandresen@gmail.com</a> - <a href="/gavinandresen.asc">PGP</a></li>
@@ -143,19 +138,35 @@
 </ul>
 
 
+<h2>Informativa responsabile</h2>
+<p>Se trovi una vulnerabilità in Bitcoin, le vulnerabilità non critiche possono essere inviate tramite email in inglese a qualunque sviluppatore oppure inviate alla mailing list privata <a href="mailto:bitcoin-security@lists.sourceforge.net">bitcoin-security@lists.sourceforge.net</a>. Un esempio di vulnerabilità non critica potrebbe essere un attacco denial of service difficile da effettuare. Le vulnerabilità critiche che sono troppo delicate per email non cifrate dovrebbero essere inviate a uno o più sviluppatori, cifrandole con la/le loro chiave(i) PGP.</p>
 
 
 <h2>Partecipa</h2>
 
-<p>Bitcoin è open source ed ogni sviluppatore può contribuire al progetto. Tutto ciò di cui si ha bisogno è nel <a href="https://github.com/bitcoin/bitcoin">repository Github</a>. Per favore assicurati di leggere e seguire il processo di sviluppo descritto nel README, di fornire codice di buona qualità e di rispettare tutte le linee guida.</p>
+<p>Lo sviluppo di Bitcoin è open-source e qualsiasi sviluppatore può contribuire al progetto. Tutto quello di cui hai bisogno è nel <a href="https://github.com/bitcoin/bitcoin">repository Github</a>. Per favore assicurati di leggere e di seguire il processo di sviluppo descritto nel file README, al fine di produrre codice di buona qualità e rispettare tutte le linee guida.</p>
+<p>La discussione sullo sviluppo si trova su github mentre la mailing list <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development">sviluppo-bitcoin</a> è su sourceforge. Una discussione sullo sviluppo meno formale avviene su irc.freenode.net #bitcoin-dev (&rarr;<a href="#" onclick="freenodeShow(event);" />interfaccia web</a>; <a href="http://bitcoinstats.com">registri</a>).</p>
+<div id="chatbox"></div>
 
 
 
+<h2>Altri progetti open-source</h2>
+<ul class="devprojectlist">
+  <li><a href="https://code.google.com/p/bitcoinj/">bitcoinj</a> - A Java implementation of a Bitcoin client-only node used in thin SPV Bitcoin clients.</li>
+  <li><a href="https://multibit.org/">MultiBit</a> - A thin SPV international Bitcoin client for desktops.</li>
+  <li><a href="https://code.google.com/p/bitcoin-wallet/">Bitcoin Wallet for Android</a> - A thin SPV Bitcoin client for mobiles.</li>
+  <li><a href="https://github.com/etotheipi/BitcoinArmory">Armory</a> - A Bitcoin client with enhanced security features.</li>
+  <li><a href="http://electrum.org/community.html">Electrum</a> - A fast Bitcoin client relying on remote servers to store the block chain.</li>
+  <li><a href="https://github.com/jgarzik/picocoin">picocoin</a> - A tiny bitcoin library, with lightweight client and utils.</li>
+  <li><a href="https://github.com/jgarzik/python-bitcoinlib">python-bitcoinlib</a> - A library for Bitcoin written in python.</li>
+  <li><a href="https://github.com/bitsofproof/supernode">Bits of Proof Enterprise Bitcoin Server</a> - A modular implementation of the Bitcoin protocol in Java.</li>
+  <li class="more"><a href="#" onclick="librariesShow(event)">Mostra maggiori dettagli...</a></li>
+</ul>
 
 
 <section id="contributors">
   <h2>Collaboratori di Bitcoin-Qt</h2>
-  <p>(Ordinati per numero di commit)</p>
+  <p>(Ordinati per numero di commit eseguite)</p>
   <div class="contributors">
     <span>
       <img class="icon" height="16" width="16" src="https://secure.gravatar.com/avatar/9598ae319be753b20f97f21ed10ca7ed?s=140&amp;d=http%3A%2F%2Fbitcoin.org%2Fimg%2Fgravatar-140.png" alt="icon" />
@@ -705,22 +716,11 @@
 </section>
 
     </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/it/scegli-il-tuo-portafoglio"><img src="/img/but_start.svg" alt="Icon">Scegli il tuo portafoglio</a>
-      </div>
-      <div id="before">
-        <a href="/it/da-sapere"><img src="/img/but_warn.svg" alt="Icon">Da sapere</a>
-      </div>
-      <div id="support">
-        <a href="/it/sostieni-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Sostieni Bitcoin</a>
-      </div>
-    </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
-    
-    
-    <span>© Bitcoin Project 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
+    <a href="https://bitcoinfoundation.org/">Fondazione</a>
+    <a href="/it/chi-siamo">A proposito di Bitcoin</a>
+    <span>© Progetto Bitcoin 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
     </div></div>
   </div>
   <script type="text/javascript">svgfallback();</script>

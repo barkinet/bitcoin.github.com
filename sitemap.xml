@@ -772,6 +772,57 @@
     href="http://bitcoin.org/nl/wat-u-moet-weten" />
 </url>
 <url>
+  <loc>http://bitcoin.org/en/faq</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="http://bitcoin.org/zh_TW/about" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="http://bitcoin.org/it/a-proposito" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/a-propos" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="http://bitcoin.org/de/ueber" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="http://bitcoin.org/es/acerca-de" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="http://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="http://bitcoin.org/fa/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="http://bitcoin.org/pl/o" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="http://bitcoin.org/ar/%D8%B9%D9%86" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="http://bitcoin.org/zh_CN/about" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="http://bitcoin.org/tr/hakkinda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="http://bitcoin.org/nl/over-bitcoin" />
+</url>
+<url>
   <loc>http://bitcoin.org/zh_TW/download</loc>
   <xhtml:link
     rel="alternate"
@@ -4758,7 +4809,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/it/a-proposito</loc>
@@ -4809,7 +4860,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/fr/a-propos</loc>
@@ -4860,7 +4911,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/de/ueber</loc>
@@ -4911,7 +4962,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/es/acerca-de</loc>
@@ -4962,7 +5013,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5</loc>
@@ -5013,7 +5064,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/fa/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87</loc>
@@ -5064,7 +5115,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/pl/o</loc>
@@ -5115,7 +5166,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/ar/%D8%B9%D9%86</loc>
@@ -5166,7 +5217,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/zh_CN/about</loc>
@@ -5217,7 +5268,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/tr/hakkinda</loc>
@@ -5268,7 +5319,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/nl/over-bitcoin</loc>
@@ -5319,58 +5370,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="en"
-    href="http://bitcoin.org/en/about" />
-</url>
-<url>
-  <loc>http://bitcoin.org/en/about</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_TW"
-    href="http://bitcoin.org/zh_TW/about" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="http://bitcoin.org/it/a-proposito" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="http://bitcoin.org/fr/a-propos" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="de"
-    href="http://bitcoin.org/de/ueber" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="http://bitcoin.org/es/acerca-de" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ru"
-    href="http://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fa"
-    href="http://bitcoin.org/fa/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="pl"
-    href="http://bitcoin.org/pl/o" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="http://bitcoin.org/ar/%D8%B9%D9%86" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_CN"
-    href="http://bitcoin.org/zh_CN/about" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="tr"
-    href="http://bitcoin.org/tr/hakkinda" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="http://bitcoin.org/nl/over-bitcoin" />
+    href="http://bitcoin.org/en/faq" />
 </url>
 <url>
   <loc>http://bitcoin.org/zh_TW/innovation</loc>

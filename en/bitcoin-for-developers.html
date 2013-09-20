@@ -126,17 +126,17 @@
 <p>If you don't use any third party APIs, you can integrate a Bitcoin server directly in your applications, allowing you to become your own bank and payment processor. With all the responsibilities that this implies, you can build amazing systems that process Bitcoin transactions with almost no fees.</p>
 
 <h2><img class="titleicon" src="/img/ico_invoice.svg" alt="Icon" />Bitcoin addresses to track invoices</h2>
-<p>Bitcoin can create as many Bitcoin addresses as you want. So if you were to build a payment system associated with an invoice, you simply need to generate and monitor a Bitcoin address for each payment. You can also use the same addresses once the payment is done.</p>
+<p>Bitcoin creates a unique address for each transaction. So if you were to build a payment system associated with an invoice, you simply need to generate and monitor a Bitcoin address for each payment. You should never use the same address for more than one transaction.</p>
 
 <h2><img class="titleicon" src="/img/ico_lock.svg" alt="Icon" />Most of the security is on client side</h2>
-<p>Most parts of the security are handled by the protocol on the client and Bitcoin network side. Authenticity is verified through private keys, and double-spends are prevented through the Bitcoin network. That means no need for PCI compliance nor fraud detection. We love things that just work, don't we?</p>
+<p>Most parts of the security are handled by the protocol on the client and Bitcoin network side. Authenticity is verified with digital signatures, and chargebacks are prevented with the block chain. This means no need for PCI compliance, and fraud detection is only required when services or products are delivered instantly.</p>
 
 <h2><img class="titleicon" src="/img/ico_micro.svg" alt="Icon" />Cheap micro payments</h2>
 <p>Bitcoin offers the lowest payment processing fees for any type of transaction, including micro-payments. This means that it can also be used to design and implement new creative online services that could not exist before only because of financial limitations.</p>
 
 
 <div class="introlink">Visit the <a href="https://en.bitcoin.it/wiki/How_to_accept_Bitcoin,_for_small_businesses#Merchant_Services">merchant services list</a> on the wiki.</div>
-<div class="introlink">Or read Bitcoin-Qt <a href="https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)">API reference</a> and <a href="https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list">API calls list</a>.</div>
+<div class="introlink">Or read bitcoind's <a href="https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)">API reference</a> and <a href="https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list">API calls list</a>.</div>
 <div class="mainbutton"><a href="getting-started"><img src="/img/but_bitcoin.svg" alt="icon">Get started with Bitcoin</a></div>
 
 

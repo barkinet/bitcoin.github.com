@@ -131,7 +131,7 @@ li p{margin:0px;}
 .boxexpand>*{display:none;}
 .boxexpand>h3:first-child{display:block;margin:20px 0px;}
 .boxexpand>h3:first-child a:link,.boxexpand>h3:first-child a:visited,.boxexpand>h3:first-child a:active{text-decoration:none;}
-.titlelight{color:#a0a0a0;}
+.titlelight{color:#8c8c8c;}
 .contributors{width:900px;text-align:left;}
 .contributors span a{font-size:80%;}
 .contributors span{padding:6px 0px;width:170px;overflow:hidden;display:inline-block;}

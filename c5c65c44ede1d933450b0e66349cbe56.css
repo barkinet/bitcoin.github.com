@@ -192,6 +192,9 @@ h2 .rssicon{vertical-align:bottom;margin-bottom:7px;margin-left:10px;}
 .alertstatusactive{font-size:130%;color:#d57700;margin-bottom:30px;}
 .alertsactive{margin-bottom:20px;}
 .alertsactive a{font-weight:bold;}
+.redirectmsg{text-align:center;margin:20px 0px;}
+.redirectmsg h1{color:#7b7c7c;font-weight:400;font-size:180%;}
+.redirectmsg p{font-size:150%;}
 .download{text-align:center;}
 .download h1,.download h2{text-align:center;}
 .download .mainbutton a{margin:10px 0px 35px 0px;}

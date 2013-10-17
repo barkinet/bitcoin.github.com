@@ -1,21 +1,19 @@
-
-
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="http://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="robots" content="NOODP">
 <title>Ściągnij - Bitcoin</title>
-<link rel="stylesheet" type="text/css" href="/c5c65c44ede1d933450b0e66349cbe56.css" />
+<link rel="stylesheet" type="text/css" href="/5729e8f814633e912d62094b7c8116aa.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
-<link rel="stylesheet" type="text/css" href="/pl/css/main.css">
+
+<link rel="stylesheet" type="text/css" href="/css/sans.css">
 <script type="text/javascript" src="/js/main.js"></script>
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
-<body class="old">
+<body>
 
   <div id="head"><div>
     <select id="langselect" onchange="window.location=this.value;">
@@ -84,16 +82,17 @@
     </ul>
     <a id="logo" href="/pl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
-
-    
-
     <ul id="menusimple">
       <li><a href="#" onclick="mobilehover(event);">Wprowadzenie</a>
         <ul>
           <li><a href="/pl/bitcoin-dla-osob-fizycznych">Osoby prywatne</a></li>
           <li><a href="/pl/bitcoin-dla-biznesu">Firmy</a></li>
           <li><a href="/pl/bitcoin-dla-deweloperow">Deweloperzy</a></li>
+          
+          <li><a href="/pl/wybierz-swoj-portfel">Wybierz swój portfel</a></li>
+          
           <li><a href="/pl/jak-to-dziala">Jak to działa</a></li>
+          <li><a href="/pl/co-potrzebujesz-wiedziec">Powinieneś wiedzieć</a></li>
         </ul>
       </li>
       <li><a href="#" onclick="mobilehover(event);">Zasoby</a>
@@ -102,61 +101,66 @@
           <li><a href="/pl/spolecznosc">Społeczność</a></li>
           <li><a href="/pl/rozwoj">Rozwój</a></li>
           <li><a href="/pl/slownik">Słownik</a></li>
-          <li><a href="/pl/wydarzenia">Wydarzenia</a></li>
+          
+          
           
         </ul>
       </li>
+      
       <li><a href="/pl/innowacje">Innowacje</a></li>
-      <li><a href="https://bitcoinfoundation.org/">Fundacja</a></li>
+      
+      <li><a href="/pl/wesprzyj-bitcoin">Uczestniczyć</a></li>
+      
       <li><a href="/pl/o">O bitcoinie</a></li>
+      
     </ul>
-
-    
-
   </div></div>
   <div id="body">
     <div id="content">
+    <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
+<div class="download">
+  <h1>Ściągnij - Bitcoin-QT</h1>
+  <h2>Najnowsza wersja:0.8.5<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
+  <div class="mainbutton"><a id="downloadbutton" href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32-setup.exe/download"><img src="/img/but_windows.svg" alt="icon">Ściągnij - Bitcoin-QT</a></div>
+  <div class="downloadbox">
+    <p></p>
+    <div><img src="/img/dow-win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32.zip/download">Pobierz dla Windows (zip)</a> <small>~13MB</small></div>
+    <div id="download_windows"><img src="/img/dow-win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32-setup.exe/download">Pobierz dla Windows (exe)</a> <small>~9MB</small></div>
+    <div><img src="/img/dow-ubuntu.png" alt="ubuntu"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">Pobierz dla Ubuntu (PPA)</a> <small>~4MB</small></div>
+    <div><img src="/img/dow-linux.png" alt="linux"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-linux.tar.gz/download">Pobierz dla Linux (tgz, 32/64-bit)</a> <small>~12MB</small></div>
+    <div><img src="/img/dow-osx-uni.png" alt="osx"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-macosx.dmg/download">Pobierz dla Mac OS X</a> <small>~13MB</small></div>
     
+    <div><img src="/img/dow_sig.svg" alt="signature"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/SHA256SUMS.asc/view">Verify release signatures</a></div>
+    
+    <div><span></span> <a href="https://github.com/bitcoin/bitcoin">Kod Źródłowy</a> (GitHub)</div>
+    <p><a href="/en/version-history">Pokaż historię wersji</a></p>
+  </div>
+  <p><b>Uwaga</b> : Początkowa synchronizacja Bitcoin-Qt może trwać dzień zanim zostanie ukończona. Upewnij się, że posiadasz wystarczająco pasma internetowego oraz przestrzeni dyskowej na <a href="http://blockchain.info/charts/blocks-size">łańcuch bloku o pełnym rozmiarze</a>.</p>
+  <p>Aplikacja Bitcoin-QT jest tworzona przez społeczność jako <a href="http://www.fsf.org/about/what-is-free-software">darmowy projekt o otwartym kodzie</a> źródłowym opublikowanym na zasadach <a href="http://opensource.org/licenses/mit-license.php">licencji MIT</a>.</p>
+</div>
+<script type="text/javascript">
+var os='windows';
+if(navigator.userAgent.indexOf('Mac')!=-1)var os='mac'
+if(navigator.userAgent.indexOf('Linux')!=-1)var os='ubuntu';
+var but=document.getElementById('downloadbutton');
+but.getElementsByTagName('IMG')[0].src='/img/but_'+os+'.svg';
+switch(os){
+case 'windows':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32-setup.exe/download';break;
+case 'ubuntu':but.href='https://launchpad.net/~bitcoin/+archive/bitcoin';break;
+case 'mac':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-macosx.dmg/download';break;
+}
+</script>
 
-<link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
-<h1>Ściągnij - Bitcoin-QT</h1>
-<h2>Najnowsza wersja:0.8.5<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
-<p class="downloadold">
-<img src="/img/dow-win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32.zip/download">Pobierz dla Windows (zip)</a> <small>~13MB</small><br>
-<img src="/img/dow-win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-win32-setup.exe/download">Pobierz dla Windows (exe)</a> <small>~9MB</small><br>
-<img src="/img/dow-ubuntu.png" alt="ubuntu"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">Pobierz dla Ubuntu (PPA)</a><br>
-<img src="/img/dow-linux.png" alt="linux"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-linux.tar.gz/download">Pobierz dla Linux (tgz, 32/64-bit)</a> <small>~12MB</small><br>
-<img src="/img/dow-osx-uni.png" alt="osx"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/bitcoin-0.8.5-macosx.dmg/download">Pobierz dla Mac OS X</a> <small>~13MB</small><br>
-
-<img src="/img/dow_sig.svg" alt="signature"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.5/SHA256SUMS.asc/view">Verify release signatures</a><br>
-
-<span></span> <a href="https://github.com/bitcoin/bitcoin">Kod Źródłowy</a> (GitHub)<br><br>
-<span></span> <a href="/en/version-history" style="font-weight:bold;">Pokaż historię wersji</a>
-</p>
-<br>
-<p>Aplikacja Bitcoin-QT jest tworzona przez społeczność jako <a href="http://www.fsf.org/about/what-is-free-software">darmowy projekt o otwartym kodzie</a> źródłowym opublikowanym na zasadach <a href="http://opensource.org/licenses/mit-license.php">licencji MIT</a>.</p>
-<p><b>Uwaga</b> : Początkowa synchronizacja Bitcoin-Qt może trwać dzień zanim zostanie ukończona. Upewnij się, że posiadasz wystarczająco pasma internetowego oraz przestrzeni dyskowej na <a href="http://blockchain.info/charts/blocks-size">łańcuch bloku o pełnym rozmiarze</a>.</p>
-
-
-
-    </div>
-    <div id="rightbox">
-      <div id="choose">
-        <a href="/pl/wybierz-swoj-portfel"><img src="/img/but_start.svg" alt="Icon">Wybierz swój portfel</a>
-      </div>
-      <div id="before">
-        <a href="/pl/co-potrzebujesz-wiedziec"><img src="/img/but_warn.svg" alt="Icon">Powinieneś wiedzieć</a>
-      </div>
-      <div id="support">
-        <a href="/pl/wesprzyj-bitcoin"><img src="/img/but_involve.svg" alt="Icon">Wesprzyj Bitcoin</a>
-      </div>
     </div>
     <div id="footer"><div>
     <a href="/en/alerts">Network Status</a>
+    <a href="https://bitcoinfoundation.org/">Fundacja</a>
+    
+    <a href="/en/legal">Legal</a>
+    
     
     <a href="/pl/o-nas">O bitcoin.org</a>
     
-    <a href="/en/legal">Legal</a>
     <span>© Projekt Bitcoin 2009–2013 Dostępny w ramach <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licencji MIT</a></span>
     </div></div>
   </div>
@@ -164,5 +168,3 @@
 </body>
 
 </html>
-
-

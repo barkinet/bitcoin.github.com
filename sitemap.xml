@@ -2662,7 +2662,18 @@
     href="http://bitcoin.org/nl/aan-de-slag" />
 </url>
 <url>
+  <loc>http://bitcoin.org/fr/legal</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="http://bitcoin.org/en/legal" />
+</url>
+<url>
   <loc>http://bitcoin.org/en/legal</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="http://bitcoin.org/fr/legal" />
 </url>
 <url>
   <loc>http://bitcoin.org/zh_TW/resources</loc>

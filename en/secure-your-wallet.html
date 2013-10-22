@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Introduction</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Introduction</a>
         <ul>
           <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
           <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/en/you-need-to-know">You need to know</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Resources</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Resources</a>
         <ul>
           <li><a href="/en/resources">Resources</a></li>
           <li><a href="/en/community">Community</a></li>
@@ -165,7 +165,7 @@
 <p>An offline wallet, also known as cold storage, provides the highest level of security for savings. It involves storing a wallet in a secured place that is not connected to the network. When done properly, it can offer a very good protection against computer vulnerabilities. Using an offline wallet in conjunction with backups and encryption is also a good practice. Here is an overview of some approaches.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Offline transaction signing</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Offline transaction signing</a></h3>
 <p>This approach involves having two computers sharing some parts of the same wallet. The first one must be disconnected from any network. It is the only one that holds the entire wallet and is able to sign transactions. The second computer is connected to the network and only have a watching wallet that can only create unsigned transactions. This way, you can securely issue new transactions with the following steps.</p>
 <ol>
   <li>Create a new transaction on the online computer and save it on an USB key.</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Hardware wallets</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Hardware wallets</a></h3>
 <p>Hardware wallets are the best balance between very high security and ease of use. These are little devices that are designed from the root to be a wallet and nothing else. No software can be installed on them, making them very secure against computer vulnerabilities and online thieves. Because they can allow backup, you can recover your funds if you lose the device.</p>
 <p>As of today, no hardware wallet has entered in production but they are coming soon:</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin Project 2009–2013 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/pl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Wprowadzenie</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Wprowadzenie</a>
         <ul>
           <li><a href="/pl/bitcoin-dla-osob-fizycznych">Osoby prywatne</a></li>
           <li><a href="/pl/bitcoin-dla-biznesu">Firmy</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/pl/co-potrzebujesz-wiedziec">Powinieneś wiedzieć</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Zasoby</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Zasoby</a>
         <ul>
           <li><a href="/pl/zasoby">Zasoby</a></li>
           <li><a href="/pl/spolecznosc">Społeczność</a></li>
@@ -162,7 +162,7 @@
 <p>Portfel poza-sieciowy zwany także przechowalnią pozwala na zastosowanie najwyższego poziomu ochrony dla gromadzonych oszczędności. Wymaga przechowywania portfela w bezpiecznym miejscu nie podłączonym do sieci. Kiedy przygotowany poprawnie może być bardzo dobrą ochroną przeciw podatnościom komputera na awarie czy włamania. Jest jednakże bardzo istotne by wpierw wypróbować tego rodzaju transakcji. Używanie portfela poza-sieciowego w połączeniu z wykonywaniem kopii bezpieczeństwa oraz szyfrowaniem jest bardzo dobrym zwyczajem. Tu jest przegląd niektórych podejść.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Podpisywanie transakcji bez podłączenia</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Podpisywanie transakcji bez podłączenia</a></h3>
 <p>Ten sposób wymaga posiadania dwóch komputerów współdzielących niektóre części portfela. Pierwszy nie może być połączony z żadną siecią. Jest to jedyny komputer posiadający całą zawartość portfela oraz posiadający możliwość podpisywania transakcji. Drugi natomiast jest podłączony do sieci oraz posiada jedynie możliwość przeglądania zawartości portfela oraz zawierania niepodpisanych transakcji. W ten sposób możesz rozpocząć transakcje używając następujących kroków.</p>
 <ol>
   <li>Rozpocznij nową transakcję na komputerze podłączonym do sieci oraz zapisz ją na kluczu USB.</li>
@@ -175,7 +175,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Portfele sprzętowe są przyszłością</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Portfele sprzętowe są przyszłością</a></h3>
 <p>Portmonetki sprzętowe są najlepszym balansem pomiędzy wysokim bezpieczeństwem oraz łatwością użytkowania. Są to niewielkie urządzenia które na starcie zostały zaprojektowane by służyć jako tylko i wyłącznie jako portfele i nic więcej. Żaden program nie może zostać na nich zainstalowany czyniąc je bardzo odpornymi na zagrożenia związane z komputerami oraz kradzieżami przez złodziei internetowych. Ponieważ pozwalają one na wykonanie kopii zapasowej możesz odtworzyć swoje fundusze w przypadku utraty urządzenia.</p>
 <p>Na dzień dzisiejszy żadne sprzętowe portfele nie zostały wprowadzony do zastosowania produkcyjnego ale one niedługo nadejdą:</p>
 <p>
@@ -207,7 +207,7 @@ ButterflyLabs BitSafe
     <span>© Projekt Bitcoin 2009–2013 Dostępny w ramach <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licencji MIT</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

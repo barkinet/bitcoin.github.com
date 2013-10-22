@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/de/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Einführung</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Einführung</a>
         <ul>
           <li><a href="/de/bitcoin-fuer-einzelpersonen">Einzelpersonen</a></li>
           <li><a href="/de/bitcoin-fuer-unternehmen">Unternehmen</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/de/das-sollten-sie-wissen">Das sollten Sie wissen</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Ressourcen</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Ressourcen</a>
         <ul>
           <li><a href="/de/ressourcen">Ressourcen</a></li>
           <li><a href="/de/community">Community</a></li>
@@ -165,7 +165,7 @@
 <p>Eine Offline-Wallet, auch "Cold Storage" genannt, bietet das höchste Maß an Sicherheit für Erspartes. Hierbei wird eine Wallet an einem gesicherten Ort gespeichert, der keine Verbindung zum Internet hat. Wenn es ordentlich umgesetzt ist, bietet es einen sehr guten Schutz gegen Computerschwachstellen. Es empfiehlt sich auch, Offline-Wallets in Verbindung mit Sicherheitskopien und Verschlüsselung zu verwenden. Im Folgenden eine Übersicht über einige Ansätze.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Offline-Signierung von Transaktionen</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Offline-Signierung von Transaktionen</a></h3>
 <p>Bei diesem Ansatz teilen sich zwei Computer Teile einer Wallet. Der Erste darf nicht mit einem Netzwerk verbunden sein. Nur dieser speichert die komplette Wallet und kann Transaktionen signieren. Der zweite Computer ist mit dem Netzwerk verbunden, hat nur eine beobachtende Wallet und kann nur unsignierte Transaktionen erstellen. So können Sie mit den folgenden Schritten sicher neue Transaktionen veranlassen.</p>
 <ol>
   <li>Erstellen Sie eine neue Transaktion auf dem Online-Computer und speichern Sie sie auf einem USB-Stick.</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Hardware-Wallets</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Hardware-Wallets</a></h3>
 <p>Hardware-Wallets bieten den besten Kompromiss aus sehr hoher Sicherheit und einfacher Handhabung. Es sind kleine Geräte, die von Grundauf dafür entworfen wurden nur eine Wallet und sonst nichts weiter zu sein. Keine Software kann auf ihnen installiert werden, was sie sehr sicher gegen Computerangriffe und Onlinediebe macht. Weil sie eine Sicherung ermöglichen, können Sie ihr Geld aus einem verlorenem Gerät wiederherstellen.</p>
 <p>Im Moment befindet sich keine Hardware-Wallet in Produktion, aber das ändert sich bald:</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin Project 2009–2013 Veröffentlicht unter der <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT Lizenz</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/zh_CN/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">介绍</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">介绍</a>
         <ul>
           <li><a href="/zh_CN/bitcoin-for-individuals">个人</a></li>
           <li><a href="/zh_CN/bitcoin-for-businesses">商家</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/zh_CN/you-need-to-know">注意事项</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">资源</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">资源</a>
         <ul>
           <li><a href="/zh_CN/resources">资源</a></li>
           <li><a href="/zh_CN/community">社区</a></li>
@@ -165,7 +165,7 @@
 <p>离线钱包也被称为冷存储，可以提供最高级别的安全性存储。它涉及到将钱包存储在没有网络连接的安全环境下。如果处理得当，它可以针对计算机安全漏洞提供一个非常好的保护。对离线钱包进行备份并加密也是一个很好的做法。下面是一些方法的概述。</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">离线交易签名</a></h3>
+<h3><a href="#" onclick="boxShow(event);">离线交易签名</a></h3>
 <p>用这种方式需要有两台电脑共享同一个钱包的部分内容。第一台电脑必须与互联网完全隔绝，它是唯一持有整个钱包并可以给交易签名的电脑。第二台电脑与网络连接，并且只有一个可以创建未签名交易的可视钱包。这样，你就可以参照以下步骤安全地发起新交易了。</p>
 <ol>
   <li>在联网的电脑上创建一个新交易，并把它保存到U盘中。</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">硬件钱包</a></h3>
+<h3><a href="#" onclick="boxShow(event);">硬件钱包</a></h3>
 <p>硬件钱包是高安全性和易用性之间的最佳平衡。它们从底层起被设计为只能用作钱包其它什么也干不了的一个非常小的设备。不能安装任何软件，免受计算机安全漏洞和线上盗贼的危害，使得它们更安全。因为可以备份，如果你的设备丢失，你的资金仍然可以找回来。</p>
 <p>直至今天，还没有硬件钱包正式投产，但很快就会有：</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin项目 2009–2013  基于<a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT协议</a>授权发布</span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

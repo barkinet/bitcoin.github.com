@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/zh_TW/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">介紹</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">介紹</a>
         <ul>
           <li><a href="/zh_TW/bitcoin-for-individuals">個人</a></li>
           <li><a href="/zh_TW/bitcoin-for-businesses">商務</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/zh_TW/you-need-to-know">Bitcoin 使用須知</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">資源</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">資源</a>
         <ul>
           <li><a href="/zh_TW/resources">資源</a></li>
           <li><a href="/zh_TW/community">社群</a></li>
@@ -162,7 +162,7 @@
 <p>離線錢包 (或稱冷資料儲存) 為存款提供最高等級的安全性。它是指將錢包儲存在一個沒有網路連線且安全的地方。如果有良好的規劃，它可以對各種電腦安全性漏洞提供相當的保障。請注意，在你用它來做大筆交易之前，需確定離線環境的設置有經過完整的測試。離線錢包搭配備份與加密是一個好的使用方式。下面簡介一些可行的方法。</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">離線交易簽署</a></h3>
+<h3><a href="#" onclick="boxShow(event);">離線交易簽署</a></h3>
 <p>這個作法使用兩台電腦共享同一個錢包內的部分資訊。其中一台處於離線狀態，它是唯一存有完整錢包並能簽署交易的電腦。另一台電腦與網路連線，它只擁有一個保管用的錢包，用來建立未簽署的交易。如此一來，你就可以按照下列步驟來進行安全的交易：</p>
 <ol>
   <li>在連線的電腦上建立新交易，並將交易存到 USB 随身碟。</li>
@@ -175,7 +175,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">硬體錢包是未來趨勢</a></h3>
+<h3><a href="#" onclick="boxShow(event);">硬體錢包是未來趨勢</a></h3>
 <p>硬體錢包平衡了高安全性與容易使用這兩方面的需求，這個小裝置最根本的設計即是錢包，而不具備其他功能。硬體錢包無法安裝軟體，所以可以對抗電腦安全性問題與網路小偷。硬體錢包還可以備份，即便你丟了它也能取回你的財產。</p>
 <p>截止今日，還沒有任何硬體錢包量產，但它們很快就要上市了：</p>
 <p>
@@ -207,7 +207,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin Project 2009–2013 以 <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT 授權</a>發佈</span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

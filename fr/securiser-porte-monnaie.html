@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/fr/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Introduction</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Introduction</a>
         <ul>
           <li><a href="/fr/bitcoin-pour-particuliers">Particuliers</a></li>
           <li><a href="/fr/bitcoin-pour-entreprises">Entreprises</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/fr/vous-devez-savoir">Vous devez savoir</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Ressources</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Ressources</a>
         <ul>
           <li><a href="/fr/ressources">Ressources</a></li>
           <li><a href="/fr/communaute">Communauté</a></li>
@@ -165,7 +165,7 @@
 <p>Un porte-monnaie hors ligne, aussi connu sous le nom de "stockage à froid", offre le plus haut niveau de sécurité pour l'épargne. Il permet de stocker un porte-monnaie dans un endroit sécurisé qui n'est pas connecté au réseau. Lorsqu'il est mis en place correctement, il peut offrir une excellente protection contre les failles informatiques. Utiliser un porte-monnaie hors ligne de pair avec les sauvegardes et le chiffrement du porte-monnaie est aussi une bonne pratique. Voici un survol de quelques approches.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Signature de transaction hors ligne</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Signature de transaction hors ligne</a></h3>
 <p>Cette approche implique l'utilisation de deux ordinateurs partageant une partie d'un porte-monnaie. Le premier ordinateur doit être déconnecté de tout réseau. Il s'agit du seul à détenir le porte-monnaie en entier et à pouvoir signer une transaction. Le second ordinateur est connecté sur le réseau et ne contient qu'un porte-monnaie incomplet seulement capable de produire des transactions non signées. De cette façon, vous pouvez émettre une nouvelle transaction de façon sécurisée par le biais des étapes suivantes.</p>
 <ol>
   <li>Créer une nouvelle transaction sur l'ordinateur en ligne et la sauvegarder sur une clé USB.</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Les porte-monnaie matériels</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Les porte-monnaie matériels</a></h3>
 <p>Les porte-monnaie matériels représentent le meilleur équilibre entre très haute sécurité et facilité d'utilisation. Ce sont de petits appareils conçus à la base pour être des porte-monnaie et rien d'autre. Aucun logiciel ne peut être installé sur ceux-ci, ce qui leur permet d'être très sécurisés contre les failles informatiques et les voleurs sur Internet. Puisque les sauvegardes sont aussi possibles, vous pouvez récupérer vos fonds si vous perdez votre appareil.</p>
 <p>À ce jour, aucun porte-monnaie matériel n'est entré en production mais ils arrivent bientôt :</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin Project 2009–2013 Publié sous la <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licence MIT</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

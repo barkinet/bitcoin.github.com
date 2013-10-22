@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/it/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Introduzione</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Introduzione</a>
         <ul>
           <li><a href="/it/bitcoin-per-privati">Privati</a></li>
           <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/it/da-sapere">Da sapere</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Risorse</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Risorse</a>
         <ul>
           <li><a href="/it/risorse">Risorse</a></li>
           <li><a href="/it/comunita">Comunità</a></li>
@@ -165,7 +165,7 @@
 <p>Un portafoglio offline, noto anche come <i>cold storage</i>, fornisce il più alto livello di sicurezza per i risparmi. Questo sistema implica il salvataggio di un portafoglio in un posto sicuro non connesso alla rete. Quando realizzato propriamente, può offrire un'ottima protezione contro alcune vulnerabilità del computer. Anche usare un portafoglio offline insieme con i backup e la crittografia è una buona pratica. Qui è presentata una panoramica di alcuni approcci.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Firmare offline una transazione</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Firmare offline una transazione</a></h3>
 <p>Questo approccio implica l'avere due computer che condividono alcune parti dello stesso portafoglio. Il primo computer deve essere disconnesso da qualunque rete. E' l'unico che conserva l'intero portafoglio e ad essere in grado di firmare le transazioni. Il secondo computer è connesso alla rete e possiede solamente un portafoglio <i>di osservazione</i> che può creare esclusivamente transazioni non firmate. In questo modo si possono effettuare in sicurezza nuove transazioni con i seguenti passaggi.</p>
 <ol>
   <li>Creare una nuova transazione sul computer online e salvarla su una chiavetta USB.</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Portafogli hardware</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Portafogli hardware</a></h3>
 <p>I portafogli hardware sono il miglior bilancio  tra sicurezza molto alta e comodità d'uso. Loro sono piccoli dispositivi che sono designati dalla radice per essere un portafoglio e niente altro. Nessun software può essere installato su di essi, rendendoli molto sicuri contro le vulnerabilità dei computer e furti online. Dato che possono permettere backup, tu puoi recuperare i tuoi fondi se hai perso il dispositivo.</p>
 <p>A partire da oggi, nessun portafoglio hardware è entrato in produzione ma presto succederà:</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Progetto Bitcoin 2009–2013 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

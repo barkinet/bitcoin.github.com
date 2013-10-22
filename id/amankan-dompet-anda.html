@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/id/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Pengenalan</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Pengenalan</a>
         <ul>
           <li><a href="/id/bitcoin-untuk-perorangan">Perorangan</a></li>
           <li><a href="/id/bitcoin-untuk-bisnis">Bisnis</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/id/yang-perlu-anda-ketahui">Yang perlu Anda ketahui</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Sumber daya</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Sumber daya</a>
         <ul>
           <li><a href="/id/sumber-daya">Sumber daya</a></li>
           <li><a href="/id/komunitas">Komunitas</a></li>
@@ -164,7 +164,7 @@
 <p>Sebuah dompet offline, juga dikenal sebagai "cold storage", menyediakan tingkat keamanan paling tinggi untuk penyimpanan. Ia melibatkan penyimpanan dompet di tempat aman yang tidak terhubung dengan jaringan. Bila dilakukan dengan benar, ia menawarkan pelindungan yang baik terhadap kerentanan komputer. Menggunakan dompet offline bersamaan dengan pencadangan dan enkripsi juga praktek yang baik. Ini adalah gambaran beberapa pendekatan.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">penandatanganan transaksi offline</a></h3>
+<h3><a href="#" onclick="boxShow(event);">penandatanganan transaksi offline</a></h3>
 <p>Pendekatan ini melibatkan dua komputer berbagi beberapa bagian dari dompet yang sama, Yang pertama harus diputuskan dari jaringan apapun. Hanya itu yang memegang seluruh dompet dan bisa digunakan untuk menandatangani transaksi. Komputer kedua terhubung ke jaringan dan hanya memantau dompet yang bisa membuat transaksi yang tidak ditandatangani. Dengan cara ini, Anda bisa dengan aman melakukan transaksi baru dengan langkah-langkah berikut ini.</p>
 <ol>
   <li>Buat sebuah transaksi baru pada komputer online dan simpanlah pada sebuah kunci USB.</li>
@@ -177,7 +177,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Dompet perangkat keras</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Dompet perangkat keras</a></h3>
 <p>Dompet perangkat keras adalah keseimbangan diantara keamanan yang sangat tinggi dan kemudahan dalam pemakaian. Ada perangkat kecil yang dirancang dari akar untuk menjadi dompet dan tidak lainnya. Tidak ada perangkat lunak yang bisa diinstal padanya, membuat mereka sangat aman terhadap kerentanan komputer dan pencurian online. Karena ia dapat membuat cadangan, dan Anda bisa memulihkan dana Anda jika Anda kehilangan perangkat tersebut.</p>
 <p>Hingga saat ini, tidak ada dompet perangkat keras yang diproduksi tetapi ia akan segera hadir:</p>
 <p>
@@ -211,7 +211,7 @@ ButterflyLabs BitSafe
     <span>© Proyek Bitcoin 2009–2013 Dirilis dibawah <a href="http://opensource.org/licenses/mit-license.php" target="_blank">Lisensi MIT</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

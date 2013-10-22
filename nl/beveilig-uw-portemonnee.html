@@ -81,9 +81,9 @@
       </li>
     </ul>
     <a id="logo" href="/nl/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
-    <a href="#" id="menumobile" onclick="mobileshow(event);"></a>
+    <a href="#" id="menumobile" onclick="mobileMenuShow(event);"></a>
     <ul id="menusimple">
-      <li><a href="#" onclick="mobilehover(event);">Inleiding</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Inleiding</a>
         <ul>
           <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
           <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
@@ -95,7 +95,7 @@
           <li><a href="/nl/wat-u-moet-weten">Wat u moet weten</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobilehover(event);">Hulpmiddelen</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Hulpmiddelen</a>
         <ul>
           <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a></li>
           <li><a href="/nl/community">Community</a></li>
@@ -165,7 +165,7 @@
 <p>Een offline portemonnee, ook wel cold storage genoemd, biedt het hoogste veiligheidsniveau om geld te bewaren. U doet dit door een portemonnee te bewaren op een beveiligde plek die niet is verbonden met het internet. Als dit correct wordt uitgevoerd, biedt het een goede beveiliging tegen kwetsbaarheden van computers. Een offline portemonnee samen met back-ups en versleuteling gebruiken wordt aanbevolen. Hier volgt een overzicht van enkele benaderingen.</p>
 
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Offline transactieondertekening</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Offline transactieondertekening</a></h3>
 <p>Voor deze aanpak hebt u twee computers nodig die een portemonnee gedeeltelijk delen. De eerste mag met geen enkel netwerk zijn verbonden. Dit is degene die de volledige portemonnee bevat en in staat is transacties te ondertekenen. De tweede computer is verbonden met het internet en heeft een alleen-bekijken-versie van de portemonnee. Hiermee kunnen transacties wel worden gemaakt, maar niet worden ondertekend. Zo kunt u op veilige wijze nieuwe transacties uitgeven via de volgende stappen:</p>
 <ol>
   <li>Maak een nieuwe transactie aan op de online computer en sla deze op een USB-stick op.</li>
@@ -178,7 +178,7 @@
 
 <br>
 <div class="box boxexpand">
-<h3><a href="#" onclick="boxshow(event);">Hardwareportemonnees</a></h3>
+<h3><a href="#" onclick="boxShow(event);">Hardwareportemonnees</a></h3>
 <p>Hardwareportemonnees zijn de beste balans tussen zeer hoge veiligheid en gebruiksgemak. Deze portemonnees zijn kleine apparaatjes die van het begin af aan als portemonnee zijn ontworpen. Er kan geen software op worden geïnstalleerd, waardoor deze portemonnees erg veilig zijn wat betreft kwetsbaarheid van computers en online dieven. Omdat ze back-ups toestaan, kunt u uw geld terugkrijgen als u het apparaat verliest.</p>
 <p>Op dit moment zijn er nog geen hardwareportemonnees in productie, maar dat duurt niet lang meer:</p>
 <p>
@@ -212,7 +212,7 @@ ButterflyLabs BitSafe
     <span>© Bitcoin Project 2009–2013 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></span>
     </div></div>
   </div>
-  <script type="text/javascript">svgfallback();</script>
+  <script type="text/javascript">fallbackSVG();</script>
 </body>
 
 </html>

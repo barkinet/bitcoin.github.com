@@ -105,6 +105,8 @@ li p{margin:0;}
 .mainoverview{font-size:130%;text-align:center;margin-bottom:10px;}
 .mainoverviews{font-size:145%;text-align:center;margin-bottom:10px;}
 .mainoverviews a{margin:5px 15px;display:inline-block;}
+.starttitle{text-align:center;}
+.starttitle a{padding:10px;border-bottom:1px solid #E2E2E2;font-size:155%;margin:20px auto;display:inline-block;}
 .start{text-align:left;}
 .start div{position:relative;}
 .start>div:first-child+div{border-top:1px solid #e0e0e0;}

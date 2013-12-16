@@ -25,4 +25,8 @@ h2 .rssicon{margin-left:0;margin-right:10px;margin-bottom:18px;}
 .previewrow>div>div>div>h2:first-child+span+p{line-height:1.5em;}
 .index a,.index a:link,.index a:active,.index a:visited{line-height:2em;}
 .floatimg{float:right;margin-right:auto;margin-left:10px;}
-@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.eot');font-weight:normal;font-style:normal;}@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.ttf') format('truetype');font-weight:normal;font-style:normal;}@media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){h1{text-align:right;} .summary{text-align:right;} .content{position:static;padding:15px 10px 20px 10px;text-align:right;}}.resourcesold li{text-align:right;}
+.downloadbox a{direction:ltr;}
+.downloadbox small{direction:ltr;}
+.downloadbox div div{text-align:right;font-family:Arial,sans-serif;}
+.downloadbox small{right:40px;left:0;}
+@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.eot');font-weight:normal;font-style:normal;}@font-face{font-family:'DroidNaskh';src:url('/font/droidnaskh-regular.ttf') format('truetype');font-weight:normal;font-style:normal;}@media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){h1{text-align:right;} .summary{text-align:right;} .content{position:static;padding:15px 10px 20px 10px;text-align:right;} .download{text-align:right;} .download p{text-align:right;} .downloadbox{text-align:right;} .download h1,.download h2{text-align:right;} .download div p{text-align:right;}}.resourcesold li{text-align:right;}

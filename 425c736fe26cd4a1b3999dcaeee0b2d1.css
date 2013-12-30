@@ -17,6 +17,7 @@ h2 .rssicon{margin-left:0;margin-right:10px;margin-bottom:18px;}
 .contributors{text-align:right;}
 .contributors span{direction:ltr;}
 .downloadbox div{text-align:right;}
+.previewrow{text-align:right;}
 .previewrow>div{margin-right:auto;margin-left:15px;}
 .previewrow>div>a{line-height:1.2em;font-family:Arial,sans-serif;}
 .previewrow>div:first-child+div+div,.previewrow>div:first-child+div+div+div+div+div{margin-left:0;}

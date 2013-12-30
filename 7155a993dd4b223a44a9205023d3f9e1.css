@@ -117,7 +117,6 @@ li p{margin:0;}
 .start div div div a:hover{background-image:none;color:#fff;}
 .start h2{color:#0d579b;}
 .start h2 span{font-size:200%;color:#ee9209;}
-.start p{text-align:justify;}
 .start div div div{display:block;width:auto;padding-bottom:0;position:absolute;bottom:35px;}
 .introlink{text-align:center;font-size:125%;font-weight:bold;margin-top:30px;}
 .titleicon{width:32px;height:32px;vertical-align:middle;margin-right:8px;position:relative;top:-2px;}
@@ -138,6 +137,7 @@ li p{margin:0;}
 .tablehalf div{display:inline-block;width:400px;vertical-align:top;margin-left:40px;margin-bottom:20px;}
 .tablehalf img{width:400px;height:220px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
 .tablehalf h2 img{width:auto;height:auto;}
+.tablehalf p{text-align:left;}
 .contributors{width:890px;text-align:left;}
 .contributors span a{font-size:80%;}
 .contributors span{padding:6px 0;width:170px;overflow:hidden;display:inline-block;}
@@ -164,7 +164,7 @@ li p{margin:0;}
 .preview{margin-top:-5px;}
 .previewcol{clear:both;}
 .previewcol .previewrow:first-child{padding-left:0;}
-.previewrow{float:left;width:255px;text-align:justify;padding-left:40px;position:relative;}
+.previewrow{float:left;width:255px;text-align:left;padding-left:40px;position:relative;}
 .previewrow>h2{font-size:115%;}
 .previewrow>p{font-size:95%;}
 .previewrow>div{display:inline-block;position:relative;margin-right:15px;margin-bottom:12px;vertical-align:top;}

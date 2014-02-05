@@ -127,21 +127,21 @@
 <div class="download">
   <h1>Télécharger Bitcoin-Qt</h1>
   <h2>Dernière version : 0.8.6<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
-  <div class="mainbutton"><a id="downloadbutton" href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-win32-setup.exe/download"><img src="/img/but_windows.svg" alt="icon">Télécharger Bitcoin-Qt</a></div>
+  <div class="mainbutton"><a id="downloadbutton" href="/bin/0.8.6/bitcoin-0.8.6-win32-setup.exe"><img src="/img/but_windows.svg" alt="icon">Télécharger Bitcoin-Qt</a></div>
   <div class="downloadbox">
     <p>Ou choisissez votre système d'exploitation</p>
     <div>
-      <div id="download_windows"><img src="/img/os/med_win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-win32-setup.exe/download">Windows (exe)</a> <small>~12MB</small></div>
-      <div><img src="/img/os/med_win.png" alt="windows"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-win32.zip/download">Windows (zip)</a> <small>~16MB</small></div>
+      <div id="download_windows"><img src="/img/os/med_win.png" alt="windows"> <a href="/bin/0.8.6/bitcoin-0.8.6-win32-setup.exe">Windows (exe)</a> <small>~12MB</small></div>
+      <div><img src="/img/os/med_win.png" alt="windows"> <a href="/bin/0.8.6/bitcoin-0.8.6-win32.zip">Windows (zip)</a> <small>~16MB</small></div>
       <div><img src="/img/os/med_ubuntu.svg" alt="ubuntu"> <a href="https://launchpad.net/~bitcoin/+archive/bitcoin">Ubuntu (PPA)</a> <small>~4MB</small></div>
     </div>
     <div>
-      <div><img src="/img/os/med_osx.png" alt="osx"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-macosx.dmg/download">Mac OS X</a> <small>~14MB</small></div>
-      <div><img src="/img/os/med_linux.png" alt="linux"> <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-linux.tar.gz/download">Linux (tgz)</a> <small>~16MB</small></div>
+      <div><img src="/img/os/med_osx.png" alt="osx"> <a href="/bin/0.8.6/bitcoin-0.8.6-macosx.dmg">Mac OS X</a> <small>~14MB</small></div>
+      <div><img src="/img/os/med_linux.png" alt="linux"> <a href="/bin/0.8.6/bitcoin-0.8.6-linux.tar.gz">Linux (tgz)</a> <small>~16MB</small></div>
       <div><img src="/img/os/med_opensource.svg" alt="opensource"> <a href="https://github.com/bitcoin/bitcoin">Source code</a> <small>(GitHub)</small></div>
     </div>
     <p>
-      <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/SHA256SUMS.asc/view">Vérifier les signatures de version</a><br>
+      <a href="/bin/0.8.6/SHA256SUMS.asc">Vérifier les signatures de version</a><br>
       <a href="/en/version-history">Afficher l'historique des versions</a>
     </p>
   </div>
@@ -158,9 +158,9 @@ if(navigator.userAgent.indexOf('Linux')!=-1)var os='ubuntu';
 var but=document.getElementById('downloadbutton');
 but.getElementsByTagName('IMG')[0].src='/img/but_'+os+'.svg';
 switch(os){
-case 'windows':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-win32-setup.exe/download';break;
+case 'windows':but.href='/bin/0.8.6/bitcoin-0.8.6-win32-setup.exe';break;
 case 'ubuntu':but.href='https://launchpad.net/~bitcoin/+archive/bitcoin';break;
-case 'mac':but.href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.6/bitcoin-0.8.6-macosx.dmg/download';break;
+case 'mac':but.href='/bin/0.8.6/bitcoin-0.8.6-macosx.dmg';break;
 }
 </script>
 

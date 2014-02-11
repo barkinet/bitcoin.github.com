@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta property="og:image" content="https://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Network status and alerts - Bitcoin</title>
+<title>Transaction malleability</title>
 <link rel="stylesheet" type="text/css" href="/33258d72f68c4d1c8f47faef9f7b1f28.css" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/d1ab072c9186f190ac3937b7de8bb5f1.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
 
@@ -123,50 +123,29 @@
   </div></div>
   <div class="body">
     <div id="content" class="content">
-    <link rel="alternate" type="application/rss+xml" href="/en/rss/alerts.rss" title="Bitcoin network status and alerts">
+    
+
+<link rel="alternate" type="application/rss+xml" href="/en/rss/alerts.rss" title="Bitcoin network status and alerts">
 <div class="alerttext">
-  <h1>Network status and alerts<a type="application/rss+xml" href="/en/rss/alerts.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h1>
-  
-  
-  <div class="alertstatusactive"">The following network event is ongoing.</div>
-  <ul class="alertsactive">
-  
-    <li>
-      2014-02-11 - <a href="/en/alert/2014-02-11-malleability">Transaction malleability</a>
-    </li>
-  
-  </ul>
-  
-  <ul class="alertsinactive">
-  
-    <li>
-      2013-08-11 - <a href="/en/alert/2013-08-11-android">Android Security Vulnerability</a>
-    </li>
-  
-    <li>
-      2013-03-15 - <a href="/en/alert/2013-03-15-upgrade-deadline">15 May 2013 Upgrade Deadline</a>
-    </li>
-  
-    <li>
-      2013-03-11 - <a href="/en/alert/2013-03-11-chain-fork">11/12 March 2013 Chain Fork Information</a>
-    </li>
-  
-    <li>
-      2012-05-14 - <a href="/en/alert/2012-05-14-dos">CVE-2012-2459: Critical Vulnerability (denial-of-service)</a>
-    </li>
-  
-    <li>
-      2012-03-16 - <a href="/en/alert/2012-03-16-critical-vulnerability">Potentially Critical Security Vulnerability</a>
-    </li>
-  
-    <li>
-      2012-02-18 - <a href="/en/alert/2012-02-18-protocol-change">February 20, 2012 Protocol Changes</a>
-    </li>
-  
-  </ul>
-  <p>See the complete <a href="https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures">CVE list</a>.</p>
-  <p>Please refer to the <a href="/en/development">development</a> page if you want to report a vulnerability.</p>
+  <h1>Transaction malleability<br><small>11 February 2014</small></h1>
+  <h2>What happened</h2>
+
+<p>Many identical transactions with different transaction IDs are being relayed on the network from an unknown source. As a result, a certain number of services like Bitcoin exchanges and wallets have been found to handle these transactions improperly and are experiencing temporary issues with their internal accounting systems. Transaction malleability is a <a href="https://en.bitcoin.it/wiki/Transaction_Malleability">known issue</a> and many services are mostly unaffected.</p>
+
+<h2>What is being done</h2>
+
+<p>Bitcoin developers are collaborating with known affected exchanges to fix their internal systems and help resuming withdrawals as soon as possible. Some pool operators have been reported to work on blocking duplicate transactions to help mitigate the problem. Emergency fixes to the Bitcoin protocol are not required and future improvements are already being discussed.</p>
+
+<h2>What you should do</h2>
+
+<p>No action is required to protect your bitcoins. Always remember to wait for one confirmation or more before spending your bitcoins. You should monitor your own exchange's website to be informed about their service status. Temporary confusion, delays and price volatility can be expected.</p>
+
+<div style="text-align:right">
+  <i>This notice last updated: Tue, 11 Feb 2014 16:14:57 -0500</i>
 </div>
+
+</div>
+<a href="/en/alerts">Go back to the network alerts history</a>
 
     </div>
     <div class="footer"><div>

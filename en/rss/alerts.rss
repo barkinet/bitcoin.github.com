@@ -10,6 +10,12 @@
 	</image>
 	
         <item>
+            <title>Transaction malleability</title>
+            <link>https://bitcoin.org/en/alert/2014-02-11-malleability</link>
+            <pubDate>Tue, 11 Feb 2014</pubDate>
+        </item>
+	
+        <item>
             <title>Android Security Vulnerability</title>
             <link>https://bitcoin.org/en/alert/2013-08-11-android</link>
             <pubDate>Sun, 11 Aug 2013</pubDate>

@@ -98,14 +98,13 @@ if(typeof(legacyIE)==='undefined'){
     <a class="logo" href="/ru/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" href="#"></a>
     <ul id="menusimple" class="menusimple">
-      <li><a href="#" onclick="mobileMenuHover(event);">презентация</a>
+      <li><a href="#" onclick="mobileMenuHover(event);">Введение</a>
         <ul>
           <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%BC-%D0%BB%D0%B8%D1%86%D0%B0%D0%BC">Частным лицам</a></li>
           <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D1%83">Бизнесу</a></li>
           <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC">Разработчикам</a></li>
           
-          <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC">Энтузиастам</a></li>
-          <li><a href="/ru/%D0%B2%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5-%D1%81%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA">Выберите свой кошелек</a></li>
+          <li><a href="/ru/getting-started">Начало работы</a></li>
           
           <li><a href="/ru/%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82">Как это работает</a></li>
           <li><a href="/ru/%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D1%8C">Вам нужно знать</a></li>
@@ -118,15 +117,17 @@ if(typeof(legacyIE)==='undefined'){
           <li><a href="/ru/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0">Разработка</a></li>
           <li><a href="/ru/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B">Термины</a></li>
           
+          <li><a href="/ru/events">События</a></li>
           
           
         </ul>
       </li>
       
+      <li><a href="/ru/innovation">Инновация</a></li>
       
-      <li><a href="/ru/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD">участвовать</a></li>
+      <li><a href="/ru/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD">Участвовать</a></li>
       
-      <li><a href="/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5">О Биткоине</a></li>
+      <li><a href="/ru/faq">FAQ</a></li>
       
     </ul>
   </div></div>
@@ -138,7 +139,7 @@ if(typeof(legacyIE)==='undefined'){
   <h2>Последняя версия : 0.8.6<a type="application/rss+xml" href="/en/rss/releases.rss"><img src="/img/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
   <div class="mainbutton"><a id="downloadbutton" href="/bin/0.8.6/bitcoin-0.8.6-win32-setup.exe"><img src="/img/but_windows.svg" alt="icon">Загрузить Bitcoin-Qt</a></div>
   <div class="downloadbox">
-    <p></p>
+    <p>Или выберите свою операционную систему</p>
     <div>
       <div id="download_windows"><img src="/img/os/med_win.png" alt="windows"> <a href="/bin/0.8.6/bitcoin-0.8.6-win32-setup.exe">Windows (exe)</a> <small>~12MB</small></div>
       <div><img src="/img/os/med_win.png" alt="windows"> <a href="/bin/0.8.6/bitcoin-0.8.6-win32.zip">Windows (zip)</a> <small>~16MB</small></div>
@@ -150,13 +151,15 @@ if(typeof(legacyIE)==='undefined'){
       <div><img src="/img/os/med_opensource.svg" alt="opensource"> <a href="https://github.com/bitcoin/bitcoin">Source code</a> <small>(GitHub)</small></div>
     </div>
     <p>
-      <a href="/bin/0.8.6/SHA256SUMS.asc">Verify release signatures</a><br>
+      <a href="/bin/0.8.6/SHA256SUMS.asc">Сверить контрольные суммы релизов</a><br>
       <a href="/en/version-history">История версий</a>
     </p>
   </div>
   
+  <h2><img src="/img/warning.svg" class="warningicon" alt="warning">Будьте терпеливыми</h2>
   
-  <p><b>Примечание</b> : Первая синхронизация Bitcoin-Qt с сетью может потребовать около одного дня. Вам следует заранее убедиться в достаточной пропускной способности интернет-канала и наличии свободного места в памяти для загрузки <a href="http://blockchain.info/charts/blocks-size">всей цепочки блоков</a>.</p>
+  <p><b>Примечание</b> : Первая синхронизация Bitcoin-Qt с сетью может потребовать около одного дня. Вам следует заранее убедиться в достаточной пропускной способности интернет-канала и наличии свободного места в памяти для загрузки <a href="http://blockchain.info/charts/blocks-size">всей цепочки блоков</a>.
+Если вы умеете пользоваться торрентом, вы можете ускорить этот процесс путем скачивания <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/blockchain/bootstrap.dat.torrent/download">bootstrap.dat</a> (копию цепочки блоков) в директорию Bitcoin-Qt  перед запуском программы</p>
   <p>Bitcoin-Qt - разрабатываемый коллективно <a href="http://www.fsf.org/about/what-is-free-software">свободный проект с открытым исходным кодом</a>, распространяемый под лицензией <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.</p>
 </div>
 <script type="text/javascript">
@@ -177,10 +180,10 @@ case 'mac':but.href='/bin/0.8.6/bitcoin-0.8.6-macosx.dmg';break;
     <a href="/en/alerts">Network Status</a>
     <a href="https://bitcoinfoundation.org/">Фонд</a>
     
-    <a href="/en/legal">Legal</a>
+    <a href="/ru/legal">законный</a>
     
     
-    <a href="/en/about-us">About bitcoin.org</a>
+    <a href="/ru/about-us">О bitcoin.org</a>
     
     <span>© Bitcoin Project 2009-2014 Программное обеспечение распространяется под лицензией <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a></span>
     </div></div>

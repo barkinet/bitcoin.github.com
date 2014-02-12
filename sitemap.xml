@@ -907,7 +907,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -962,7 +962,62 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/faq" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="https://bitcoin.org/fa/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="https://bitcoin.org/pl/o" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="https://bitcoin.org/ar/%D8%B9%D9%86" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/about" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/hakkinda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/over-bitcoin" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/faq" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/faq</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="https://bitcoin.org/zh_TW/about" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/a-proposito" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/faq" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/faq" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="https://bitcoin.org/es/acerca-de" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -1021,7 +1076,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="fa"
@@ -1076,7 +1131,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -2888,6 +2943,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/getting-started" />
   <xhtml:link
@@ -2923,6 +2982,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/getting-started" />
   <xhtml:link
@@ -2956,6 +3019,49 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/getting-started" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="id"
+    href="https://bitcoin.org/id/memulai" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/getting-started" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/yeni-baslamak" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/aan-de-slag" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/getting-started" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/getting-started</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/come-iniziare" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/debuter" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -2997,6 +3103,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="id"
     href="https://bitcoin.org/id/memulai" />
   <xhtml:link
@@ -3030,6 +3140,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/erste-schritte" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -3067,6 +3181,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/getting-started" />
   <xhtml:link
@@ -3100,6 +3218,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/erste-schritte" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -3137,6 +3259,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/getting-started" />
   <xhtml:link
@@ -3172,6 +3298,10 @@
     href="https://bitcoin.org/de/erste-schritte" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/getting-started" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/getting-started" />
   <xhtml:link
@@ -3199,6 +3329,10 @@
     href="https://bitcoin.org/de/rechtliches" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/legal" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/legal" />
   <xhtml:link
@@ -3212,6 +3346,29 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/legal" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/legal" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/legal" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/legal" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/legal</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/legal" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/rechtliches" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -3233,6 +3390,10 @@
     href="https://bitcoin.org/de/rechtliches" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/legal" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="https://bitcoin.org/en/legal" />
 </url>
@@ -3246,6 +3407,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/rechtliches" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/legal" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -4152,6 +4317,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/events" />
   <xhtml:link
@@ -4193,6 +4362,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -4238,6 +4411,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/events" />
   <xhtml:link
@@ -4279,6 +4456,57 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/evenements" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="id"
+    href="https://bitcoin.org/id/acara" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="https://bitcoin.org/pl/wydarzenia" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/etkinlikler" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/evenementen" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/events" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/events</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="https://bitcoin.org/zh_TW/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/eventi" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/evenements" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -4328,6 +4556,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="id"
     href="https://bitcoin.org/id/acara" />
   <xhtml:link
@@ -4369,6 +4601,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -4414,6 +4650,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/events" />
   <xhtml:link
@@ -4455,6 +4695,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -4500,6 +4744,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/events" />
   <xhtml:link
@@ -4543,6 +4791,10 @@
     href="https://bitcoin.org/de/events" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/events" />
   <xhtml:link
@@ -4584,6 +4836,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/events" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/events" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5515,66 +5771,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="bg"
-    href="https://bitcoin.org/bg/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fa"
-    href="https://bitcoin.org/fa/%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D8%A7%D9%82%D9%87-%D9%85%D9%86%D8%AF%D8%A7%D9%86" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="id"
-    href="https://bitcoin.org/id/inovasi" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="pl"
-    href="https://bitcoin.org/pl/innowacje" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="https://bitcoin.org/ar/%D8%A8%D8%AA-%D9%83%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_CN"
-    href="https://bitcoin.org/zh_CN/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="tr"
-    href="https://bitcoin.org/tr/yenilik" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="https://bitcoin.org/nl/innovatie" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="https://bitcoin.org/en/innovation" />
-</url>
-<url>
-  <loc>https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_TW"
-    href="https://bitcoin.org/zh_TW/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="https://bitcoin.org/it/innovazione" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="https://bitcoin.org/fr/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="de"
-    href="https://bitcoin.org/de/innovation" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="https://bitcoin.org/es/bitcoin-para-entusiastas" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5637,7 +5834,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5696,7 +5893,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5751,7 +5948,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5806,7 +6003,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5861,62 +6058,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="bg"
-    href="https://bitcoin.org/bg/faq" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fa"
-    href="https://bitcoin.org/fa/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="pl"
-    href="https://bitcoin.org/pl/o" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="ar"
-    href="https://bitcoin.org/ar/%D8%B9%D9%86" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_CN"
-    href="https://bitcoin.org/zh_CN/about" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="tr"
-    href="https://bitcoin.org/tr/hakkinda" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="nl"
-    href="https://bitcoin.org/nl/over-bitcoin" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="en"
-    href="https://bitcoin.org/en/faq" />
-</url>
-<url>
-  <loc>https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5</loc>
-  <xhtml:link
-    rel="alternate"
-    hreflang="zh_TW"
-    href="https://bitcoin.org/zh_TW/about" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="it"
-    href="https://bitcoin.org/it/a-proposito" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="fr"
-    href="https://bitcoin.org/fr/faq" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="de"
-    href="https://bitcoin.org/de/faq" />
-  <xhtml:link
-    rel="alternate"
-    hreflang="es"
-    href="https://bitcoin.org/es/acerca-de" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -5975,7 +6117,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6030,7 +6172,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6085,7 +6227,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6140,7 +6282,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6195,7 +6337,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6250,7 +6392,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" />
+    href="https://bitcoin.org/ru/faq" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6288,6 +6430,10 @@
     href="https://bitcoin.org/de/schuetzen-sie-ihre-privatsphaere" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/protect-your-privacy" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/protect-your-privacy" />
   <xhtml:link
@@ -6301,6 +6447,29 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/proteger-votre-vie-privee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/protect-your-privacy" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/protect-your-privacy" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/protect-your-privacy" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/protect-your-privacy</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/proteger-votre-vie-privee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/schuetzen-sie-ihre-privatsphaere" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6322,6 +6491,10 @@
     href="https://bitcoin.org/de/schuetzen-sie-ihre-privatsphaere" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/protect-your-privacy" />
+  <xhtml:link
+    rel="alternate"
     hreflang="en"
     href="https://bitcoin.org/en/protect-your-privacy" />
 </url>
@@ -6335,6 +6508,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/schuetzen-sie-ihre-privatsphaere" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/protect-your-privacy" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6361,7 +6538,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6420,7 +6597,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6479,7 +6656,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6538,7 +6715,66 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="https://bitcoin.org/fa/%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D8%A7%D9%82%D9%87-%D9%85%D9%86%D8%AF%D8%A7%D9%86" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="id"
+    href="https://bitcoin.org/id/inovasi" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="https://bitcoin.org/pl/innowacje" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ar"
+    href="https://bitcoin.org/ar/%D8%A8%D8%AA-%D9%83%D9%88%D9%8A%D9%86-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/yenilik" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/innovatie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/innovation" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/innovation</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="https://bitcoin.org/zh_TW/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/innovazione" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/innovation" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="https://bitcoin.org/es/bitcoin-para-entusiastas" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6601,7 +6837,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="fa"
@@ -6660,7 +6896,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6719,7 +6955,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6778,7 +7014,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6837,7 +7073,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6896,7 +7132,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -6955,7 +7191,7 @@
   <xhtml:link
     rel="alternate"
     hreflang="ru"
-    href="https://bitcoin.org/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%B0%D0%BC" />
+    href="https://bitcoin.org/ru/innovation" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11430,6 +11666,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/secure-your-wallet" />
   <xhtml:link
@@ -11475,6 +11715,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11524,6 +11768,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/secure-your-wallet" />
   <xhtml:link
@@ -11569,6 +11817,61 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/securiser-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fa"
+    href="https://bitcoin.org/fa/%DA%A9%DB%8C%D9%81-%D9%BE%D9%88%D9%84%D8%AA%D8%A7%D9%86-%D8%B1%D8%A7-%D8%A7%DB%8C%D9%85%D9%86-%DA%A9%D9%86%DB%8C%D8%AF" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="id"
+    href="https://bitcoin.org/id/amankan-dompet-anda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="https://bitcoin.org/pl/zabezpiecz-swoj-portfel" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/cuzdaninizi-guvenceye-almak" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/beveilig-uw-portemonnee" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/secure-your-wallet" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/secure-your-wallet</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="https://bitcoin.org/zh_TW/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/proteggi-il-portafoglio" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/securiser-porte-monnaie" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11622,6 +11925,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="fa"
     href="https://bitcoin.org/fa/%DA%A9%DB%8C%D9%81-%D9%BE%D9%88%D9%84%D8%AA%D8%A7%D9%86-%D8%B1%D8%A7-%D8%A7%DB%8C%D9%85%D9%86-%DA%A9%D9%86%DB%8C%D8%AF" />
   <xhtml:link
@@ -11667,6 +11974,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11716,6 +12027,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/secure-your-wallet" />
   <xhtml:link
@@ -11761,6 +12076,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11810,6 +12129,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/secure-your-wallet" />
   <xhtml:link
@@ -11855,6 +12178,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -11904,6 +12231,10 @@
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/secure-your-wallet" />
   <xhtml:link
@@ -11949,6 +12280,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/sichern-sie-ihre-wallet" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/secure-your-wallet" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -13764,6 +14099,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/about-us" />
   <xhtml:link
@@ -13805,6 +14144,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/ueber-uns" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -13850,6 +14193,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/about-us" />
   <xhtml:link
@@ -13891,6 +14238,57 @@
     rel="alternate"
     hreflang="fr"
     href="https://bitcoin.org/fr/a-propos-de-nous" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="bg"
+    href="https://bitcoin.org/bg/about-us" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="id"
+    href="https://bitcoin.org/id/mengenai-kami" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="pl"
+    href="https://bitcoin.org/pl/o-nas" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_CN"
+    href="https://bitcoin.org/zh_CN/about-us" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="tr"
+    href="https://bitcoin.org/tr/hakkimizda" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="nl"
+    href="https://bitcoin.org/nl/over-ons" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://bitcoin.org/en/about-us" />
+</url>
+<url>
+  <loc>https://bitcoin.org/ru/about-us</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="zh_TW"
+    href="https://bitcoin.org/zh_TW/about-us" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="it"
+    href="https://bitcoin.org/it/chi-siamo" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="fr"
+    href="https://bitcoin.org/fr/a-propos-de-nous" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -13940,6 +14338,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="id"
     href="https://bitcoin.org/id/mengenai-kami" />
   <xhtml:link
@@ -13981,6 +14383,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/ueber-uns" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -14026,6 +14432,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/about-us" />
   <xhtml:link
@@ -14067,6 +14477,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/ueber-uns" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"
@@ -14112,6 +14526,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/about-us" />
   <xhtml:link
@@ -14155,6 +14573,10 @@
     href="https://bitcoin.org/de/ueber-uns" />
   <xhtml:link
     rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
+  <xhtml:link
+    rel="alternate"
     hreflang="bg"
     href="https://bitcoin.org/bg/about-us" />
   <xhtml:link
@@ -14196,6 +14618,10 @@
     rel="alternate"
     hreflang="de"
     href="https://bitcoin.org/de/ueber-uns" />
+  <xhtml:link
+    rel="alternate"
+    hreflang="ru"
+    href="https://bitcoin.org/ru/about-us" />
   <xhtml:link
     rel="alternate"
     hreflang="bg"

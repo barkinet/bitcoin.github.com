@@ -5,117 +5,174 @@
 <meta property="og:image" content="https://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Bitcoin - P2P деньги с Открытым кодом</title>
-<link rel="stylesheet" type="text/css" href="/3ce4e8a0b1ab21e0ff0194bd361db97d.css" />
-<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/d1ab072c9186f190ac3937b7de8bb5f1.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/a029ec6be4a42b1ffb2e134cb4040f2f.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/efc702a0aa79a2cda69eebe4befd4c11.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="/9d7a897523a9efc7c8c4befb4d86d458.css" />
-<script type="text/javascript" src="/js/main.js"></script>
-
-<script src="/js/hyphenator.js" type="text/javascript"></script>
-<script type="text/javascript">
-if(typeof(legacyIE)==='undefined'){
-	Hyphenator.config({
-		minwordlength : 7
-	});
-	Hyphenator.run();
-}
-</script>
-
+<link rel="stylesheet" type="text/css" href="/e25576402a7c13abeec77fe047432e13.css" />
+<script type="text/javascript" src="/js/main.js?1400954556"></script>
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
+<div id="detectmobile" class="detectmobile"></div>
+
 
   <div class="head"><div>
-    <select id="langselect" class="langselect" onchange="window.location=this.value;">
-    
-      <option value="/de/">Deutsch</option>
-    
-      <option value="/id/">Bahasa Indonesia‬</option>
-    
-      <option value="/en/">English</option>
-    
-      <option value="/es/">Español</option>
-    
-      <option value="/fr/">Français</option>
-    
-      <option value="/it/">Italiano</option>
-    
-      <option value="/nl/">Nederlands</option>
-    
-      <option value="/pl/">Polski</option>
-    
-      <option value="/ru/" selected="selected">Русский</option>
-    
-      <option value="/tr/">Türkçe</option>
-    
-      <option value="/bg/">български</option>
-    
-      <option value="/zh_CN/">‪简体中文‬</option>
-    
-      <option value="/zh_TW/">‪繁體中文‬</option>
-    
-      <option value="/ar/">ألعربية</option>
-    
-      <option value="/fa/">فارسی</option>
-    
-    </select>
     <ul class="lang">
       <li><a href="#" onclick="return false;">Русский</a>
       <ul>
-      
-        <li><a href="/de/">Deutsch</a></li>
-      
-        <li><a href="/id/">Bahasa Indonesia‬</a></li>
-      
-        <li><a href="/en/">English</a></li>
-      
-        <li><a href="/es/">Español</a></li>
-      
-        <li><a href="/fr/">Français</a></li>
-      
-        <li><a href="/it/">Italiano</a></li>
-      
-        <li><a href="/nl/">Nederlands</a></li>
-      
-        <li><a href="/pl/">Polski</a></li>
-      
-        <li><a href="/tr/">Türkçe</a></li>
-      
-        <li><a href="/bg/">български</a></li>
-      
-        <li><a href="/zh_CN/">‪简体中文‬</a></li>
-      
-        <li><a href="/zh_TW/">‪繁體中文‬</a></li>
-      
-        <li><a href="/ar/">ألعربية</a></li>
-      
-        <li><a href="/fa/">فارسی</a></li>
-      
+        <li><ul>
+        
+        
+        
+          <li><a href="/id/">Bahasa Indonesia‬</a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/">English</a></li>
+        
+        
+          <li><a href="/es/">Español</a></li>
+        
+        
+          <li><a href="/fr/">Français</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">Português Brasil</a></li>
+        
+        
+          <li><a href="/ro/">română</a></li>
+        
+        
+          <li><a href="/sl/">slovenščina</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/sv/">Svenska</a></li>
+        
+        
+          <li><a href="/tr/">Türkçe</a></li>
+        
+        
+          <li><a href="/bg/">български</a></li>
+        
+        
+          <li><a href="/ru/" class="active">Русский</a></li>
+        
+        
+          <li><a href="/ar/">العربية</a></li>
+        
+        
+          <li><a href="/fa/">فارسی</a></li>
+        
+        
+          <li><a href="/hi/">हिन्दी</a></li>
+        
+        
+          <li><a href="/ko/">한국의</a></li>
+        
+        
+          <li><a href="/ja/">日本語</a></li>
+        
+        
+          <li><a href="/zh_CN/">‪简体中文‬</a></li>
+        
+        
+          <li><a href="/zh_TW/">‪繁體中文‬</a></li>
+        
+        </ul></li>
       </ul>
       </li>
     </ul>
     <a class="logo" href="/ru/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" href="#"></a>
-    <ul id="menusimple" class="menusimple">
-      <li><a href="#" onclick="mobileMenuHover(event);">Введение</a>
+    <div id="langselect" class="langselect"><select onchange="window.location=this.value;">
+    
+          <option value="/id/">Bahasa Indonesia‬</option>
+    
+          <option value="/da/">Dansk</option>
+    
+          <option value="/de/">Deutsch</option>
+    
+          <option value="/en/">English</option>
+    
+          <option value="/es/">Español</option>
+    
+          <option value="/fr/">Français</option>
+    
+          <option value="/it/">Italiano</option>
+    
+          <option value="/hu/">magyar</option>
+    
+          <option value="/nl/">Nederlands</option>
+    
+          <option value="/pl/">polski</option>
+    
+          <option value="/pt_BR/">Português Brasil</option>
+    
+          <option value="/ro/">română</option>
+    
+          <option value="/sl/">slovenščina</option>
+    
+          <option value="/sv/">Svenska</option>
+    
+          <option value="/tr/">Türkçe</option>
+    
+          <option value="/bg/">български</option>
+    
+          <option value="/ru/" selected="selected">Русский</option>
+    
+          <option value="/ar/">العربية</option>
+    
+          <option value="/fa/">فارسی</option>
+    
+          <option value="/hi/">हिन्दी</option>
+    
+          <option value="/ko/">한국의</option>
+    
+          <option value="/ja/">日本語</option>
+    
+          <option value="/zh_CN/">‪简体中文‬</option>
+    
+          <option value="/zh_TW/">‪繁體中文‬</option>
+    
+    </select></div>
+    <ul id="menusimple" class="menusimple" onclick="mobileMenuHover(event);">
+      <li><a href="#" onclick="return false;">Введение</a>
         <ul>
-          <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%BC-%D0%BB%D0%B8%D1%86%D0%B0%D0%BC">Частным лицам</a></li>
-          <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D1%83">Бизнесу</a></li>
-          <li><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC">Разработчикам</a></li>
+          <li><a href="/ru/bitcoin-for-individuals">Частным лицам</a></li>
+          <li><a href="/ru/bitcoin-for-businesses">Бизнесу</a></li>
+          <li><a href="/ru/bitcoin-for-developers">Разработчикам</a></li>
           
           <li><a href="/ru/getting-started">Начало работы</a></li>
           
-          <li><a href="/ru/%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82">Как это работает</a></li>
-          <li><a href="/ru/%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D1%8C">Вам нужно знать</a></li>
+          <li><a href="/ru/how-it-works">Как это работает</a></li>
+          <li><a href="/ru/you-need-to-know">Вам нужно знать</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobileMenuHover(event);">Ресурсы</a>
+      <li><a href="#" onclick="return false;">Ресурсы</a>
         <ul>
-          <li><a href="/ru/%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B">Ресурсы</a></li>
-          <li><a href="/ru/%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE">Сообщество</a></li>
-          <li><a href="/ru/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0">Разработка</a></li>
-          <li><a href="/ru/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B">Термины</a></li>
+          <li><a href="/ru/resources">Ресурсы</a></li>
+          <li><a href="/ru/community">Сообщество</a></li>
+          
+          <li><a href="/ru/development">Разработка</a></li>
+          <li><a href="/ru/vocabulary">Термины</a></li>
           
           <li><a href="/ru/events">События</a></li>
           
@@ -123,7 +180,7 @@ if(typeof(legacyIE)==='undefined'){
         </ul>
       </li>
       <li><a href="/ru/innovation">Инновация</a></li>
-      <li><a href="/ru/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD">Участвовать</a></li>
+      <li><a href="/ru/support-bitcoin">Участвовать</a></li>
       
       <li><a href="/ru/faq">FAQ</a></li>
       
@@ -134,21 +191,22 @@ if(typeof(legacyIE)==='undefined'){
     
 
 <p class="mainsummary">Bitcoin это инновационная сеть платежей и новый вид денег.</p>
-<div class="mainvideo"><iframe src="//www.youtube.com/embed/Um63OQz3bjo?rel=0&showinfo=0&wmode=opaque&cc_load_policy=1&hl=ru&cc_lang_pref=ru" frameborder="0" allowfullscreen></iframe></div>
+<div class="mainvideo"><iframe src="//www.youtube.com/embed/Gc2en3nHxA4?rel=0&showinfo=0&wmode=opaque&cc_load_policy=1&hl=ru&cc_lang_pref=ru" frameborder="0" allowfullscreen></iframe></div>
 <div class="mainlist">
   <div><div><img src="/img/main_ico_instant.svg" alt="Icon"><div>Мгновенные P2P<br>транзакции</div></div></div>
   <div><div><img src="/img/main_ico_worldwide.svg" alt="Icon"><div>Международные<br>платежи</div></div></div>
   <div><div><img src="/img/main_ico_lowfee.svg" alt="Icon"><div>Нулевые или низкие<br>комиссии</div></div></div>
 </div>
-<p class="maindesc">Bitcoin использует P2P технологию, функционирующую без центрального контролирующего органа или банка; обработка транзакций и эмиссия производятся коллективно, усилиями сети. <b>Bitcoin имеет открытый код; его устройство открыто всем, никто не владеет и не контролирует Bitcoin и <a href="/ru/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD">все могут участвовать</a></b>.  Благодаря своим уникальным свойствам, Bitcoin открывает новые горизонты возможностей, которые не предоставляла до этого ни одна платежная система.</p>
+<p class="maindesc">Bitcoin использует P2P технологию, функционирующую без центрального контролирующего органа или банка; обработка транзакций и эмиссия производятся коллективно, усилиями сети. <b>Bitcoin имеет открытый код; его устройство открыто всем, никто не владеет и не контролирует Bitcoin и <a href="/ru/support-bitcoin">все могут участвовать</a></b>.  Благодаря своим уникальным свойствам, Bitcoin открывает новые горизонты возможностей, которые не предоставляла до этого ни одна платежная система.</p>
 <div class="mainbutton"><a href="/ru/getting-started"><img src="/img/but_bitcoin.svg" alt="icon">Начало работы с Биткоин</a></div>
 <div class="mainoverview">Или получите краткий обзор здесь</div>
-<div class="mainoverviews"><a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%BC-%D0%BB%D0%B8%D1%86%D0%B0%D0%BC">Частным лицам</a> <a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D1%83">Бизнесу</a> <a href="/ru/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC">Разработчикам</a></div>
+<div class="mainoverviews"><a href="/ru/bitcoin-for-individuals">Частным лицам</a> <a href="/ru/bitcoin-for-businesses">Бизнесу</a> <a href="/ru/bitcoin-for-developers">Разработчикам</a></div>
 
 
 
     </div>
-    <div class="footer"><div>
+    <div class="footer">
+    <div class="footermenu">
     <a href="/en/alerts">Network Status</a>
     
     <a href="/ru/legal">законный</a>
@@ -156,12 +214,13 @@ if(typeof(legacyIE)==='undefined'){
     
     <a href="/ru/about-us">О bitcoin.org</a>
     
+    </div>
     <span>© Bitcoin Project 2009-2014 Программное обеспечение распространяется под лицензией <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a></span>
-    </div></div>
+    </div>
   </div>
-  <div class="foundation-banner">
+  <div class="sponsor-banner">
     
-    <div>A community website sponsored by <a href="https://bitcoinfoundation.org/"><img src="/img/logo_foundation.svg" alt="Foundation"> The Bitcoin Foundation</a></div>
+    <div><span>Веб-сайт сообщества спонсируется</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png" alt="Bitcoin Foundation"></a></div>
     
   </div>
   <script type="text/javascript">fallbackSVG();</script>

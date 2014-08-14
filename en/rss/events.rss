@@ -5,86 +5,121 @@
 	<link>https://bitcoin.org/en/events</link>
 	<description>This RSS feed allows to follow Bitcoin events and conferences.</description>
 	<image>
+		<title>Bitcoin conferences and events</title>
 		<url>https://bitcoin.org/img/logo_rss.png</url>
 		<link>https://bitcoin.org/en/events</link>
 	</image>
 	
         <item>
-            <title>Berlin, Texas: Bitcoin hackathon, Berlin - Germany</title>
-            <link></link>
-            <pubDate>Fri, 21 Feb 2014</pubDate>
+            <title>Bitcoin and Cryptocurrencies: Prospects for Development in Russia, St. Petersburg - Russia</title>
+            <link>https://www.eventbrite.com/e/bitcoin-and-cryptocurrencies-in-russia-prospects-for-development-registration-11525104899</link>
+            <guid>https://www.eventbrite.com/e/bitcoin-and-cryptocurrencies-in-russia-prospects-for-development-registration-11525104899</guid>
+            <pubDate>Sat, 09 Aug 2014 00:00:00 GMT</pubDate>
         </item>
 	
         <item>
-            <title>Bitcoin and Virtual Money, New York, NY - United States</title>
-            <link></link>
-            <pubDate>Wed, 05 Mar 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>2014 Texas Bitcoin Conference, Austin, TX - United States</title>
-            <link></link>
-            <pubDate>Thu, 06 Mar 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Bitcoinference 2014, Amsterdam - Netherlands</title>
-            <link></link>
-            <pubDate>Tue, 18 Mar 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Commercism Bitcoinference, Mountain View, CA - United States</title>
-            <link></link>
-            <pubDate>Thu, 20 Mar 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>CoinSummit, San Francisco, CA - United States</title>
-            <link></link>
-            <pubDate>Tue, 25 Mar 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Inside Bitcoins NYC, New York, NY - United States</title>
-            <link></link>
-            <pubDate>Mon, 07 Apr 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Bitcoin Expo 2014, Toronto, ON - Canada</title>
-            <link></link>
-            <pubDate>Fri, 11 Apr 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Bitcoin Conference Russia, Moscow - Russia</title>
-            <link></link>
-            <pubDate>Wed, 23 Apr 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Bitcoin Foundation Bitcoin 2014, Amsterdam - Netherlands</title>
-            <link></link>
-            <pubDate>Thu, 15 May 2014</pubDate>
-        </item>
-	
-        <item>
-            <title>Bitcoin in the Beltway, Washington, DC - United States</title>
-            <link></link>
-            <pubDate>Fri, 20 Jun 2014</pubDate>
+            <title>Cryptolina Bitcoin Conference, Raleigh, NC - United States</title>
+            <link>http://www.cryptolina.com/</link>
+            <guid>http://www.cryptolina.com/</guid>
+            <pubDate>Fri, 15 Aug 2014 00:00:00 GMT</pubDate>
         </item>
 	
         <item>
             <title>Camp Bitcoin, Black Rock City, NV - United States</title>
-            <link></link>
-            <pubDate>Mon, 25 Aug 2014</pubDate>
+            <link>http://campbitcoin.hivewallet.com/</link>
+            <guid>http://campbitcoin.hivewallet.com/</guid>
+            <pubDate>Mon, 25 Aug 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>World Bitcoin Forum 2014, Bonn - Germany</title>
+            <link>http://www.world-bitcoin-forum.com/</link>
+            <guid>http://www.world-bitcoin-forum.com/</guid>
+            <pubDate>Mon, 01 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoinference Summer 2014, Amsterdam - Netherlands</title>
+            <link>http://bitcoinference.com/</link>
+            <guid>http://bitcoinference.com/</guid>
+            <pubDate>Wed, 03 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>APEX Digital Currency Partnerships, South San Francisco - United States</title>
+            <link>http://www.iirusa.com/digitalcurrencypartnerships/home.xml</link>
+            <guid>http://www.iirusa.com/digitalcurrencypartnerships/home.xml</guid>
+            <pubDate>Thu, 11 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin Central &amp; Eastern European Conference, Ljubljana - Slovenia</title>
+            <link>http://www.bitcoin-conference.eu/index.php</link>
+            <guid>http://www.bitcoin-conference.eu/index.php</guid>
+            <pubDate>Thu, 11 Sep 2014 00:00:00 GMT</pubDate>
         </item>
 	
         <item>
             <title>Inside Bitcoins London, London - England</title>
-            <link></link>
-            <pubDate>Mon, 15 Sep 2014</pubDate>
+            <link>http://insidebitcoins.co.uk/?c=bcoinlonbcorg</link>
+            <guid>http://insidebitcoins.co.uk/?c=bcoinlonbcorg</guid>
+            <pubDate>Mon, 15 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Crypto Valley Summit, Douglas - Isle of Man</title>
+            <link>http://www.cryptovalleysummit.com/</link>
+            <guid>http://www.cryptovalleysummit.com/</guid>
+            <pubDate>Wed, 17 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Digital Currency Summit, Andorra la Vella - Andorre</title>
+            <link>http://digitalcurrencysumm.it/</link>
+            <guid>http://digitalcurrencysumm.it/</guid>
+            <pubDate>Wed, 17 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>BitcoinExpo China 2014, Shanghai - China</title>
+            <link>http://bitcoinexpo2014.com/</link>
+            <guid>http://bitcoinexpo2014.com/</guid>
+            <pubDate>Fri, 19 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin Conference Kiev 2014, Kiev - Ukraine</title>
+            <link>http://bitcoinconf.com.ua/en/</link>
+            <guid>http://bitcoinconf.com.ua/en/</guid>
+            <pubDate>Fri, 26 Sep 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin 2 Business Congress, Brussels - Belgium</title>
+            <link>http://btc2b.com/</link>
+            <guid>http://btc2b.com/</guid>
+            <pubDate>Thu, 16 Oct 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin World at Money2020, Las Vegas, NV - United States</title>
+            <link>http://money2020.com/</link>
+            <guid>http://money2020.com/</guid>
+            <pubDate>Sun, 02 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Bitcoin-South 2014, Queenstown - New Zealand</title>
+            <link>http://bitcoinsouth.co</link>
+            <guid>http://bitcoinsouth.co</guid>
+            <pubDate>Sat, 29 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+	
+        <item>
+            <title>Dubai Bitcoin Conference, Dubai - United Arab Emirates</title>
+            <link>http://dubaibitcoinconference.com/</link>
+            <guid>http://dubaibitcoinconference.com/</guid>
+            <pubDate>Fri, 05 Dec 2014 00:00:00 GMT</pubDate>
         </item>
 	
 </channel>

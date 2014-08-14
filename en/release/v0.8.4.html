@@ -5,90 +5,156 @@
 <meta property="og:image" content="https://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Bitcoin-Qt version 0.8.4 released</title>
-<link rel="stylesheet" type="text/css" href="/3ce4e8a0b1ab21e0ff0194bd361db97d.css" />
-<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/d1ab072c9186f190ac3937b7de8bb5f1.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/a029ec6be4a42b1ffb2e134cb4040f2f.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/efc702a0aa79a2cda69eebe4befd4c11.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
 
 
-<script type="text/javascript" src="/js/main.js"></script>
-
+<script type="text/javascript" src="/js/main.js?1400954556"></script>
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
+<div id="detectmobile" class="detectmobile"></div>
+
 
   <div class="head"><div>
-    <select id="langselect" class="langselect" onchange="window.location=this.value;">
-    
-      <option value="/de/">Deutsch</option>
-    
-      <option value="/id/">Bahasa Indonesia‬</option>
-    
-      <option value="/en/" selected="selected">English</option>
-    
-      <option value="/es/">Español</option>
-    
-      <option value="/fr/">Français</option>
-    
-      <option value="/it/">Italiano</option>
-    
-      <option value="/nl/">Nederlands</option>
-    
-      <option value="/pl/">Polski</option>
-    
-      <option value="/ru/">Русский</option>
-    
-      <option value="/tr/">Türkçe</option>
-    
-      <option value="/bg/">български</option>
-    
-      <option value="/zh_CN/">‪简体中文‬</option>
-    
-      <option value="/zh_TW/">‪繁體中文‬</option>
-    
-      <option value="/ar/">ألعربية</option>
-    
-      <option value="/fa/">فارسی</option>
-    
-    </select>
     <ul class="lang">
       <li><a href="#" onclick="return false;">English</a>
       <ul>
-      
-        <li><a href="/de/">Deutsch</a></li>
-      
-        <li><a href="/id/">Bahasa Indonesia‬</a></li>
-      
-        <li><a href="/es/">Español</a></li>
-      
-        <li><a href="/fr/">Français</a></li>
-      
-        <li><a href="/it/">Italiano</a></li>
-      
-        <li><a href="/nl/">Nederlands</a></li>
-      
-        <li><a href="/pl/">Polski</a></li>
-      
-        <li><a href="/ru/">Русский</a></li>
-      
-        <li><a href="/tr/">Türkçe</a></li>
-      
-        <li><a href="/bg/">български</a></li>
-      
-        <li><a href="/zh_CN/">‪简体中文‬</a></li>
-      
-        <li><a href="/zh_TW/">‪繁體中文‬</a></li>
-      
-        <li><a href="/ar/">ألعربية</a></li>
-      
-        <li><a href="/fa/">فارسی</a></li>
-      
+        <li><ul>
+        
+        
+        
+          <li><a href="/id/">Bahasa Indonesia‬</a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">Español</a></li>
+        
+        
+          <li><a href="/fr/">Français</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">Português Brasil</a></li>
+        
+        
+          <li><a href="/ro/">română</a></li>
+        
+        
+          <li><a href="/sl/">slovenščina</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/sv/">Svenska</a></li>
+        
+        
+          <li><a href="/tr/">Türkçe</a></li>
+        
+        
+          <li><a href="/bg/">български</a></li>
+        
+        
+          <li><a href="/ru/">Русский</a></li>
+        
+        
+          <li><a href="/ar/">العربية</a></li>
+        
+        
+          <li><a href="/fa/">فارسی</a></li>
+        
+        
+          <li><a href="/hi/">हिन्दी</a></li>
+        
+        
+          <li><a href="/ko/">한국의</a></li>
+        
+        
+          <li><a href="/ja/">日本語</a></li>
+        
+        
+          <li><a href="/zh_CN/">‪简体中文‬</a></li>
+        
+        
+          <li><a href="/zh_TW/">‪繁體中文‬</a></li>
+        
+        </ul></li>
       </ul>
       </li>
     </ul>
     <a class="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" href="#"></a>
-    <ul id="menusimple" class="menusimple">
-      <li><a href="#" onclick="mobileMenuHover(event);">Introduction</a>
+    <div id="langselect" class="langselect"><select onchange="window.location=this.value;">
+    
+          <option value="/id/">Bahasa Indonesia‬</option>
+    
+          <option value="/da/">Dansk</option>
+    
+          <option value="/de/">Deutsch</option>
+    
+          <option value="/en/" selected="selected">English</option>
+    
+          <option value="/es/">Español</option>
+    
+          <option value="/fr/">Français</option>
+    
+          <option value="/it/">Italiano</option>
+    
+          <option value="/hu/">magyar</option>
+    
+          <option value="/nl/">Nederlands</option>
+    
+          <option value="/pl/">polski</option>
+    
+          <option value="/pt_BR/">Português Brasil</option>
+    
+          <option value="/ro/">română</option>
+    
+          <option value="/sl/">slovenščina</option>
+    
+          <option value="/sv/">Svenska</option>
+    
+          <option value="/tr/">Türkçe</option>
+    
+          <option value="/bg/">български</option>
+    
+          <option value="/ru/">Русский</option>
+    
+          <option value="/ar/">العربية</option>
+    
+          <option value="/fa/">فارسی</option>
+    
+          <option value="/hi/">हिन्दी</option>
+    
+          <option value="/ko/">한국의</option>
+    
+          <option value="/ja/">日本語</option>
+    
+          <option value="/zh_CN/">‪简体中文‬</option>
+    
+          <option value="/zh_TW/">‪繁體中文‬</option>
+    
+    </select></div>
+    <ul id="menusimple" class="menusimple" onclick="mobileMenuHover(event);">
+      <li><a href="#" onclick="return false;">Introduction</a>
         <ul>
           <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
           <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
@@ -100,10 +166,11 @@
           <li><a href="/en/you-need-to-know">You need to know</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobileMenuHover(event);">Resources</a>
+      <li><a href="#" onclick="return false;">Resources</a>
         <ul>
           <li><a href="/en/resources">Resources</a></li>
           <li><a href="/en/community">Community</a></li>
+          <li><a href="/en/developer-documentation">Documentation</a></li>
           <li><a href="/en/development">Development</a></li>
           <li><a href="/en/vocabulary">Vocabulary</a></li>
           
@@ -121,22 +188,93 @@
   </div></div>
   <div class="body">
     <div id="content" class="content">
-    <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin-Qt releases">
+    <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin Core releases">
 <div class="versiontext">
   <h1>Bitcoin-Qt version 0.8.4 released<br><small> 3 September 2013</small></h1>
-  
-  <p>Bitcoin-Qt version 0.8.4 is now available for download at: <a href='http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/'>http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/</a></p>
+  <p>Bitcoin-Qt version 0.8.4 is now available from:
+  <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.4/</a></p>
 
-<p>This is a maintenance release to fix a critical bug and three security issues; we urge all users to upgrade.</p>
+<p>This is a maintenance release to fix a critical bug and three
+security issues; we urge all users to upgrade.</p>
 
-<p>There were no changes from 0.8.4 release candidate 2, so if you are running 0.8.4rc2 you do not need to upgrade.</p>
+<p>Please report bugs using the issue tracker at github:
+  <a href="https://github.com/bitcoin/bitcoin/issues">https://github.com/bitcoin/bitcoin/issues</a></p>
 
-<p>Please report bugs using the issue tracker at GitHub: <a href='https://github.com/bitcoin/bitcoin/issues'>https://github.com/bitcoin/bitcoin/issues</a></p>
+<h2 id="how-to-upgrade">How to Upgrade</h2>
+
+<p>If you are running an older version, shut it down. Wait
+until it has completely shut down (which might take a few minutes for older
+versions), then run the installer (on Windows) or just copy over
+/Applications/Bitcoin-Qt (on Mac) or bitcoind/bitcoin-qt (on Linux).</p>
+
+<p>If you are upgrading from version 0.7.2 or earlier, the first time you
+run 0.8.4 your blockchain files will be re-indexed, which will take
+anywhere from 30 minutes to several hours, depending on the speed of
+your machine.</p>
+
+<h1 id="release-notes">0.8.4 Release notes</h1>
+
+<h2 id="security-issues">Security issues</h2>
+
+<p>An attacker could send a series of messages that resulted in
+an integer division-by-zero error in the Bloom Filter handling
+code, causing the Bitcoin-Qt or bitcoind process to crash.
+Bloom filters were introduced with version 0.8, so versions 0.8.0
+through 0.8.3 are vulnerable to this critical denial-of-service attack.</p>
+
+<p>A constant-time algorithm is now used to check RPC password
+guess attempts; fixes <a href="https://github.com/bitcoin/bitcoin/issues/2838">https://github.com/bitcoin/bitcoin/issues/2838</a>
+(CVE-2013-4165)</p>
+
+<p>Implement a better fix for the fill-memory-with-orphan-transactions
+attack that was fixed in 0.8.3. See
+<a href="https://bitslog.wordpress.com/2013/07/18/buggy-cve-2013-4627-patch-open-new-vectors-of-attack/">https://bitslog.wordpress.com/2013/07/18/buggy-cve-2013-4627-patch-open-new-vectors-of-attack/</a>
+for a description of the weaknesses of the previous fix.
+(CVE-2013-4627)</p>
+
+<h2 id="bugs-fixed">Bugs fixed</h2>
+
+<p>Fix multi-block reorg transaction resurrection.</p>
+
+<p>Fix non-standard disconnected transactions causing mempool orphans.
+This bug could cause nodes running with the -debug flag to crash.</p>
+
+<p>OSX: use <code>FD_FULLSYNC</code> with LevelDB, which will (hopefully!)
+prevent the database corruption issues many people have
+experienced on OSX.</p>
+
+<p>Linux: clicking on bitcoin: links was broken if you were using
+a Gnome-based desktop.</p>
+
+<p>Fix a hang-at-shutdown bug that only affects users that compile
+their own version of Bitcoin against Boost versions 1.50-1.52.</p>
+
+<h2 id="other-changes">Other changes</h2>
+
+<p>Checkpoint at block 250,000 to speed up initial block downloads
+and make the progress indicator when downloading more accurate.</p>
+
+<h2 id="thanks-to-everybody-who-contributed-to-the-084-releases">Thanks to everybody who contributed to the 0.8.4 releases!</h2>
+
+<ul>
+  <li>Pieter Wuille</li>
+  <li>Warren Togami</li>
+  <li>Patrick Strateman</li>
+  <li>pakt</li>
+  <li>Gregory Maxwell</li>
+  <li>Sergio Demian Lerner</li>
+  <li>grayleonard</li>
+  <li>Cory Fields</li>
+  <li>Matt Corallo</li>
+  <li>Gavin Andresen</li>
+</ul>
+
 </div>
 <a href="/en/version-history">Go back to the version history</a>
 
     </div>
-    <div class="footer"><div>
+    <div class="footer">
+    <div class="footermenu">
     <a href="/en/alerts">Network Status</a>
     
     <a href="/en/legal">Legal</a>
@@ -144,12 +282,13 @@
     
     <a href="/en/about-us">About bitcoin.org</a>
     
+    </div>
     <span>© Bitcoin Project 2009-2014 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></span>
-    </div></div>
+    </div>
   </div>
-  <div class="foundation-banner">
+  <div class="sponsor-banner">
     
-    <div>A community website sponsored by <a href="https://bitcoinfoundation.org/"><img src="/img/logo_foundation.svg" alt="Foundation"> The Bitcoin Foundation</a></div>
+    <div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png" alt="Bitcoin Foundation"></a></div>
     
   </div>
   <script type="text/javascript">fallbackSVG();</script>

@@ -1,0 +1,354 @@
+body{
+	/*Allows to use :hover on any html tag using javascript*/
+	behavior:url("/css/csshover.htc");
+}
+
+.head div{
+	width:940px;
+}
+.body{
+	width:940px;
+}
+.lang{
+	border-left:2px solid #f7f7f7;
+	border-right:2px solid #f7f7f7;
+	border-top:2px solid #f7f7f7;
+}
+.lang li ul{
+	top:28px;
+}
+.lang li ul li{
+	zoom:1;
+	display:inline;
+}
+.lang li a,
+.lang li a:link,
+.lang li a:visited,
+.lang li a:active{
+	zoom:1;
+	display:inline;
+}
+
+.menusimple li{
+	zoom:1;
+	display:inline;
+}
+.menusimple li a{
+	font-family:sans-serif;
+}
+.menusimple li:hover a,
+.menusimple li.active a{
+	color:#fff;
+}
+.menusimple li ul{
+	width:190px;
+	min-width:auto;
+}
+.menusimple li ul li{
+	width:100%;
+}
+.menusimple li ul li a{
+	width:100%;
+}
+.menusimple li ul li a:hover,
+.menusimple li ul li.active a,
+.menusimple li ul li.active a:link,
+.menusimple li ul li.active a:visited,
+.menusimple li ul li.active a:active{
+	color:#fff;
+}
+
+.index{
+	font-size:0;
+}
+.index li{
+	margin-left:-16px;
+}
+.index ul li{
+	margin-left:16px;
+}
+.index a,
+.index a:link,
+.index a:active,
+.index a:visited{
+	font-size:16px;
+}
+
+
+.titleicon{
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+.maindesc{
+	width:760px;
+}
+.mainlist div{
+	zoom:1;
+	display:inline;
+	width:250px;
+}
+.mainlist div div{
+	zoom:1;
+	display:inline;
+	line-height:1.5em;
+	text-align:left;
+	width:auto;
+}
+.mainlist div div{
+	text-align:left;
+}
+.mainlist div:first-child + div{
+	text-align:center;
+}
+.mainlist div:first-child + div + div{
+	text-align:right;
+}
+.mainlist .ieimg{
+	vertical-align:top;
+	position:relative;
+	top:4px;
+	margin-right:10px;
+	float:left;
+	height:48px;
+	width:48px;
+}
+
+.mainbutton a,
+.mainbutton a:link,
+.mainbutton a:visited,
+.mainbutton a:active{
+	zoom:1;
+	display:inline;
+}
+.mainbutton a:hover,
+.mainbutton a:link:hover,
+.mainbutton a:visited:hover,
+.mainbutton a:active:hover{
+	background-image:none;
+	color:#fff;
+}
+.mainbutton .ieimg{
+	margin-right:10px;
+	margin-left:-52px;
+	margin-bottom:-12px;
+	height:42px;
+	width:42px;
+}
+
+.starttitle a{
+	zoom:1;
+	display:inline;
+}
+.start div{
+	border-top:expression((this.parentNode.getElementsByTagName('DIV')[5]==this)?'1px solid #e0e0e0':'');
+}
+.start div div{
+	zoom:1;
+	display:inline;
+	padding-top:25px;
+	position:relative;
+	padding-right:expression(this.parentNode.getElementsByTagName('DIV')[0]==this?'40px':'');
+	border-right:expression(this.parentNode.parentNode.className=='start'&&this.parentNode.getElementsByTagName('DIV')[0]==this?'1px solid #e0e0e0':'');
+	padding-left:expression(this.parentNode.getElementsByTagName('DIV')[2]==this?'40px':'');
+	border-left:expression(this.parentNode.parentNode.className=='start'&&this.parentNode.getElementsByTagName('DIV')[2]==this?'1px solid #e0e0e0':'');
+	margin-left:expression(this.parentNode.getElementsByTagName('DIV')[2]==this?'-1px':'');
+}
+.start div div div{
+	padding-top:0;
+}
+.start>div>div:first-child+div{
+	/*This one is for IE7 only*/
+	border-top:0;
+}
+
+.resources div{
+	border-top:expression(this.parentNode.className=='resources'&&this!=this.parentNode.getElementsByTagName('DIV')[0]?'1px solid #e0e0e0':'0');
+}
+.resources div div{
+	zoom:1;
+	display:inline;
+	padding-top:25px;
+	position:relative;
+	padding-right:expression(this.parentNode.parentNode.className=='resources'&&this.parentNode.getElementsByTagName('DIV')[0]==this?'40px':'');
+	border-right:expression(this.parentNode.parentNode.className=='resources'&&this.parentNode.getElementsByTagName('DIV')[0]==this?'1px solid #e0e0e0':'');
+	padding-left:expression(this.parentNode.parentNode.className=='resources'&&this!=this.parentNode.getElementsByTagName('DIV')[0]?'40px':'');
+	border-left:expression(this.parentNode.parentNode.className=='resources'&&this!=this.parentNode.getElementsByTagName('DIV')[0]?'1px solid #e0e0e0':'');
+	margin-left:expression(this.parentNode.parentNode.className=='resources'&&this!=this.parentNode.getElementsByTagName('DIV')[0]?'-1px':'');
+}
+.resources>div>div:first-child+div{
+	/*This one is for IE7 only*/
+	border-top:0;
+}
+
+.resourcesorg div div{
+	zoom:1;
+	display:inline;
+	padding:20px 0;
+}
+.resourcesorg div{
+	border-top:expression(this.parentNode.className=='resourcesorg'&&this.parentNode.getElementsByTagName('DIV')[0]!=this?'1px solid #e0e0e0':'0');
+}
+
+.resourcesmore div{
+	zoom:1;
+	display:inline;
+}
+
+.docreference a{
+	zoom:1;
+	display:inline;
+}
+
+.downloadbox{
+	zoom:1;
+	display:inline;
+}
+.downloadbox a{
+	zoom:1;
+	display:inline;
+}
+.downloadbox div{
+	zoom:1;
+	display:inline;
+}
+.downloadbox div div{
+	display:block;
+}
+.download span{
+	zoom:1;
+	display:inline;
+}
+
+.listtable div div{
+	zoom:1;
+	display:inline;
+}
+.eventtable span a{
+	zoom:1;
+	display:inline;
+}
+
+.banner-message a:hover,
+.banner-message a:hover:link,
+.banner-message a:hover:active,
+.banner-message a:hover:visited{
+	color:#fff;
+}
+
+.index{
+	zoom:1;
+	display:inline;
+}
+
+.boxexpand *{
+	display:expression((this.parentNode.nodeName=='DIV')?'none':'');
+}
+.boxexpand h3{
+	display:expression((this.parentNode.nodeName=='DIV'&&this.parentNode.getElementsByTagName('H3')[0]==this)?'block':'');
+	margin:expression((this.parentNode.nodeName=='DIV'&&this.parentNode.getElementsByTagName('H3')[0]==this)?'20px 0':'');
+}
+.boxexpand h3 a:link,
+.boxexpand h3 a:visited,
+.boxexpand h3 a:active{
+	text-decoration:none;
+}
+
+.tablehalf div{
+	zoom:1;
+	display:inline;
+	margin-bottom:30px;
+}
+
+.contributors div{
+	zoom:1;
+	display:inline;
+}
+.contributors span{
+	width:16px;
+	height:16px;
+}
+
+.credit p{
+	zoom:1;
+	display:inline;
+}
+
+.sponsor-banner div{
+	display:inline;
+	zoom:1;
+}
+.sponsor-banner span,
+.sponsor-banner a,
+.sponsor-banner a:link,
+.sponsor-banner a:active,
+.sponsor-banner a:visited{
+	display:inline;
+	zoom:1;
+}
+
+.devprojectlist li{
+	display:expression((this.parentNode.childNodes[0]==this||this.parentNode.childNodes[1]==this||this.parentNode.childNodes[2]==this||this.parentNode.childNodes[3]==this)?'list-item':'');
+}
+
+.press-faq div{
+	width:400px;
+	display:inline;
+	zoom:1;
+	vertical-align:top;
+	text-align:left;
+	margin-bottom:15px;
+	margin-right:20px;
+}
+.press-faq div a{
+	display:inline;
+	zoom:1;
+	font-weight:bold;
+	margin-right:20px;
+}
+.press-faq li a{
+	font-weight:normal;
+}
+.press-faq div div{
+	height:0;
+	width:auto;
+	margin:10px 0 0 0;
+	overflow:hidden;
+	text-align:justify;
+}
+
+.press-videos div{
+	display:inline;
+	zoom:1;
+}
+.press-videos div a{
+	display:inline;
+	zoom:1;
+}
+
+.press-quotes p{
+	display:inline;
+	zoom:1;
+}
+.press-quotes span{
+	font-weight:expression((this.parentNode.getElementsByTagName('SPAN')[0]==this)?'bold':'');
+	display:expression((this.parentNode.getElementsByTagName('SPAN')[0]==this)?'block':'');
+	margin-bottom:expression((this.parentNode.getElementsByTagName('SPAN')[0]==this)?'4px':'');
+}
+
+.press-news div{
+	height:125px;
+	margin-bottom:30px;
+	width:700px;
+}
+.press-news div a img{
+	float:left;
+	margin-right:30px;
+}
+.press-news div a{
+	display:block;
+	margin-bottom:10px;
+}
+.press-news div p{
+	font-size:80%;
+}

@@ -5,90 +5,156 @@
 <meta property="og:image" content="https://bitcoin.org/img/opengraph.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Bitcoin-Qt version 0.8.1 released</title>
-<link rel="stylesheet" type="text/css" href="/3ce4e8a0b1ab21e0ff0194bd361db97d.css" />
-<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/d1ab072c9186f190ac3937b7de8bb5f1.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/a029ec6be4a42b1ffb2e134cb4040f2f.css" />
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/efc702a0aa79a2cda69eebe4befd4c11.css" /><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
 
 
-<script type="text/javascript" src="/js/main.js"></script>
-
+<script type="text/javascript" src="/js/main.js?1400954556"></script>
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/logo_ios.png"/>
 </head>
 <body>
+<div id="detectmobile" class="detectmobile"></div>
+
 
   <div class="head"><div>
-    <select id="langselect" class="langselect" onchange="window.location=this.value;">
-    
-      <option value="/de/">Deutsch</option>
-    
-      <option value="/id/">Bahasa Indonesia‬</option>
-    
-      <option value="/en/" selected="selected">English</option>
-    
-      <option value="/es/">Español</option>
-    
-      <option value="/fr/">Français</option>
-    
-      <option value="/it/">Italiano</option>
-    
-      <option value="/nl/">Nederlands</option>
-    
-      <option value="/pl/">Polski</option>
-    
-      <option value="/ru/">Русский</option>
-    
-      <option value="/tr/">Türkçe</option>
-    
-      <option value="/bg/">български</option>
-    
-      <option value="/zh_CN/">‪简体中文‬</option>
-    
-      <option value="/zh_TW/">‪繁體中文‬</option>
-    
-      <option value="/ar/">ألعربية</option>
-    
-      <option value="/fa/">فارسی</option>
-    
-    </select>
     <ul class="lang">
       <li><a href="#" onclick="return false;">English</a>
       <ul>
-      
-        <li><a href="/de/">Deutsch</a></li>
-      
-        <li><a href="/id/">Bahasa Indonesia‬</a></li>
-      
-        <li><a href="/es/">Español</a></li>
-      
-        <li><a href="/fr/">Français</a></li>
-      
-        <li><a href="/it/">Italiano</a></li>
-      
-        <li><a href="/nl/">Nederlands</a></li>
-      
-        <li><a href="/pl/">Polski</a></li>
-      
-        <li><a href="/ru/">Русский</a></li>
-      
-        <li><a href="/tr/">Türkçe</a></li>
-      
-        <li><a href="/bg/">български</a></li>
-      
-        <li><a href="/zh_CN/">‪简体中文‬</a></li>
-      
-        <li><a href="/zh_TW/">‪繁體中文‬</a></li>
-      
-        <li><a href="/ar/">ألعربية</a></li>
-      
-        <li><a href="/fa/">فارسی</a></li>
-      
+        <li><ul>
+        
+        
+        
+          <li><a href="/id/">Bahasa Indonesia‬</a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">Español</a></li>
+        
+        
+          <li><a href="/fr/">Français</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">Português Brasil</a></li>
+        
+        
+          <li><a href="/ro/">română</a></li>
+        
+        
+          <li><a href="/sl/">slovenščina</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/sv/">Svenska</a></li>
+        
+        
+          <li><a href="/tr/">Türkçe</a></li>
+        
+        
+          <li><a href="/bg/">български</a></li>
+        
+        
+          <li><a href="/ru/">Русский</a></li>
+        
+        
+          <li><a href="/ar/">العربية</a></li>
+        
+        
+          <li><a href="/fa/">فارسی</a></li>
+        
+        
+          <li><a href="/hi/">हिन्दी</a></li>
+        
+        
+          <li><a href="/ko/">한국의</a></li>
+        
+        
+          <li><a href="/ja/">日本語</a></li>
+        
+        
+          <li><a href="/zh_CN/">‪简体中文‬</a></li>
+        
+        
+          <li><a href="/zh_TW/">‪繁體中文‬</a></li>
+        
+        </ul></li>
       </ul>
       </li>
     </ul>
     <a class="logo" href="/en/"><img src="/img/logotop.svg" alt="Bitcoin"></a>
     <a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" href="#"></a>
-    <ul id="menusimple" class="menusimple">
-      <li><a href="#" onclick="mobileMenuHover(event);">Introduction</a>
+    <div id="langselect" class="langselect"><select onchange="window.location=this.value;">
+    
+          <option value="/id/">Bahasa Indonesia‬</option>
+    
+          <option value="/da/">Dansk</option>
+    
+          <option value="/de/">Deutsch</option>
+    
+          <option value="/en/" selected="selected">English</option>
+    
+          <option value="/es/">Español</option>
+    
+          <option value="/fr/">Français</option>
+    
+          <option value="/it/">Italiano</option>
+    
+          <option value="/hu/">magyar</option>
+    
+          <option value="/nl/">Nederlands</option>
+    
+          <option value="/pl/">polski</option>
+    
+          <option value="/pt_BR/">Português Brasil</option>
+    
+          <option value="/ro/">română</option>
+    
+          <option value="/sl/">slovenščina</option>
+    
+          <option value="/sv/">Svenska</option>
+    
+          <option value="/tr/">Türkçe</option>
+    
+          <option value="/bg/">български</option>
+    
+          <option value="/ru/">Русский</option>
+    
+          <option value="/ar/">العربية</option>
+    
+          <option value="/fa/">فارسی</option>
+    
+          <option value="/hi/">हिन्दी</option>
+    
+          <option value="/ko/">한국의</option>
+    
+          <option value="/ja/">日本語</option>
+    
+          <option value="/zh_CN/">‪简体中文‬</option>
+    
+          <option value="/zh_TW/">‪繁體中文‬</option>
+    
+    </select></div>
+    <ul id="menusimple" class="menusimple" onclick="mobileMenuHover(event);">
+      <li><a href="#" onclick="return false;">Introduction</a>
         <ul>
           <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
           <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
@@ -100,10 +166,11 @@
           <li><a href="/en/you-need-to-know">You need to know</a></li>
         </ul>
       </li>
-      <li><a href="#" onclick="mobileMenuHover(event);">Resources</a>
+      <li><a href="#" onclick="return false;">Resources</a>
         <ul>
           <li><a href="/en/resources">Resources</a></li>
           <li><a href="/en/community">Community</a></li>
+          <li><a href="/en/developer-documentation">Documentation</a></li>
           <li><a href="/en/development">Development</a></li>
           <li><a href="/en/vocabulary">Vocabulary</a></li>
           
@@ -130,7 +197,8 @@
 </div>
 
     </div>
-    <div class="footer"><div>
+    <div class="footer">
+    <div class="footermenu">
     <a href="/en/alerts">Network Status</a>
     
     <a href="/en/legal">Legal</a>
@@ -138,12 +206,13 @@
     
     <a href="/en/about-us">About bitcoin.org</a>
     
+    </div>
     <span>© Bitcoin Project 2009-2014 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></span>
-    </div></div>
+    </div>
   </div>
-  <div class="foundation-banner">
+  <div class="sponsor-banner">
     
-    <div>A community website sponsored by <a href="https://bitcoinfoundation.org/"><img src="/img/logo_foundation.svg" alt="Foundation"> The Bitcoin Foundation</a></div>
+    <div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png" alt="Bitcoin Foundation"></a></div>
     
   </div>
   <script type="text/javascript">fallbackSVG();</script>

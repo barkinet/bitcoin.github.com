@@ -266,3 +266,7 @@ aliases:
   --author=Satoshi Nakamoto: Satoshi Nakamoto
   gavinandresen: Gavin Andresen
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/barkinet/bitcoin.github.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
